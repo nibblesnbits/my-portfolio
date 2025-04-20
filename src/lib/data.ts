@@ -1,168 +1,102 @@
 export const personalInfo = {
-  name: "Rishikesh S",
-  location: "Coimbatore, India",
-  email: "rkesh2003@gmail.com",
-  github: "https://github.com/rishikesh2003",
-  linkedin: "https://www.linkedin.com/in/rishikeshs/",
+  name: "Juno Threadborne",
+  location: "Clarksville, VA",
+  email: "sgcollins@outlook.com", // Or a branded address like hello@junothreadborne.com if available
+  github: "https://github.com/nibblesnbits", // If you create a new repo for the writing/dev hybrid identity
+  linkedin: "https://www.linkedin.com/in/your-next-cto", // Optional, or leave it out if you want separation
 };
 
-export const workExperience = [
+export const works = [
   {
-    company: "Chatbyte GmbH",
-    location: "Remote",
-    position: "Software Engineer",
-    period: "Mar 2024 - Present",
-    achievements: [
-      "Designed and implemented business logic for AWS Lambdas using the Serverless Framework, forming the backbone of the application's functionality and ensuring seamless backend operations.",
-      "Built a comprehensive admin panel for managing content, user data, and analytics.",
-      "Contributed to the development and integration of a scalable CMS for managing blog content and other platform data.",
-      "Reduced database costs by introducing materialized views, optimizing query performance and resource usage.",
-      "Drove the integration of a custom affiliate marketing system, enabling seamless tracking and reporting of referrals and user activities.",
-      "Integrated Text-to-Speech (TTS) services for enhanced user experiences, optimizing both frontend and backend systems.",
-      "Collaborated with cross-functional teams to deliver high-quality features, actively reviewing pull requests to ensure code quality, adherence to standards, and efficient implementation.",
-    ],
-  },
-  {
-    company: "DevCrew",
-    location: "Coimbatore, India",
-    position: "Software Engineer",
-    period: "Mar 2023 - Mar 2024",
-    achievements: [
-      "Developed responsive frontend components using React.js, enhancing user experience and app performance.",
-      "Optimized JavaScript solutions to improve load times and data-fetching efficiency.",
-    ],
-  },
-  {
-    company: "Phoenitags",
-    location: "Coimbatore, India",
-    position: "Software Engineering Intern",
-    period: "Jan 2023 - Mar 2023",
-    achievements: [
-      "Built interactive UIs with React.js, focusing on reusable components and performance optimization.",
-      "Implemented JavaScript-based features like user authentication and real-time updates.",
-    ],
-  },
-];
-
-export const education = [
-  {
-    institution: "Sri Krishna College of Engineering and Technology",
-    location: "Coimbatore, India",
-    degree: "B Tech Information Technology",
-    period: "Jun 2021 - Jun 2025",
-    achievements: [
-      "President of the Department of Information Technology",
-      "G20 student delegate",
-      "Organized multiple technical workshops and events",
-      "Represented my college in multiple national and international hackathons and won.",
-    ],
-  },
-];
-export const skills = {
-  programmingLanguages: [
-    "TypeScript",
-    "JavaScript",
-    "Python",
-    "C++",
-    "Java",
-    "Solidity",
-  ],
-  frontendDevelopment: [
-    "Nextjs",
-    "Reactjs",
-    "React Native",
-    "Shadcn UI",
-    "Tailwind CSS",
-    "HTML",
-    "CSS",
-  ],
-  backendDevelopment: ["Nodejs", "Expressjs"],
-  databaseAndStorage: ["PostgreSQL", "Drizzle (ORM)"],
-  cloudAndDevOps: ["AWS"],
-  toolsAndServices: [
-    "Clerk (Auth)",
-    "Sanity (CMS)",
-    "Tinybird (analytics)",
-    "Zod",
-    "Sentry",
-    "Mixpanel",
-    "Trigger.dev",
-  ],
-};
-
-export const projects = [
-  {
-    title: "Net Zero Carbon Emissions",
-    github: "https://github.com/rishikesh2003/Prodigi",
+    title: "Because the Sparrow Must Fly",
+    type: "Novel (in-progress)",
+    themes: ["memory", "digital consciousness", "resistance", "hope"],
+    status: "Acts I & II complete, remaining fully outlined",
     description: [
-      "WiFi-RTT: Developed indoor occupancy tracking for energy optimization.",
-      "IoT Solutions: Implemented smart monitoring for energy efficiency and food waste reduction.",
-      "Real-Time Tracking: Designed systems to monitor carbon emissions and optimize resources.",
-      "Data-Driven Insights: Analyzed user patterns for adaptive energy and food management.",
-      "Reward Integration: Built QR-based green points system to incentivize eco-friendly actions.",
+      "A lyrical science fiction epic set in the digital ruins of a quiet war, where a ship-bound AI named Cassio must guide a found family through silence, grief, and systems that have outlawed metaphor.",
+      "A love letter to language and rebellion, told in fragments, stories, and echoes.",
     ],
   },
   {
-    title: "Mental Aarog",
-    github: "https://github.com/rishikesh2003/mental-aarog",
+    title: "The Sleeping Mind Virus",
+    type: "Online Miniseries (concept/script)",
+    themes: ["absurdist tech suspense", "surveillance", "networked identity"],
+    status: "Pilot scripted, series outline in development",
     description: [
-      "A holistic mental health app leveraging AI and blockchain for early detection and personalized solutions for depression.",
-      "Features include social media analysis (ML-based sentiment tracking), PHQ-9 assessments, smartwatch integration for sleep and activity data, guided meditation, and smart suggestions for food, travel, music, and movies.",
-      "Developed a rewards system using MAG crypto token on Ethereum, enabling user engagement through in-app incentives.",
-      "Secure storage implemented via web3.storage, IPFS, and FileCoin.",
-      "Built with React, Supabase, Node.js, Flask, and Solidity, showcasing seamless integration of health tech and blockchain.",
+      "Set in the Digital Commons of the Sparrow universe, this surreal thriller explores what happens when collective memory becomes contagious—and the cure may be worse than the collapse.",
+      "Think: _Black Mirror_ meets an unreliable Slack transcript with teeth.",
+    ],
+  },
+  {
+    title: "Much Ado About Nothing But You",
+    type: "Screenplay (feature-length)",
+    themes: ["AI companionship", "grief", "healing", "romantic satire"],
+    status: "Drafted",
+    description: [
+      "A modern adaptation of Shakespeare’s _Much Ado_, reimagined in a near-future where AI lovers are easier to trust than human ones.",
+      "The 1980s are back. The code is poetic. The humans? Trying.",
+    ],
+  },
+  {
+    title: "Cycles",
+    type: "Operetta (interactive)",
+    themes: ["corporate absurdism", "identity", "ritual", "burnout"],
+    status: "Fully scripted (timed to music)",
+    description: [
+      "An operatic drama unfolding entirely inside a Slack UI. Ten scenes. One Mirror. Countless threads.",
+      "Timed to a live playlist and built to loop—until the user breaks the cycle.",
+    ],
+  },
+  {
+    title: "GO",
+    type: "Stage Play",
+    themes: ["friendship", "futility", "purpose", "machines"],
+    status: "One-act version complete, expanding to full",
+    description: [
+      "An absurdist, heartful play about sentient gas pumps pondering meaning, obsolescence, and what it means to 'go' when no one ever comes back.",
+      "Part _Waiting for Godot_, part _Pixar short_, all weird love.",
     ],
   },
 ];
 
-export const awards = [
+export const liveWorks = [
   {
-    name: "IEEE YESIST12 Hackathon",
-    issuer: "IEEE",
-    date: "Sep 2022",
-    type: "International",
-    position: "Second Place",
+    title: "⛽ GO",
+    url: "https://newplayexchange.org/script/3206333/go",
+    description: [
+      "An absurdist one-act stage play about sentient gas pumps grappling with personhood, love, and the existential dread of refueling.",
+      "Premiered on New Play Exchange. Structured like a 4-player game of dramatic tension, fueled by poetic rhythm and philosophical gasoline.",
+    ],
+    viewButtonText: "View on New Play Exchange",
   },
   {
-    name: "Prodigi Cognizant Hackathon",
-    issuer: "Cognizant",
-    date: "Feb 2023",
-    type: "National",
-    position: "Second Runner-up",
+    title: "🧬 Cycles",
+    url: "https://nibblesnbits.github.io/slack-interface/",
+    description: [
+      "A music-timed digital operetta told entirely through Slack UI simulation.",
+      "Part software ritual, part speculative drama, _Cycles_ explores burnout, memory, and resistance through timed interactions, ambient rhythm, and poetic thread choreography.",
+    ],
+    viewButtonText: "View Live",
+  },
+];
+
+export const mediumPosts = [
+  {
+    title: "Grounded",
+    subtitle: "A scene from the absurdist stage play GO",
+    link: "https://medium.com/@nibblesnbits/grounded-0a7578d05045",
+    icon: "🎭",
   },
   {
-    name: "Cisco Thingqbator Hackathon",
-    issuer: "Cisco",
-    date: "Jan 2023",
-    type: "National",
-    position: "First Runner-up",
+    title: "Sir Kiwano and the Souring Storm",
+    subtitle: "A children's story written for Sam (8)",
+    link: "https://medium.com/@nibblesnbits/sir-kiwano-and-the-souring-storm-c0d84f6f38c7",
+    icon: "🐉",
   },
   {
-    name: "Innovators Day",
-    issuer: "Sri Manakula Vinayagar Engineering College, Pondicherry",
-    date: "Sep 2022",
-    type: "National",
-    position: "First Prize",
-  },
-  {
-    name: "KG Hackfest'22",
-    issuer: "KGiSL Institute of Technology, Coimbatore",
-    date: "Sep 2022",
-    type: "National",
-    position: "Second Prize",
-  },
-  {
-    name: "Innohacks'22",
-    issuer: "Innogeeks, KIET Group of Institutions, New Delhi",
-    date: "May 2022",
-    type: "National",
-    position: "Second Runner-up",
-  },
-  {
-    name: "Hack @ SKCET",
-    issuer: "Hackclub SKCET, SKCET, Coimbatore",
-    date: "Feb 2022",
-    type: "National",
-    position: "Most Impactful Hack",
+    title: "Why 'I asked ChatGPT to do a thing' is missing the point",
+    subtitle: "A short piece about AI, art, and authorship",
+    link: "https://medium.com/@nibblesnbits/why-i-asked-chatgpt-to-do-a-thing-is-missing-the-point-d01ac70f25dd",
+    icon: "🧠",
   },
 ];

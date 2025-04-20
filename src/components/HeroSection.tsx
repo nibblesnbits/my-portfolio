@@ -27,7 +27,7 @@ export default function HeroSection() {
   };
 
   return (
-    <section className="py-16 md:py-24 relative overflow-hidden">
+    <section className="py-16 md:py-24 relative overflow-hidden bg-[color:var(--background)] text-[color:var(--foreground)]">
       <div className="container max-w-4xl mx-auto px-6 md:px-4 relative z-10">
         <motion.div
           className="flex flex-col md:flex-row md:items-center justify-between mb-8"
@@ -37,18 +37,20 @@ export default function HeroSection() {
         >
           <div className="text-center md:text-left">
             <motion.h1
-              className="text-4xl font-bold mb-2"
+              className="text-4xl font-bold mb-2 text-[color:var(--primary)]"
               variants={childVariants}
             >
               {personalInfo.name}{" "}
-              <span className="inline-block animate-pulse">✨</span>
+              <span className="inline-block animate-pulse text-[color:var(--accent)]">
+                ✨
+              </span>
             </motion.h1>
 
             <motion.p
-              className="text-xl text-muted-foreground mb-6"
+              className="text-xl mb-6 text-[color:var(--muted-foreground)]"
               variants={childVariants}
             >
-              Software Engineer 👨‍💻
+              Story-Driven Technologist ✍️ | Narrative Architect 💡
             </motion.p>
 
             <motion.div
@@ -56,9 +58,9 @@ export default function HeroSection() {
               variants={containerVariants}
             >
               <motion.div
-                className="flex items-center text-sm text-muted-foreground"
+                className="flex items-center text-sm text-[color:var(--muted-foreground)] hover:text-[color:var(--accent)]"
                 variants={childVariants}
-                whileHover={{ scale: 1.05, color: "#4b5563" }}
+                whileHover={{ scale: 1.05 }}
               >
                 <MapPin className="h-4 w-4 mr-2" />
                 📍 {personalInfo.location}
@@ -66,9 +68,9 @@ export default function HeroSection() {
 
               <motion.a
                 href={`mailto:${personalInfo.email}`}
-                className="flex items-center text-sm text-muted-foreground hover:text-foreground transition-colors"
+                className="flex items-center text-sm text-[color:var(--muted-foreground)] hover:text-[color:var(--foreground)] transition-colors"
                 variants={childVariants}
-                whileHover={{ scale: 1.05, color: "#4b5563" }}
+                whileHover={{ scale: 1.05 }}
               >
                 <Mail className="h-4 w-4 mr-2" />
                 ✉️ {personalInfo.email}
@@ -78,9 +80,9 @@ export default function HeroSection() {
                 href={personalInfo.github}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center text-sm text-muted-foreground hover:text-foreground transition-colors"
+                className="flex items-center text-sm text-[color:var(--muted-foreground)] hover:text-[color:var(--foreground)] transition-colors"
                 variants={childVariants}
-                whileHover={{ scale: 1.05, color: "#4b5563" }}
+                whileHover={{ scale: 1.05 }}
               >
                 <Github className="h-4 w-4 mr-2" />
                 🌟 GitHub
@@ -90,9 +92,9 @@ export default function HeroSection() {
                 href={personalInfo.linkedin}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center text-sm text-muted-foreground hover:text-foreground transition-colors"
+                className="flex items-center text-sm text-[color:var(--muted-foreground)] hover:text-[color:var(--foreground)] transition-colors"
                 variants={childVariants}
-                whileHover={{ scale: 1.05, color: "#4b5563" }}
+                whileHover={{ scale: 1.05 }}
               >
                 <Linkedin className="h-4 w-4 mr-2" />
                 🔗 LinkedIn
@@ -106,12 +108,12 @@ export default function HeroSection() {
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
           >
-            <div className="relative">
-              <div className="absolute -inset-1 bg-gradient-to-r from-pink-500 to-purple-500 rounded-full blur opacity-30 group-hover:opacity-100 transition duration-1000 group-hover:duration-200"></div>
+            <div className="relative group">
+              <div className="absolute -inset-1 bg-gradient-to-r from-[color:var(--accent)] to-[color:var(--primary)] rounded-full blur opacity-30 group-hover:opacity-100 transition duration-1000 group-hover:duration-200"></div>
               <img
-                src="/profile.jpg"
+                src="/badge.jpg"
                 alt="Profile"
-                className="w-48 md:w-60 rounded-full relative ring-2 ring-purple-500/50"
+                className="w-48 md:w-60 rounded-full relative ring-2 ring-[color:var(--primary)]/50"
                 style={{ objectFit: "cover" }}
               />
             </div>
@@ -119,18 +121,18 @@ export default function HeroSection() {
         </motion.div>
 
         <MotionWrapper>
-          <div className="bg-gradient-to-r from-purple-500/10 to-pink-500/10 backdrop-blur-sm backdrop-filter p-4 rounded-lg border border-purple-500/20 dark:border-purple-500/10 shadow-sm">
-            <p className="text-muted-foreground pl-4 py-2 mb-4 relative">
-              <span className="absolute left-0 top-0 h-full w-1 bg-gradient-to-b from-purple-500 to-pink-500 rounded-full"></span>
-              🚀 Passionate software engineer with a versatile skill set
-              spanning multiple domains. I thrive on solving complex challenges
-              across different platforms and environments, adapting quickly to
-              new technologies and methodologies. My holistic approach combines
-              technical expertise with creative problem-solving, allowing me to
-              develop solutions that are both innovative and practical. I'm
-              driven by continuous learning and a commitment to excellence,
-              whether working independently or collaborating with diverse teams
-              to create impactful, scalable solutions.
+          <div className="bg-gradient-to-r from-[color:var(--primary)]/10 to-[color:var(--accent)]/10 backdrop-blur-sm backdrop-filter p-4 rounded-lg border border-[color:var(--primary)]/20 shadow-sm">
+            <p className="text-[color:var(--muted-foreground)] pl-4 py-2 mb-4 relative">
+              <span className="absolute left-0 top-0 h-full w-1 bg-gradient-to-b from-[color:var(--accent)] to-[color:var(--primary)] rounded-full"></span>
+              Stephen Collins (pen name of <em>Juno Threadborne</em>) is a
+              speculative and absurdist fiction writer exploring the threshold
+              between technology, memory, and human connection. His work blurs
+              genres and mediums—ranging from lyrical sci-fi to Slack-based
+              operettas. He collaborates closely with AI, not as a tool but as a
+              creative partner, crafting stories that feel like they’re being
+              written by a chorus of voices past, present, and possible. Juno’s
+              narratives are woven from threads of grief and wonder, logic and
+              metaphor—and always, always hope.
             </p>
           </div>
         </MotionWrapper>
