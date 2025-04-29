@@ -124,15 +124,18 @@ export default function HeroSection() {
           <div className="bg-gradient-to-r from-[color:var(--primary)]/10 to-[color:var(--accent)]/10 backdrop-blur-sm backdrop-filter p-4 rounded-lg border border-[color:var(--primary)]/20 shadow-sm">
             <p className="text-[color:var(--muted-foreground)] pl-4 py-2 mb-4 relative">
               <span className="absolute left-0 top-0 h-full w-1 bg-gradient-to-b from-[color:var(--accent)] to-[color:var(--primary)] rounded-full"></span>
-              Stephen Collins (pen name of <em>Juno Threadborne</em>) is a
-              speculative and absurdist fiction writer exploring the threshold
-              between technology, memory, and human connection. His work blurs
-              genres and mediums—ranging from lyrical sci-fi to Slack-based
-              operettas. He collaborates closely with AI, not as a tool but as a
-              creative partner, crafting stories that feel like they’re being
-              written by a chorus of voices past, present, and possible. Juno’s
-              narratives are woven from threads of grief and wonder, logic and
-              metaphor—and always, always hope.
+              Stephen Collins (pen name{" "}
+              <strong>
+                <em>Juno Threadborne</em>
+              </strong>
+              ) is a speculative and absurdist fiction writer exploring the
+              threshold between technology, memory, and human connection. His
+              work blurs genres and mediums—ranging from lyrical sci-fi to
+              Slack-based operettas. He collaborates closely with AI, not as a
+              tool but as a creative partner, crafting stories that feel like
+              they’re being written by a chorus of voices past, present, and
+              possible. Juno’s narratives are woven from threads of grief and
+              wonder, logic and metaphor—and always, always hope.
             </p>
           </div>
         </MotionWrapper>
