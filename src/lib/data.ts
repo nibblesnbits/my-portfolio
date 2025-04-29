@@ -24,7 +24,7 @@ export const works = [
     status: "Pilot scripted, series outline in development",
     description: [
       "Set in the Digital Commons of the Sparrow universe, this surreal thriller explores what happens when collective memory becomes contagious—and the cure may be worse than the collapse.",
-      "Think: _Black Mirror_ meets an unreliable Slack transcript with teeth.",
+      'Think: "Black Mirror" meets an unreliable Slack transcript with teeth.',
     ],
   },
   {
@@ -33,7 +33,7 @@ export const works = [
     themes: ["AI companionship", "grief", "healing", "romantic satire"],
     status: "Drafted",
     description: [
-      "A modern adaptation of Shakespeare’s _Much Ado_, reimagined in a near-future where AI lovers are easier to trust than human ones.",
+      'A modern adaptation of Shakespeare’s "Much Ado", reimagined in a near-future where AI lovers are easier to trust than human ones.',
       "The 1980s are back. The code is poetic. The humans? Trying.",
     ],
   },
@@ -54,7 +54,7 @@ export const works = [
     status: "Ready for workshop",
     description: [
       "An absurdist, heartful play about sentient gas pumps pondering meaning, obsolescence, and what it means to 'go' when no one ever comes back.",
-      "Part _Waiting for Godot_, part _Pixar short_, all weird love.",
+      'Part "Waiting for Godot", part Pixar short, all weird love.',
     ],
   },
 ];
@@ -74,7 +74,7 @@ export const liveWorks = [
     url: "https://nibblesnbits.github.io/slack-interface/",
     description: [
       "A music-timed digital operetta told entirely through Slack UI simulation.",
-      "Part software ritual, part speculative drama, _Cycles_ explores burnout, memory, and resistance through timed interactions, ambient rhythm, and poetic thread choreography.",
+      'Part software ritual, part speculative drama, "Cycles" explores burnout, memory, and resistance through timed interactions, ambient rhythm, and poetic thread choreography.',
     ],
     viewButtonText: "View Live",
   },
