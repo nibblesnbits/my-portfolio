@@ -51,7 +51,7 @@ export const works = [
     title: "GO",
     type: "Stage Play",
     themes: ["friendship", "futility", "purpose", "machines"],
-    status: "One-act version complete, expanding to full",
+    status: "Ready for workshop",
     description: [
       "An absurdist, heartful play about sentient gas pumps pondering meaning, obsolescence, and what it means to 'go' when no one ever comes back.",
       "Part _Waiting for Godot_, part _Pixar short_, all weird love.",
@@ -64,7 +64,7 @@ export const liveWorks = [
     title: "⛽ GO",
     url: "https://newplayexchange.org/script/3206333/go",
     description: [
-      "An absurdist one-act stage play about sentient gas pumps grappling with personhood, love, and the existential dread of refueling.",
+      "An absurdist full-length stage play about sentient gas pumps grappling with personhood, love, and the existential dread of refueling.",
       "Premiered on New Play Exchange. Structured like a 4-player game of dramatic tension, fueled by poetic rhythm and philosophical gasoline.",
     ],
     viewButtonText: "View on New Play Exchange",
