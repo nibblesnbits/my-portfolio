@@ -21,7 +21,7 @@ export default function Animated404() {
         But not the server.
       </p>
       <a
-        href="/my-portfolio"
+        href="/"
         className="inline-block px-6 py-3 rounded-lg bg-primary text-primary-foreground font-medium hover:opacity-90 transition"
       >
         🔙 Return Home

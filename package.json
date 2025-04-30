@@ -2,12 +2,12 @@
   "name": "my-portfolio",
   "type": "module",
   "version": "0.0.1",
-  "description": "Modern portfolio template with animations and glassmorphism effects",
+  "description": "Juno Threadborne's portfolio website",
   "author": "Juno Threadborne",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/rishikesh2003/my-portfolio"
+    "url": "https://github.com/nibblesnbits/my-portfolio"
   },
   "scripts": {
     "dev": "astro dev",
