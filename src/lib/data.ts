@@ -2,7 +2,7 @@ export const personalInfo = {
   name: "Juno Threadborne",
   location: "Clarksville, VA",
   email: "sgcollins@outlook.com", // Or a branded address like hello@junothreadborne.com if available
-  github: "https://github.com/nibblesnbits", // If you create a new repo for the writing/dev hybrid identity
+  medium: "https://junothreadbornewrites.medium.com/", // If you create a new repo for the writing/dev hybrid identity
   linkedin: "https://www.linkedin.com/in/your-next-cto", // Optional, or leave it out if you want separation
 };
 

@@ -1,0 +1,12 @@
+---
+import Layout from "../layouts/Layout.astro";
+import LuminaMessage from "../components/LuminaMessage.tsx";
+---
+
+<Layout>
+  <main
+    class="min-h-screen flex flex-col items-center justify-center text-center px-4"
+  >
+    <LuminaMessage client:load />
+  </main>
+</Layout>

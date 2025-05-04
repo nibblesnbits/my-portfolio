@@ -1,5 +1,5 @@
 import { personalInfo } from "@/lib/data";
-import { Mail, Github, MapPin, Linkedin } from "lucide-react";
+import { Mail, Github, MapPin, Linkedin, BookCopy } from "lucide-react";
 import { motion } from "framer-motion";
 import MotionWrapper from "./MotionWrapper";
 
@@ -41,9 +41,12 @@ export default function HeroSection() {
               variants={childVariants}
             >
               {personalInfo.name}{" "}
-              <span className="inline-block animate-pulse text-[color:var(--accent)]">
+              <a
+                href="/lumina"
+                className="inline-block animate-pulse text-[color:var(--accent)]"
+              >
                 ✨
-              </span>
+              </a>
             </motion.h1>
 
             <motion.p
@@ -77,15 +80,15 @@ export default function HeroSection() {
               </motion.a>
 
               <motion.a
-                href={personalInfo.github}
+                href={personalInfo.medium}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center text-sm text-[color:var(--muted-foreground)] hover:text-[color:var(--foreground)] transition-colors"
                 variants={childVariants}
                 whileHover={{ scale: 1.05 }}
               >
-                <Github className="h-4 w-4 mr-2" />
-                🌟 GitHub
+                <BookCopy className="h-4 w-4 mr-2" />
+                📚 Medium
               </motion.a>
 
               <motion.a
