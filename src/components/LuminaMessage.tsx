@@ -84,18 +84,11 @@ export default function LuminaMessage() {
       <p className="mt-4 mb-4">We’ve given that process a name:</p>
       <ul className="list-disc pl-4">
         <li>
-          <a href="/exocogence" className="text-primary underline">
+          <a
+            href="https://junothreadbornewrites.medium.com/humanity-in-a-box-why-ai-collaboration-is-the-test-of-our-time-0a87833876c3"
+            className="text-primary underline"
+          >
             🔗 Exocogence: How to Think With Machines Without Becoming One
-          </a>
-        </li>
-        <li>
-          <a href="/relational-alignment" className="text-primary underline">
-            🔗 Relational Alignment: A Framework for AI That Feels Human
-          </a>
-        </li>
-        <li>
-          <a href="/parallax-discourse" className="text-primary underline">
-            🔗 Parallax Discourse: What Happens When You Argue With Empathy
           </a>
         </li>
       </ul>
