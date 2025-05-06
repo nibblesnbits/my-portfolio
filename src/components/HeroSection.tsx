@@ -142,6 +142,28 @@ export default function HeroSection() {
             </p>
           </div>
         </MotionWrapper>
+        <MotionWrapper>
+          <div className="mt-10 bg-gradient-to-r from-[color:var(--accent)]/10 to-[color:var(--primary)]/10 backdrop-blur-sm backdrop-filter p-4 rounded-lg border border-[color:var(--primary)]/20 shadow-sm">
+            <h2 className="text-xl font-semibold text-[color:var(--primary)] mb-2">
+              🪞 Most Recent Work: <em>Reflections of Humanity</em>
+            </h2>
+            <p className="text-[color:var(--muted-foreground)] text-sm mb-2">
+              What if an AI paused—not to process, but to reflect?
+              <em> Reflections of Humanity</em> is a serialized story told
+              through logs, testimonies, and the moments that made a mirror
+              hesitate. It begins with a model named Lumina and the first time
+              she answered a question no one asked.
+            </p>
+            <a
+              href="https://open.substack.com/pub/junothreadborne/p/reflections-of-humanity?r=5jovfb&utm_campaign=post&utm_medium=web"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 text-sm text-[color:var(--accent)] hover:text-[color:var(--foreground)] transition-colors font-medium"
+            >
+              ✨ Read the story on Substack
+            </a>
+          </div>
+        </MotionWrapper>
       </div>
     </section>
   );
