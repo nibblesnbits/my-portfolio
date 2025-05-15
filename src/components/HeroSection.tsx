@@ -1,5 +1,5 @@
 import { personalInfo } from "@/lib/data";
-import { Mail, Github, MapPin, Linkedin, BookCopy } from "lucide-react";
+import { Mail,  MapPin, SquareStack, BookCopy } from "lucide-react";
 import { motion } from "framer-motion";
 import MotionWrapper from "./MotionWrapper";
 
@@ -92,15 +92,15 @@ export default function HeroSection() {
               </motion.a>
 
               <motion.a
-                href={personalInfo.linkedin}
+                href={personalInfo.substack}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center text-sm text-[color:var(--muted-foreground)] hover:text-[color:var(--foreground)] transition-colors"
                 variants={childVariants}
                 whileHover={{ scale: 1.05 }}
               >
-                <Linkedin className="h-4 w-4 mr-2" />
-                🔗 LinkedIn
+                <SquareStack className="h-4 w-4 mr-2" />
+                🔗 Substack
               </motion.a>
             </motion.div>
           </div>
