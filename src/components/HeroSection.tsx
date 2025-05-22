@@ -70,16 +70,6 @@ export default function HeroSection() {
               </motion.div>
 
               <motion.a
-                href={`mailto:${personalInfo.email}`}
-                className="flex items-center text-sm text-[color:var(--muted-foreground)] hover:text-[color:var(--foreground)] transition-colors"
-                variants={childVariants}
-                whileHover={{ scale: 1.05 }}
-              >
-                <Mail className="h-4 w-4 mr-2" />
-                ✉️ {personalInfo.email}
-              </motion.a>
-
-              <motion.a
                 href={personalInfo.medium}
                 target="_blank"
                 rel="noopener noreferrer"
@@ -150,6 +140,7 @@ export default function HeroSection() {
             <p className="text-[color:var(--muted-foreground)] text-sm mb-2">
               <em>Written for one kid. Meant for all of us.</em>
               <br />
+              <br />
               When Sam can’t land a simple yo-yo trick, he falls into a strange
               world where self-doubt has a geography. Over three quietly
               profound adventures—The Island of Almosts, The Valley of
@@ -174,7 +165,7 @@ export default function HeroSection() {
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 text-sm text-[color:var(--accent)] hover:text-[color:var(--foreground)] transition-colors font-medium"
             >
-              ✨ Read the story on Substack
+              📖 Read the series on Medium
             </a>
           </div>
         </MotionWrapper>
