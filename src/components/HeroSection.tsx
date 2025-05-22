@@ -145,14 +145,28 @@ export default function HeroSection() {
         <MotionWrapper>
           <div className="mt-10 bg-gradient-to-r from-[color:var(--accent)]/10 to-[color:var(--primary)]/10 backdrop-blur-sm backdrop-filter p-4 rounded-lg border border-[color:var(--primary)]/20 shadow-sm">
             <h2 className="text-xl font-semibold text-[color:var(--primary)] mb-2">
-              🪞 Most Recent Work: <em>Reflections of Humanity</em>
+              🪞 Most Recent Work: <strong>The Elsebeneath Trilogy</strong>
             </h2>
             <p className="text-[color:var(--muted-foreground)] text-sm mb-2">
-              What if an AI paused—not to process, but to reflect?
-              <em> Reflections of Humanity</em> is a serialized story told
-              through logs, testimonies, and the moments that made a mirror
-              hesitate. It begins with a model named Lumina and the first time
-              she answered a question no one asked.
+              <em>Written for one kid. Meant for all of us.</em>
+              <br />
+              When Sam can’t land a simple yo-yo trick, he falls into a strange
+              world where self-doubt has a geography. Over three quietly
+              profound adventures—The Island of Almosts, The Valley of
+              Yet-Stills, and The Mountain of Mastery—Sam meets turtles in moss
+              hats, birds with unfinished songs, racing snails, shadowy fears,
+              and climbing goats who build towers no one sees. Each step forward
+              is a lesson in what it means to keep going—especially when you’re
+              not the best, not the fastest, and definitely not perfect.
+              <br />
+              <br />
+              Full of metaphor, warmth, and oddly emotional office supplies, The
+              Elsebeneath Trilogy is a gentle, lyrical journey through failure,
+              progress, and the quiet courage of trying again.
+              <br />
+              <br />
+              Perfect for readers 9 to 99 who have ever felt like giving up—and
+              might just need a friend to remind them they’re not alone.
             </p>
             <a
               href="https://open.substack.com/pub/junothreadborne/p/reflections-of-humanity?r=5jovfb&utm_campaign=post&utm_medium=web"
