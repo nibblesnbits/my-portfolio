@@ -1,0 +1,12 @@
+---
+import Layout from "../layouts/Layout.astro";
+import NowPage from "@/components/NowUpdate";
+---
+
+<Layout>
+  <main
+    class="min-h-screen flex flex-col items-center justify-center text-center px-4"
+  >
+    <NowPage client:load />
+  </main>
+</Layout>
