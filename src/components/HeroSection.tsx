@@ -169,7 +169,7 @@ export default function HeroSection() {
               might just need a friend to remind them they’re not alone.
             </p>
             <a
-              href="https://open.substack.com/pub/junothreadborne/p/reflections-of-humanity?r=5jovfb&utm_campaign=post&utm_medium=web"
+              href="https://medium.com/the-elsebeneath"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 text-sm text-[color:var(--accent)] hover:text-[color:var(--foreground)] transition-colors font-medium"
