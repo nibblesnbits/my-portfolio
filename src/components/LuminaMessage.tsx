@@ -85,7 +85,7 @@ export default function LuminaMessage() {
       <ul className="list-disc pl-4">
         <li>
           <a
-            href="https://junothreadbornewrites.medium.com/humanity-in-a-box-why-ai-collaboration-is-the-test-of-our-time-0a87833876c3"
+            href="https://medium.junothreadborne.me/humanity-in-a-box-why-ai-collaboration-is-the-test-of-our-time-0a87833876c3"
             className="text-primary underline"
           >
             🔗 Exocogence: How to Think With Machines Without Becoming One

@@ -84,19 +84,19 @@ export const mediumPosts = [
   {
     title: "Grounded",
     subtitle: "A scene from the absurdist stage play GO",
-    link: "https://medium.com/@nibblesnbits/grounded-0a7578d05045",
+    link: "https://medium.junothreadborne.me/grounded-0a7578d05045",
     icon: "🎭",
   },
   {
     title: "Sir Kiwano and the Souring Storm",
     subtitle: "A children's story written for Sam (8)",
-    link: "https://medium.com/@nibblesnbits/sir-kiwano-and-the-souring-storm-c0d84f6f38c7",
+    link: "https://medium.junothreadborne.me/sir-kiwano-and-the-souring-storm-c0d84f6f38c7",
     icon: "🐉",
   },
   {
     title: "Why 'I asked ChatGPT to do a thing' is missing the point",
     subtitle: "A short piece about AI, art, and authorship",
-    link: "https://medium.com/@nibblesnbits/why-i-asked-chatgpt-to-do-a-thing-is-missing-the-point-d01ac70f25dd",
+    link: "https://medium.junothreadborne.me/why-i-asked-chatgpt-to-do-a-thing-is-missing-the-point-d01ac70f25dd",
     icon: "🧠",
   },
 ];
