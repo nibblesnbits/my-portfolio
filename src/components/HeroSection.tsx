@@ -28,6 +28,13 @@ export default function HeroSection() {
 
   return (
     <section className="py-16 md:py-24 relative overflow-hidden bg-[color:var(--background)] text-[color:var(--foreground)]">
+      <a
+        className="hidden"
+        rel="me"
+        href="https://mastodon.social/@junothreadborne"
+      >
+        Mastodon
+      </a>
       <div className="container max-w-4xl mx-auto px-6 md:px-4 relative z-10">
         <motion.div
           className="flex flex-col md:flex-row md:items-center justify-between mb-8"
