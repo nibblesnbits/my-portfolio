@@ -1,0 +1,12 @@
+---
+import Layout from "../layouts/Layout.astro";
+import SelfMapIntro from "../components/SelfMapIntro";
+---
+
+<Layout>
+  <main
+    class="min-h-screen flex flex-col items-center justify-center text-center px-4"
+  >
+    <SelfMapIntro client:load />
+  </main>
+</Layout>
