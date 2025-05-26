@@ -18,23 +18,23 @@ export default function NowPage() {
       </h1>
 
       <p className="text-xl md:text-2xl text-muted-foreground mb-6">
-        Updated <strong>May 22, 2025</strong>. This page changes with me.
+        Updated <strong>May 26, 2025</strong>. This page changes with me.
       </p>
 
       <p className="mt-4">
-        I’m spending six weeks in Jacksonville with my son, trying to finish{" "}
+        I’m in Jacksonville now, settled in for a focused stretch, working on{" "}
         <em>Because the Sparrow Must Fly</em>—a novel about flight, AI, and the
-        boundaries of self. It’s deeply personal. A little broken. Still
+        edges of self. It’s deeply personal. Still a little broken. Still
         becoming.
       </p>
 
       <p className="mt-4">
-        I just released the final book in{" "}
+        I recently wrapped the final book in{" "}
         <a href="https://thrd.me/else" className="text-primary underline">
           The Elsebeneath Trilogy
         </a>
         —three lyrical fables I wrote for my son Sam (and anyone who’s ever
-        needed help trying again).
+        needed help finding their way back to trying).
       </p>
 
       <p className="mt-4">
@@ -42,23 +42,26 @@ export default function NowPage() {
         <a href="https://thrd.me" className="text-primary underline">
           thrd.me
         </a>
-        —a personal shortlink service powered by Cloudflare Workers. It’s tiny,
-        fast, and feels like mine.
+        —a tiny, fast, personal shortlink service powered by Cloudflare Workers.
+        It feels like mine. It feels like a thread I wanted to pull through the
+        internet.
       </p>
 
       <p className="mt-4">
-        This site will keep growing. My goal is to make it a kind of digital
-        loom—where story, code, and identity weave into something honest.
+        This site will keep growing. My aim is still the same: to build a kind
+        of digital loom—where story, code, and identity weave into something
+        honest.
       </p>
 
       <blockquote className="mt-6 italic text-muted-foreground">
-        Right now, I’m holding space for clarity. Trying to write a little every
-        day. Remembering how to be soft and brave at the same time.
+        Right now, I’m holding space for quiet progress. Trying to write a
+        little every day. Letting the air clear, letting the work breathe,
+        remembering how to be soft and brave at the same time.
       </blockquote>
 
       <p className="mt-6">
         If you’re reading this, you’re part of the moment I’m in. Thanks for
-        being here.
+        walking alongside me.
       </p>
 
       <p className="mt-8 text-right">—Juno</p>
