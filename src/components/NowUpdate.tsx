@@ -1,6 +1,4 @@
 import { motion } from "framer-motion";
-import { useState, useRef } from "react";
-import { Volume2, VolumeX } from "lucide-react";
 
 export default function NowPage() {
   return (
@@ -48,9 +46,60 @@ export default function NowPage() {
       </p>
 
       <p className="mt-4">
-        This site will keep growing. My aim is still the same: to build a kind
-        of digital loom—where story, code, and identity weave into something
-        honest.
+        I’ve also unexpectedly take a dive into music this week—writing an R&B
+        album called <strong>Shop Around</strong>. It’s my first time seriously
+        using AI in music creation, and it’s reshaping how I think about
+        creative value: not in the generation, but in the curation and
+        intentionality.
+      </p>
+
+      <p className="mt-4">
+        <strong>Tracks from today:</strong>
+        <div className="mt-4">
+          <h2 className="text-2xl font-bold mb-2">Tracks from Today</h2>
+
+          <div className="mb-4">
+            <p className="font-semibold">Shop Around</p>
+            <audio controls className="w-full">
+              <source src="/audio/shop.mp3" type="audio/mpeg" />
+              Your browser does not support the audio element.
+            </audio>
+          </div>
+
+          <div className="mb-4">
+            <p className="font-semibold">Under My Skin</p>
+            <audio controls className="w-full">
+              <source src="/audio/skin.mp3" type="audio/mpeg" />
+              Your browser does not support the audio element.
+            </audio>
+          </div>
+
+          <div className="mb-4">
+            <p className="font-semibold">Fucxked Up</p>
+            <audio controls className="w-full">
+              <source src="/audio/fuckedup.mp3" type="audio/mpeg" />
+              Your browser does not support the audio element.
+            </audio>
+          </div>
+
+          <div className="mb-4">
+            <p className="font-semibold">Take It</p>
+            <audio controls className="w-full">
+              <source src="/audio/takeit.mp3" type="audio/mpeg" />
+              Your browser does not support the audio element.
+            </audio>
+          </div>
+        </div>
+
+        <div className="mt-4">
+          <em>Album art:</em>
+          <div className="w-full bg-gray-800 rounded-lg p-4 text-center">
+            <img
+              src="/shop-around-art.png"
+              alt="Shop Around by Juno Album Art"
+            />
+          </div>
+        </div>
       </p>
 
       <blockquote className="mt-6 italic text-muted-foreground">
