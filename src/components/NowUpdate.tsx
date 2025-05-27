@@ -54,7 +54,6 @@ export default function NowPage() {
       </p>
 
       <p className="mt-4">
-        <strong>Tracks from today:</strong>
         <div className="mt-4">
           <h2 className="text-2xl font-bold mb-2">Tracks from Today</h2>
 
