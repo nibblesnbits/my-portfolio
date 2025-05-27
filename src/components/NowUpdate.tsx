@@ -16,7 +16,7 @@ export default function NowPage() {
       </h1>
 
       <p className="text-xl md:text-2xl text-muted-foreground mb-6">
-        Updated <strong>May 26, 2025</strong>. This page changes with me.
+        Updated <strong>May 27, 2025</strong>. This page changes with me.
       </p>
 
       <p className="mt-4">
