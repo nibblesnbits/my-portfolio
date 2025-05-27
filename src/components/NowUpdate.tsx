@@ -37,12 +37,12 @@ export default function NowPage() {
 
       <p className="mt-4">
         On the tech side, I built{" "}
-        <a href="https://thrd.me" className="text-primary underline">
+        <a href="https://thrd.me/to/" className="text-primary underline">
           thrd.me
-        </a>
-        —a tiny, fast, personal shortlink service powered by Cloudflare Workers.
-        It feels like mine. It feels like a thread I wanted to pull through the
-        internet.
+        </a>{" "}
+        (<em>Thread Me To...</em>)—a tiny, fast, personal shortlink service
+        powered by Cloudflare Workers. It feels like mine. It feels like a
+        thread I wanted to pull through the internet.
       </p>
 
       <p className="mt-4">
