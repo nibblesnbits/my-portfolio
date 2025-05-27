@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 export default function NowPage() {
   return (
     <motion.div
-      className="max-w-2xl text-left prose prose-invert relative"
+      className="max-w-2xl text-left prose prose-invert relative m-8"
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.6 }}
