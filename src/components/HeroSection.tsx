@@ -120,7 +120,7 @@ export default function HeroSection() {
               <strong>
                 <em>Juno Threadborne</em>
               </strong>
-              is a speculative and absurdist fiction writer exploring the
+              &nbsp;is a speculative and absurdist fiction writer exploring the
               threshold between technology, memory, and human connection. His
               work blurs genres and mediums—ranging from lyrical sci-fi to
               Slack-based operettas. He collaborates closely with AI, not as a
