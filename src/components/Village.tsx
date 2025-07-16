@@ -24,6 +24,14 @@ export default function Village() {
         This story is for you.
         <br />
         <br />
+        <a
+          href="https://docs.google.com/document/d/10bkrDjC5NXbqt8IRoNw4xu9uGvR2i96hA8TVPLXt2a4/view"
+          className="underline"
+        >
+          Read along here
+        </a>
+        <br />
+        <br />
         Chapter 1: The Wind In The Walls
         <audio controls className="w-full mb-4">
           <source src="/audio/village/vov-chapter-1.mp3" type="audio/mpeg" />
@@ -118,6 +126,13 @@ export default function Village() {
         Chapter 18: The End?
         <audio controls className="w-full mb-4">
           <source src="/audio/village/vov-chapter-17.mp3" type="audio/mpeg" />
+          Your browser does not support the audio element.
+        </audio>
+        <br />
+        <br />
+        And a preview of the next book:
+        <audio controls className="w-full mb-4">
+          <source src="/audio/archive/preview.mp3" type="audio/mpeg" />
           Your browser does not support the audio element.
         </audio>
       </p>
