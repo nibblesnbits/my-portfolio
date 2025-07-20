@@ -134,37 +134,40 @@ export default function HeroSection() {
         <MotionWrapper>
           <div className="mt-10 bg-gradient-to-r from-[color:var(--accent)]/10 to-[color:var(--primary)]/10 backdrop-blur-sm backdrop-filter p-4 rounded-lg border border-[color:var(--primary)]/20 shadow-sm">
             <h2 className="text-xl font-semibold text-[color:var(--primary)] mb-2">
-              🪞 Most Recent Work: <strong>The Elsebeneath Trilogy</strong>
+              🪞 Most Recent Work: <strong>The Village of Voicekeepers</strong>
             </h2>
             <p className="text-[color:var(--muted-foreground)] text-sm mb-2">
-              <em>Written for one kid. Meant for all of us.</em>
+              <em>
+                For one kid who’s learning how to listen. For all of us still
+                finding our voice.
+              </em>
               <br />
               <br />
-              When Sam can’t land a simple yo-yo trick, he falls into a strange
-              world where self-doubt has a geography. Over three quietly
-              profound adventures—The Island of Almosts, The Valley of
-              Yet-Stills, and The Mountain of Mastery—Sam meets turtles in moss
-              hats, birds with unfinished songs, racing snails, shadowy fears,
-              and climbing goats who build towers no one sees. Each step forward
-              is a lesson in what it means to keep going—especially when you’re
-              not the best, not the fastest, and definitely not perfect.
+              Sam wakes to a world where the wind carries more than just air—it
+              carries memories, half-spoken truths, and the silent spaces
+              between words. In a village built from forgotten sounds and
+              lingering feelings, Sam meets curious characters who remind him
+              that every voice holds its own story—even the ones barely heard.
               <br />
               <br />
-              Full of metaphor, warmth, and oddly emotional office supplies, The
-              Elsebeneath Trilogy is a gentle, lyrical journey through failure,
-              progress, and the quiet courage of trying again.
+              From tuning broken chimes to navigating tangled paths of doubt and
+              hope, Sam discovers that being a Voicekeeper means more than
+              remembering—it means choosing what to listen to, and how to speak
+              what truly matters.
               <br />
               <br />
-              Perfect for readers 9 to 99 who have ever felt like giving up—and
-              might just need a friend to remind them they’re not alone.
+              Full of warmth, gentle magic, and quiet questions,{" "}
+              <strong>The Village of Voicekeepers</strong> is a lyrical tale for
+              readers 9 to 99 who’ve ever felt unheard, misunderstood, or ready
+              to find their place in the chorus of life.
             </p>
             <a
-              href="https://medium.com/the-elsebeneath"
+              href="/village"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 text-sm text-[color:var(--accent)] hover:text-[color:var(--foreground)] transition-colors font-medium"
             >
-              📖 Read the series on Medium
+              📖 Read it (and listen to the audio book) here
             </a>
           </div>
         </MotionWrapper>

@@ -1,0 +1,13 @@
+---
+// src/pages/404.astro
+import Layout from "../layouts/Layout.astro";
+import ArchiveComponent from "../components/Archive";
+---
+
+<Layout>
+  <main
+    class="min-h-screen flex flex-col items-center justify-center text-center px-4"
+  >
+    <ArchiveComponent client:load />
+  </main>
+</Layout>
