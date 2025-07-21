@@ -134,40 +134,39 @@ export default function HeroSection() {
         <MotionWrapper>
           <div className="mt-10 bg-gradient-to-r from-[color:var(--accent)]/10 to-[color:var(--primary)]/10 backdrop-blur-sm backdrop-filter p-4 rounded-lg border border-[color:var(--primary)]/20 shadow-sm">
             <h2 className="text-xl font-semibold text-[color:var(--primary)] mb-2">
-              🪞 Most Recent Work: <strong>The Village of Voicekeepers</strong>
+              🧵 <strong>Featured work: </strong> The Elsebeneath – A Growing
+              Collection
             </h2>
             <p className="text-[color:var(--muted-foreground)] text-sm mb-2">
               <em>
-                For one kid who’s learning how to listen. For all of us still
-                finding our voice.
+                Six books. One layered world. Countless quiet moments that
+                matter.
               </em>
               <br />
               <br />
-              Sam wakes to a world where the wind carries more than just air—it
-              carries memories, half-spoken truths, and the silent spaces
-              between words. In a village built from forgotten sounds and
-              lingering feelings, Sam meets curious characters who remind him
-              that every voice holds its own story—even the ones barely heard.
+              From winds that carry forgotten names to islands where second
+              chances gather like driftwood, <strong>The Elsebeneath</strong> is
+              a stitched-together mythos for anyone who's ever hesitated at the
+              edge of becoming.
               <br />
               <br />
-              From tuning broken chimes to navigating tangled paths of doubt and
-              hope, Sam discovers that being a Voicekeeper means more than
-              remembering—it means choosing what to listen to, and how to speak
-              what truly matters.
+              The stories follow Sam—and others—as they wander through fables
+              wrapped in memory, whimsy, and the hush between thoughts. Whether
+              you're joining him in the <em>Valley of Yet-Stills</em>, returning
+              a ribbon in
+              <em>Elsewhere, Briefly</em>, or simply sitting quietly in the
+              <em>Village of Voicekeepers</em>... there’s space for you here.
               <br />
               <br />
-              Full of warmth, gentle magic, and quiet questions,{" "}
-              <strong>The Village of Voicekeepers</strong> is a lyrical tale for
-              readers 9 to 99 who’ve ever felt unheard, misunderstood, or ready
-              to find their place in the chorus of life.
+              Every book is its own key. And now, the whole shelf has a home.
             </p>
             <a
-              href="/village"
+              href="https://the-elsebeneath.github.io/books/"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 text-sm text-[color:var(--accent)] hover:text-[color:var(--foreground)] transition-colors font-medium"
             >
-              📖 Read it (and listen to the audio book) here
+              📚 Explore the Elsebeneath Library
             </a>
           </div>
         </MotionWrapper>
