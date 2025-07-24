@@ -24,7 +24,7 @@ export default function Elsewhere() {
         <br />
         <br />
         <a
-          href="https://docs.google.com/document/d/1ydvMlIUtjOPYtHFFZw6L8aLkadHNhl7vW8E4pi0J0Xg/edit?usp=sharing"
+          href="https://heyzine.com/flip-book/9c2fc89e3c.html"
           className="underline"
         >
           Read the full text here
