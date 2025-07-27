@@ -191,3 +191,36 @@
     @apply bg-muted px-1 py-0.5 rounded text-sm font-mono;
   }
 }
+
+
+.kofi-button {
+  position: relative;
+  bottom: 0;
+  right: 0;
+  margin-top: 10px;
+  color: #fff !important;
+  letter-spacing: -0.15px !important;
+  text-wrap: none;
+  vertical-align: middle;
+  line-height: 33px !important;
+  padding: 0;
+  text-align: center;
+  text-decoration: none !important;
+  text-shadow: 0 1px 1px rgba(34, 34, 34, 0.05);
+}
+
+.kofi-button a:hover {
+  color: #ccc !important;
+  opacity: 1 !important;
+  text-decoration: none !important;
+}
+
+.kofi-button img {
+  height: 15px !important;
+  width: 19px !important;
+  display: initial;
+}
+
+.kofi-button:hover img {
+  animation: kofi-wiggle 0.5s ease-in-out;
+}

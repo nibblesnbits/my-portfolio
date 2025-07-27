@@ -1959,6 +1959,31 @@ export default function Elsewhere() {
           🔙 Return Home
         </a>
       </motion.div>
+      <div className="row py-2 lg:py-0 items-center flex-wrap-reverse">
+        <div className="text-center lg:col-6 lg:mb-0 lg:text-left">
+          <ul>
+            <li className="m-2 inline-block">
+              &copy; Juno Threadborne 2025{" "}
+              <a href="https://thrd.me/mirror">✨</a>
+            </li>
+          </ul>
+        </div>
+        <div className="text-center lg:col-6 lg:my-0 flex items-center justify-center lg:justify-end">
+          <div className="kofi-button">
+            <a
+              href="https://thrd.me/tip"
+              type="button"
+              className="text-white bg-[#3b5998] font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-[#3b5998]/55 me-2 mb-2"
+            >
+              <img
+                src="https://storage.ko-fi.com/cdn/logomarkLogo.png"
+                alt="Ko-fi donations"
+              />
+              &emsp;Fuel the Next Chapter
+            </a>
+          </div>
+        </div>
+      </div>
     </>
   );
 }
