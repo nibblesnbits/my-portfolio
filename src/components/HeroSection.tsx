@@ -161,7 +161,7 @@ export default function HeroSection() {
               Every book is its own key. And now, the whole shelf has a home.
             </p>
             <a
-              href="https://the-elsebeneath.github.io/books/"
+              href="https://thrd.me/else"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 text-sm text-[color:var(--accent)] hover:text-[color:var(--foreground)] transition-colors font-medium"
