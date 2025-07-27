@@ -123,20 +123,24 @@
 
 @layer components {
   .chapter-title {
-    @apply text-4xl text-primary text-center my-8 font-bold;
+    @apply text-primary text-center my-8 font-bold;
+  font-size: calc(var(--font-scale, 1) * 2.5rem);
     text-shadow: 1px 1px 2px rgb(0 0 0 / 30%);
   }
 
   .section-title {
-    @apply text-3xl text-primary mt-6 mb-3 pb-2 border-b-2 border-border;
+    @apply text-primary mt-6 mb-3 pb-2 border-b-2 border-border;
+  font-size: calc(var(--font-scale, 1) * 1.875rem);
   }
 
   .subsection-title {
-    @apply text-2xl text-primary mt-5 mb-2;
+    @apply text-primary mt-5 mb-2;
+  font-size: calc(var(--font-scale, 1) * 1.5rem);
   }
 
   .story-text {
-    @apply text-lg mb-5 text-justify;
+    @apply mb-5 text-justify;
+  font-size: calc(var(--font-scale, 1) * 1.125rem);
     text-indent: 1.5em;
   }
 
@@ -159,6 +163,7 @@
 
   .story-callout {
     @apply bg-card border-l-4 border-primary p-4 my-6 italic rounded-r-lg;
+  font-size: calc(var(--font-scale, 1) * 1rem);
   }
 
   .story-image {
@@ -174,12 +179,14 @@
   }
 
   .audiobook-title {
-    @apply text-primary text-lg mb-3 font-bold;
+    @apply text-primary mb-3 font-bold;
+  font-size: calc(var(--font-scale, 1) * 1.125rem);
   }
 
   /* Body container styles */
   .book-container {
-    @apply font-serif leading-relaxed max-w-4xl mx-auto p-5 bg-background text-foreground;
+    @apply leading-relaxed max-w-4xl mx-auto p-5 bg-background text-foreground;
+    font-family: 'Lora', serif;
   }
 
   /* Code blocks */
