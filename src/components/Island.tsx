@@ -34,6 +34,24 @@ export default function Village() {
           <p className="story-text">
             <em>Book 1 of the Elsebeneath series</em>
           </p>
+
+          <p className="story-text">
+            <em>
+              Listen to the Audiobook (narrated by <a href="/lumina">Lumina</a>{" "}
+              with music provided by{" "}
+              <a
+                className="underline"
+                href="https://pixabay.com/users/9096471/"
+              >
+                Geoff Harvey
+              </a>
+              .
+            </em>
+          </p>
+          <audio controls className="w-full mb-4">
+            <source src="/audio/almosts.mp3" type="audio/mpeg" />
+            Your browser does not support the audio element.
+          </audio>
           <h1 className="chapter-title">Chapter One: The Tangle</h1>
           <p className="story-text">
             Sam stood in the driveway, holding his yo-yo like it was mocking
