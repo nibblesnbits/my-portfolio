@@ -20,11 +20,11 @@ export default function Elsewhere() {
       <p className="text-xl md:text-2xl text-muted-foreground mb-6">
         A fun little jaunt between the Elsebeneath and somewhere else.
       </p>
-      <p className="text-muted-foreground mb-8">
+      <p className="text-muted-foreground mb-8 text-2xl">
         <br />
         <br />
         <a
-          href="https://heyzine.com/flip-book/9c2fc89e3c.html"
+          href="https://junothreadborne.me/docs/Elsewhere%2C%20Briefly.pdf"
           className="underline"
         >
           Read the full text here

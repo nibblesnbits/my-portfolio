@@ -20,11 +20,11 @@ export default function Archive() {
       <p className="text-xl md:text-2xl text-muted-foreground mb-6">
         A place for the stories that didn't fit anywhere else.
       </p>
-      <p className="text-muted-foreground mb-8">
+      <p className="text-muted-foreground mb-8 text-2xl">
         <br />
         <br />
         <a
-          href="https://docs.google.com/document/d/1NyE7nyyhjHetk_niX5Qz8MpTATj9hJDQ-NqomcCGAtM/edit?usp=sharing"
+          href="https://junothreadborne.me/docs/The%20Archive%20of%20Unsaid%20Things.pdf"
           className="underline"
         >
           Read the full text here

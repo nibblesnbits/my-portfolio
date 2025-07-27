@@ -20,12 +20,12 @@ export default function Village() {
       <p className="text-xl md:text-2xl text-muted-foreground mb-6">
         Hey, bud.
       </p>
-      <p className="text-muted-foreground mb-8">
+      <p className="text-muted-foreground mb-8 text-2xl">
         This story is for you.
         <br />
         <br />
         <a
-          href="https://docs.google.com/document/d/10bkrDjC5NXbqt8IRoNw4xu9uGvR2i96hA8TVPLXt2a4/view"
+          href="https://junothreadborne.me/docs/The%20Village%20of%20Voicekeepers.pdf"
           className="underline"
         >
           Read along here
