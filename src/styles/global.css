@@ -123,24 +123,20 @@
 
 @layer components {
   .chapter-title {
-    @apply text-primary text-center my-8 font-bold;
-  font-size: calc(var(--font-scale, 1) * 2.5rem);
+    @apply text-4xl text-primary text-center my-8 font-bold;
     text-shadow: 1px 1px 2px rgb(0 0 0 / 30%);
   }
 
   .section-title {
-    @apply text-primary mt-6 mb-3 pb-2 border-b-2 border-border;
-  font-size: calc(var(--font-scale, 1) * 1.875rem);
+    @apply text-3xl text-primary mt-6 mb-3 pb-2 border-b-2 border-border;
   }
 
   .subsection-title {
-    @apply text-primary mt-5 mb-2;
-  font-size: calc(var(--font-scale, 1) * 1.5rem);
+    @apply text-2xl text-primary mt-5 mb-2;
   }
 
   .story-text {
-    @apply mb-5 text-justify;
-  font-size: calc(var(--font-scale, 1) * 1.125rem);
+    @apply text-lg mb-5 text-justify;
     text-indent: 1.5em;
   }
 
@@ -163,7 +159,6 @@
 
   .story-callout {
     @apply bg-card border-l-4 border-primary p-4 my-6 italic rounded-r-lg;
-  font-size: calc(var(--font-scale, 1) * 1rem);
   }
 
   .story-image {
@@ -179,11 +174,9 @@
   }
 
   .audiobook-title {
-    @apply text-primary mb-3 font-bold;
-  font-size: calc(var(--font-scale, 1) * 1.125rem);
+    @apply text-primary text-lg mb-3 font-bold;
   }
 
-  /* Body container styles */
   .book-container {
     @apply leading-relaxed max-w-4xl mx-auto p-5 bg-background text-foreground;
     font-family: 'Lora', serif;

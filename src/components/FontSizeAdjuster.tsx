@@ -4,6 +4,16 @@ export default function FontSizeAdjuster() {
   const [fontSize, setFontSize] = useState<number>(100);
   const [isOpen, setIsOpen] = useState(false);
 
+  // Base font sizes in rem
+  const baseSizes = {
+    ".chapter-title": 2.5,
+    ".section-title": 1.875,
+    ".subsection-title": 1.5,
+    ".story-text": 1.125,
+    ".story-callout": 1,
+    ".audiobook-title": 1.125,
+  };
+
   // Load saved font size on mount
   useEffect(() => {
     const saved = localStorage.getItem("book-font-size");
@@ -15,16 +25,17 @@ export default function FontSizeAdjuster() {
   }, []);
 
   const updateFontSize = (size: number) => {
-    // Update CSS custom property for font scaling
     const scale = size / 100;
-    document.documentElement.style.setProperty(
-      "--font-scale",
-      scale.toString()
-    );
-    localStorage.setItem("book-font-size", size.toString());
 
-    // Debug: log the value being set
-    console.log("Setting font scale to:", scale, "for size:", size);
+    // Apply font sizes directly to elements
+    Object.entries(baseSizes).forEach(([selector, baseSize]) => {
+      const elements = document.querySelectorAll(selector);
+      elements.forEach((element) => {
+        (element as HTMLElement).style.fontSize = `${baseSize * scale}rem`;
+      });
+    });
+
+    localStorage.setItem("book-font-size", size.toString());
   };
 
   const adjustFont = (direction: "up" | "down" | "reset") => {
