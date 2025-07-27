@@ -120,3 +120,74 @@
     @apply bg-background text-foreground;
   }
 }
+
+@layer components {
+  .chapter-title {
+    @apply text-4xl text-primary text-center my-8 font-bold;
+    text-shadow: 1px 1px 2px rgb(0 0 0 / 30%);
+  }
+
+  .section-title {
+    @apply text-3xl text-primary mt-6 mb-3 pb-2 border-b-2 border-border;
+  }
+
+  .subsection-title {
+    @apply text-2xl text-primary mt-5 mb-2;
+  }
+
+  .story-text {
+    @apply text-lg mb-5 text-justify;
+    text-indent: 1.5em;
+  }
+
+  .story-text:first-of-type {
+    text-indent: 0;
+  }
+
+  .bullet-list, .numbered-list {
+    @apply my-4 pl-8;
+  }
+
+  .bullet-list li {
+    @apply mb-2;
+    list-style-type: '🌟 ';
+  }
+
+  .numbered-list li {
+    @apply mb-2;
+  }
+
+  .story-callout {
+    @apply bg-card border-l-4 border-primary p-4 my-6 italic rounded-r-lg;
+  }
+
+  .story-image {
+    @apply max-w-full h-auto block mx-auto my-6 rounded-lg shadow-lg;
+  }
+
+  .audiobook-player {
+    @apply bg-card border border-border rounded-xl p-5 my-8 text-center;
+  }
+
+  .audiobook-player audio {
+    @apply w-full max-w-lg h-10 rounded-lg outline-none;
+  }
+
+  .audiobook-title {
+    @apply text-primary text-lg mb-3 font-bold;
+  }
+
+  /* Body container styles */
+  .book-container {
+    @apply font-serif leading-relaxed max-w-4xl mx-auto p-5 bg-background text-foreground;
+  }
+
+  /* Code blocks */
+  pre {
+    @apply bg-muted p-4 rounded-lg overflow-x-auto border border-border;
+  }
+
+  code {
+    @apply bg-muted px-1 py-0.5 rounded text-sm font-mono;
+  }
+}
