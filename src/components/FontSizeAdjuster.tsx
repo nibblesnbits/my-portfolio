@@ -27,11 +27,19 @@ export default function FontSizeAdjuster() {
   const updateFontSize = (size: number) => {
     const scale = size / 100;
 
-    // Apply font sizes directly to elements
+    // Instead of changing individual elements, let's scale the container
+    const container =
+      document.querySelector(".book-container") || document.body;
+    if (container) {
+      (container as HTMLElement).style.fontSize = `${scale}rem`;
+    }
+
+    // Also apply to any existing text elements to ensure immediate update
     Object.entries(baseSizes).forEach(([selector, baseSize]) => {
       const elements = document.querySelectorAll(selector);
       elements.forEach((element) => {
-        (element as HTMLElement).style.fontSize = `${baseSize * scale}rem`;
+        // Use em instead of rem so it scales relative to the container
+        (element as HTMLElement).style.fontSize = `${baseSize}em`;
       });
     });
 

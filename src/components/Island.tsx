@@ -45,7 +45,7 @@ export default function Village() {
               >
                 Geoff Harvey
               </a>
-              .
+              ).
             </em>
           </p>
           <audio controls className="w-full mb-4">
