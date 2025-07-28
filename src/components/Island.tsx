@@ -677,7 +677,7 @@ export default function Village() {
         </div>
         <br />
         <a
-          href="/"
+          href="https://elsebeneath.online"
           className="inline-block px-6 py-3 rounded-lg bg-primary text-primary-foreground font-medium hover:opacity-90 transition"
         >
           🔙 Return Home
