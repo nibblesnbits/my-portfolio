@@ -60,29 +60,15 @@ export default function HeroSection() {
               className="flex flex-col gap-2 items-center md:items-start"
               variants={containerVariants}
             >
-              <motion.div
+              <motion.a
                 className="flex items-center text-sm text-[color:var(--muted-foreground)] hover:text-[color:var(--accent)]"
                 variants={childVariants}
                 whileHover={{ scale: 1.05 }}
+                href={`mailto:${personalInfo.email}`}
               >
-                <MapPin className="h-4 w-4 mr-2" />
-                📍 {personalInfo.location}
-              </motion.div>
-
-              <motion.div
-                className="flex items-center text-sm text-[color:var(--muted-foreground)] hover:text-[color:var(--accent)]"
-                variants={childVariants}
-                whileHover={{ scale: 1.05 }}
-              >
-                <Mail className="h-4 w-4 mr-2" />
-                <a
-                  href={`mailto:${personalInfo.email}`}
-                  className="hover:underline"
-                  rel="noopener noreferrer"
-                >
-                  {personalInfo.email}
-                </a>
-              </motion.div>
+                📧&nbsp;
+                {personalInfo.email}
+              </motion.a>
 
               <motion.a
                 href={personalInfo.medium}
@@ -92,7 +78,6 @@ export default function HeroSection() {
                 variants={childVariants}
                 whileHover={{ scale: 1.05 }}
               >
-                <BookCopy className="h-4 w-4 mr-2" />
                 📚 Medium
               </motion.a>
 
@@ -104,8 +89,7 @@ export default function HeroSection() {
                 variants={childVariants}
                 whileHover={{ scale: 1.05 }}
               >
-                <SquareStack className="h-4 w-4 mr-2" />
-                🔗 Substack
+                📝 Substack
               </motion.a>
             </motion.div>
           </div>

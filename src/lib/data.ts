@@ -1,6 +1,5 @@
 export const personalInfo = {
   name: "Juno Threadborne",
-  location: "Clarksville, VA",
   email: "juno@elsebeneath.online",
   medium: "https://medium.junothreadborne.me/",
   substack: "https://junothreadborne.substack.com/",
