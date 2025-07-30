@@ -676,6 +676,19 @@ export default function Village() {
           </p>
         </div>
         <br />
+        <p className="mt-6 mb-2 text-center text-muted-foreground">
+          I'd love to hear what moments mattered most to you.
+        </p>
+        <a
+          href="https://docs.google.com/forms/d/e/1FAIpQLScQARjat_oEJ9cNEb1fzWJaNyRRP6n44WkeydZRub3VvCmXoA/viewform?usp=sharing&ouid=112014812140367339055"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-block px-6 py-3 rounded-lg bg-secondary text-secondary-foreground font-medium hover:opacity-90 transition mb-4"
+        >
+          💭 Share What Stayed With You
+        </a>
+        <br />
+        <br />
         <a
           href="https://elsebeneath.online"
           className="inline-block px-6 py-3 rounded-lg bg-primary text-primary-foreground font-medium hover:opacity-90 transition"
