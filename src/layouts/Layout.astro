@@ -80,21 +80,21 @@ const {
         wait_for_update: 500,
       });
 
-      // // Then check for existing consent and update if granted
-      // try {
-      //   const savedConsent = localStorage.getItem("cookie_consent");
-      //   if (savedConsent === "yes") {
-      //     gtag("consent", "update", {
-      //       ad_storage: "granted",
-      //       ad_user_data: "granted",
-      //       ad_personalization: "granted",
-      //       analytics_storage: "granted",
-      //     });
-      //   }
-      // } catch (e) {
-      //   // localStorage might not be available
-      //   console.log("localStorage not available");
-      // }
+      // Then check for existing consent and update if granted
+      try {
+        const savedConsent = localStorage.getItem("cookie_consent");
+        if (savedConsent === "yes") {
+          gtag("consent", "update", {
+            ad_storage: "granted",
+            ad_user_data: "granted",
+            ad_personalization: "granted",
+            analytics_storage: "granted",
+          });
+        }
+      } catch (e) {
+        // localStorage might not be available
+        console.log("localStorage not available");
+      }
     </script>
 
     <!-- Google Tag Manager - AFTER consent setup -->
@@ -177,30 +177,24 @@ const {
       const reject = document.getElementById("cookie-reject");
 
       function updateConsent(granted) {
-        // Save preference
         localStorage.setItem("cookie_consent", granted ? "yes" : "no");
-
-        // Hide banner
         banner.style.display = "none";
 
-        // Update consent mode
-        if (typeof gtag !== "undefined") {
+        if (granted) {
+          // Fire GTM only on accept
+          window.dataLayer = window.dataLayer || [];
+          window.dataLayer.push({
+            event: "user_accepted_cookies",
+          });
+
+          // Also update consent mode
           gtag("consent", "update", {
-            ad_storage: granted ? "granted" : "denied",
-            ad_user_data: granted ? "granted" : "denied",
-            ad_personalization: granted ? "granted" : "denied",
-            analytics_storage: granted ? "granted" : "denied",
+            ad_storage: "granted",
+            ad_user_data: "granted",
+            ad_personalization: "granted",
+            analytics_storage: "granted",
           });
         }
-
-        // Push custom event to dataLayer
-        window.dataLayer = window.dataLayer || [];
-        window.dataLayer.push({
-          event: "consent_update",
-          consent_granted: granted,
-          ad_storage_consent: granted ? "granted" : "denied",
-          analytics_storage_consent: granted ? "granted" : "denied",
-        });
       }
 
       // Show banner only if no saved consent
