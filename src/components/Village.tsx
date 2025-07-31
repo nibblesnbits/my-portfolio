@@ -4726,14 +4726,6 @@ export default function Village() {
             <a
               href="https://thrd.me/tip"
               type="button"
-              onClick={() => {
-                gtag("event", "tip_click", {
-                  story_title: `The Village of Voicekeepers`,
-                  source_page: window.location.pathname,
-                  destination: "${entry.data.readLink}",
-                  event_category: "engagement",
-                });
-              }}
               className="text-white bg-[#3b5998] font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-[#3b5998]/55 me-2 mb-2"
             >
               <img

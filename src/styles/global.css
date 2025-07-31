@@ -137,11 +137,6 @@
 
   .story-text {
     @apply text-lg mb-5 text-justify;
-    text-indent: 1.5em;
-  }
-
-  .story-text:first-of-type {
-    text-indent: 0;
   }
 
   .bullet-list, .numbered-list {

@@ -64,12 +64,8 @@ const kidBookCSS = `
     font-size: 1.1em;
     margin-bottom: 1.2em;
     text-align: justify;
-    text-indent: 1.5em;
   }
 
-  .story-text:first-of-type {
-    text-indent: 0;
-  }
 
   .bullet-list, .numbered-list {
     margin: 1em 0;

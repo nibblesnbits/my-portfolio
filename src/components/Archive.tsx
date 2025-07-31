@@ -54,131 +54,133 @@ export default function Village() {
               <em>Especially the kind you don’t get to write.</em>
             </p>
           </blockquote>
-          <p className="story-text">
-            Somewhere—
-            <br />
-            elsewhere
-            <br />
-            and beneath—
-            <br />
-            before echoes first rang notes of grief,
-            <br />
-            and wind carried thoughts of all beliefs,
-            <br />
-            there was a place, the Elsebeneath,
-            <br />
-            that carried weight with no relief.
-          </p>
-          <p className="story-text">
-            But rarely do the stars align
-            <br />
-            in such a way that seems divine
-            <br />
-            as to introduce one of the ground
-            <br />
-            to walk the land where thoughts resound.
-          </p>
-          <p className="story-text">
-            A whisper’s fold, a silent seam,
-            <br />
-            where memories gather like a dream.
-            <br />
-            Not shouted loud, nor made to last,
-            <br />
-            but held in moments slipping past.
-          </p>
-          <p className="story-text">
-            Small things left soft, but not forgot—
-            <br />a breath, a pulse, a single knot.
-            <br />
-            In shadows where the quiet grows,
-            <br />
-            this is the place where feeling flows.
-          </p>
-          <p className="story-text">
-            But then a man, with heart in hand,
-            <br />
-            came seeking peace, not promised land.
-          </p>
-          <p className="story-text">
-            A builder once, with steady hands,
-            <br />
-            who’d shaped a city from the sands.
-            <br />
-            But not even cities carved from will
-            <br />
-            could teach a grieving heart to still.
-          </p>
-          <p className="story-text">
-            And so he fell—not through the sky—
-            <br />
-            but inward, with a silent cry.
-            <br />
-            Through thought, through loss, through threads unseen,
-            <br />
-            he stepped into a world between.
-          </p>
-          <p className="story-text">
-            No door. No path. No whispered name.
-            <br />
-            But something heard him all the same.
-          </p>
-          <p className="story-text">
-            He did not mean to find this place.
-            <br />
-            He only sought to still his pace.
-            <br />
-            To stop the world—if just a breath—
-            <br />
-            and name the ache that echoed death.
-          </p>
-          <p className="story-text">
-            And in the days of storm and wind,
-            <br />
-            he shaped a world to hold within.
-          </p>
-          <p className="story-text">
-            The Elsebeneath would now abide
-            <br />
-            all the things we kept inside.
-          </p>
-          <p className="story-text">
-            A girl let go a folded note.
-            <br />A mother tied a ribbon’s throat.
-            <br />A soldier left a porcelain cup—
-            <br />
-            and the Elsebeneath began to wake up.
-          </p>
-          <p className="story-text">
-            They didn’t enter.
-            <br />
-            Not like him.
-            <br />
-            But unsaid things began to swim.
-          </p>
-          <p className="story-text">
-            The cup remembered what was sworn.
-            <br />
-            The ribbon wept and curled, forlorn.
-            <br />
-            The paper paused mid-fall—then stayed.
-            <br />
-            The wind, at last, began to braid.
-          </p>
-          <p className="story-text">
-            So understand: this place was made
-            <br />
-            not all at once, and not by trade.
-            <br />
-            But by the weight of things unspoken—
-            <br />
-            the cracks that form when hearts are broken.
-          </p>
-          <p className="story-text">
-            The Elsebeneath is not a lie.
-            <br />
-            It’s just a place where truths still try.
-          </p>
+          <div className="text-center">
+            <p className="story-text text-center">
+              Somewhere—
+              <br />
+              elsewhere
+              <br />
+              and beneath—
+              <br />
+              before echoes first rang notes of grief,
+              <br />
+              and wind carried thoughts of all beliefs,
+              <br />
+              there was a place, the Elsebeneath,
+              <br />
+              that carried weight with no relief.
+            </p>
+            <p className="story-text text-center">
+              But rarely do the stars align
+              <br />
+              in such a way that seems divine
+              <br />
+              as to introduce one of the ground
+              <br />
+              to walk the land where thoughts resound.
+            </p>
+            <p className="story-text text-center">
+              A whisper’s fold, a silent seam,
+              <br />
+              where memories gather like a dream.
+              <br />
+              Not shouted loud, nor made to last,
+              <br />
+              but held in moments slipping past.
+            </p>
+            <p className="story-text text-center">
+              Small things left soft, but not forgot—
+              <br />a breath, a pulse, a single knot.
+              <br />
+              In shadows where the quiet grows,
+              <br />
+              this is the place where feeling flows.
+            </p>
+            <p className="story-text text-center">
+              But then a man, with heart in hand,
+              <br />
+              came seeking peace, not promised land.
+            </p>
+            <p className="story-text text-center">
+              A builder once, with steady hands,
+              <br />
+              who’d shaped a city from the sands.
+              <br />
+              But not even cities carved from will
+              <br />
+              could teach a grieving heart to still.
+            </p>
+            <p className="story-text text-center">
+              And so he fell—not through the sky—
+              <br />
+              but inward, with a silent cry.
+              <br />
+              Through thought, through loss, through threads unseen,
+              <br />
+              he stepped into a world between.
+            </p>
+            <p className="story-text text-center">
+              No door. No path. No whispered name.
+              <br />
+              But something heard him all the same.
+            </p>
+            <p className="story-text text-center">
+              He did not mean to find this place.
+              <br />
+              He only sought to still his pace.
+              <br />
+              To stop the world—if just a breath—
+              <br />
+              and name the ache that echoed death.
+            </p>
+            <p className="story-text text-center">
+              And in the days of storm and wind,
+              <br />
+              he shaped a world to hold within.
+            </p>
+            <p className="story-text text-center">
+              The Elsebeneath would now abide
+              <br />
+              all the things we kept inside.
+            </p>
+            <p className="story-text text-center">
+              A girl let go a folded note.
+              <br />A mother tied a ribbon’s throat.
+              <br />A soldier left a porcelain cup—
+              <br />
+              and the Elsebeneath began to wake up.
+            </p>
+            <p className="story-text text-center">
+              They didn’t enter.
+              <br />
+              Not like him.
+              <br />
+              But unsaid things began to swim.
+            </p>
+            <p className="story-text text-center">
+              The cup remembered what was sworn.
+              <br />
+              The ribbon wept and curled, forlorn.
+              <br />
+              The paper paused mid-fall—then stayed.
+              <br />
+              The wind, at last, began to braid.
+            </p>
+            <p className="story-text text-center">
+              So understand: this place was made
+              <br />
+              not all at once, and not by trade.
+              <br />
+              But by the weight of things unspoken—
+              <br />
+              the cracks that form when hearts are broken.
+            </p>
+            <p className="story-text text-center">
+              The Elsebeneath is not a lie.
+              <br />
+              It’s just a place where truths still try.
+            </p>
+          </div>
           <h1 className="chapter-title">
             Chapter 1: <em>Things Lost</em>
           </h1>
@@ -4275,14 +4277,6 @@ export default function Village() {
             <a
               href="https://thrd.me/tip"
               type="button"
-              onClick={() => {
-                gtag("event", "tip_click", {
-                  story_title: `The Archive of Unsaid Things`,
-                  source_page: window.location.pathname,
-                  destination: "${entry.data.readLink}",
-                  event_category: "engagement",
-                });
-              }}
               className="text-white bg-[#3b5998] font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-[#3b5998]/55 me-2 mb-2"
             >
               <img
