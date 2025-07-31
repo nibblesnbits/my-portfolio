@@ -4714,21 +4714,6 @@ export default function Village() {
               </li>
             </ul>
           </div>
-          <div className="text-center lg:col-6 lg:my-0 flex items-center justify-center lg:justify-end">
-            <div className="kofi-button">
-              <a
-                href="https://thrd.me/tip"
-                type="button"
-                className="text-white bg-[#3b5998] font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-[#3b5998]/55 me-2 mb-2"
-              >
-                <img
-                  src="https://storage.ko-fi.com/cdn/logomarkLogo.png"
-                  alt="Ko-fi donations"
-                />
-                &emsp;Fuel the Next Chapter
-              </a>
-            </div>
-          </div>
         </div>
       </motion.div>
       <div className="row py-2 lg:py-0 items-center flex-wrap-reverse">
@@ -4747,7 +4732,7 @@ export default function Village() {
               type="button"
               onClick={() => {
                 gtag("event", "tip_click", {
-                  story_title: `The Valley of Yet-Stills`,
+                  story_title: `The Village of Voicekeepers`,
                   source_page: window.location.pathname,
                   destination: "${entry.data.readLink}",
                   event_category: "engagement",

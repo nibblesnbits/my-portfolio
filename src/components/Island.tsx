@@ -711,7 +711,7 @@ export default function Village() {
                 type="button"
                 onClick={() => {
                   gtag("event", "tip_click", {
-                    story_title: `The Valley of Yet-Stills`,
+                    story_title: `The Island of Almosts`,
                     source_page: window.location.pathname,
                     destination: "${entry.data.readLink}",
                     event_category: "engagement",
