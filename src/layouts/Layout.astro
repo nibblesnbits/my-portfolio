@@ -63,37 +63,56 @@ const {
       rel="stylesheet"
     />
 
-    <!-- CONSENT MODE SETUP - MUST BE BEFORE ANY TRACKING -->
+    <!-- CRITICAL: CONSENT MODE MUST BE ABSOLUTELY FIRST -->
     <script>
-      // Initialize dataLayer and gtag function
+      // Initialize dataLayer and gtag function IMMEDIATELY
       window.dataLayer = window.dataLayer || [];
       function gtag() {
-        dataLayer.push(arguments);
+        window.dataLayer.push(arguments);
       }
 
-      // Check for existing consent preference
-      const savedConsent = localStorage.getItem("cookie_consent");
+      // ALWAYS set consent to denied first, regardless of saved preferences
+      gtag("consent", "default", {
+        ad_storage: "denied",
+        ad_user_data: "denied",
+        ad_personalization: "denied",
+        analytics_storage: "denied",
+        wait_for_update: 500,
+      });
 
-      // Set default consent state based on saved preference or deny all
-      if (savedConsent === "yes") {
-        gtag("consent", "default", {
-          ad_storage: "granted",
-          ad_user_data: "granted",
-          ad_personalization: "granted",
-          analytics_storage: "granted",
-        });
-      } else {
-        gtag("consent", "default", {
-          ad_storage: "denied",
-          ad_user_data: "denied",
-          ad_personalization: "denied",
-          analytics_storage: "denied",
-          wait_for_update: 2000,
-        });
+      // Then check for existing consent and update if granted
+      try {
+        const savedConsent = localStorage.getItem("cookie_consent");
+        if (savedConsent === "yes") {
+          gtag("consent", "update", {
+            ad_storage: "granted",
+            ad_user_data: "granted",
+            ad_personalization: "granted",
+            analytics_storage: "granted",
+          });
+        }
+      } catch (e) {
+        // localStorage might not be available
+        console.log("localStorage not available");
       }
     </script>
 
-    <!-- Microsoft Clarity - Now consent-aware -->
+    <!-- Google Tag Manager - AFTER consent setup -->
+    <script>
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-P66KZGWV");
+    </script>
+    <!-- End Google Tag Manager -->
+
+    <!-- Microsoft Clarity -->
     <script type="text/javascript">
       (function (c, l, a, r, i, t, y) {
         c[a] =
@@ -108,21 +127,6 @@ const {
         y.parentNode.insertBefore(t, y);
       })(window, document, "clarity", "script", "rf3xb48jg8");
     </script>
-
-    <!-- Google Tag Manager -->
-    <script>
-      (function (w, d, s, l, i) {
-        w[l] = w[l] || [];
-        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
-        var f = d.getElementsByTagName(s)[0],
-          j = d.createElement(s),
-          dl = l != "dataLayer" ? "&l=" + l : "";
-        j.async = true;
-        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
-        f.parentNode.insertBefore(j, f);
-      })(window, document, "script", "dataLayer", "GTM-P66KZGWV");
-    </script>
-    <!-- End Google Tag Manager -->
   </head>
 
   <body
@@ -179,7 +183,7 @@ const {
         // Hide banner
         banner.style.display = "none";
 
-        // Update consent mode - THIS IS THE CRITICAL PART
+        // Update consent mode
         if (typeof gtag !== "undefined") {
           gtag("consent", "update", {
             ad_storage: granted ? "granted" : "denied",
@@ -189,7 +193,7 @@ const {
           });
         }
 
-        // Also push to dataLayer for GTM triggers (if you need custom events)
+        // Push custom event to dataLayer
         window.dataLayer = window.dataLayer || [];
         window.dataLayer.push({
           event: "consent_update",
@@ -206,8 +210,8 @@ const {
       }
 
       // Wire up button handlers
-      accept.onclick = () => updateConsent(true);
-      reject.onclick = () => updateConsent(false);
+      if (accept) accept.onclick = () => updateConsent(true);
+      if (reject) reject.onclick = () => updateConsent(false);
     </script>
   </body>
 </html>
