@@ -96,6 +96,19 @@ const {
   <body
     class="min-h-screen bg-background font-sans antialiased selection:bg-purple-500/20 selection:text-purple-500"
   >
+    <div
+      id="cookie-banner"
+      style="
+  position:fixed;bottom:20px;left:20px;right:20px;
+  background:white;padding:15px;border:1px solid #ccc;
+  border-radius:10px;text-align:center;z-index:9999;max-width:400px;margin:auto;
+  font-family:sans-serif;box-shadow:0 2px 10px rgba(0,0,0,0.1)"
+    >
+      We use cookies to understand how people use the site. OK?
+      <br /><br />
+      <button id="cookie-accept">Accept</button>
+      <button id="cookie-reject">Reject</button>
+    </div>
     <!-- Google Tag Manager (noscript) -->
     <noscript
       ><iframe
@@ -110,6 +123,29 @@ const {
     >
     </div>
     <slot />
+    <script>
+      const banner = document.getElementById("cookie-banner");
+      const accept = document.getElementById("cookie-accept");
+      const reject = document.getElementById("cookie-reject");
+
+      function setConsent(granted) {
+        localStorage.setItem("cookie_consent", granted ? "yes" : "no");
+        banner.style.display = "none";
+        // Tell GTM about consent
+        window.dataLayer = window.dataLayer || [];
+        window.dataLayer.push({
+          event: "update_consent",
+          consent_granted: granted,
+        });
+      }
+
+      if (localStorage.getItem("cookie_consent")) {
+        banner.style.display = "none";
+      }
+
+      accept.onclick = () => setConsent(true);
+      reject.onclick = () => setConsent(false);
+    </script>
   </body>
 </html>
 
