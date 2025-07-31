@@ -1,0 +1,16 @@
+---
+// src/pages/404.astro
+import Layout from "../../layouts/StoryLayout.astro";
+import BookComponent from "../../components/Valley.tsx";
+---
+
+<Layout
+  title="The Valley of Yet-Stills - Juno Threadborne"
+  image="/valley-cover.webp"
+>
+  <main
+    class="min-h-screen flex flex-col items-center justify-center text-center px-4"
+  >
+    <BookComponent client:load />
+  </main>
+</Layout>
