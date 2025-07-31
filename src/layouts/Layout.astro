@@ -62,6 +62,38 @@ const {
       href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
       rel="stylesheet"
     />
+
+    <!-- CONSENT MODE SETUP - MUST BE BEFORE ANY TRACKING -->
+    <script>
+      // Initialize dataLayer and gtag function
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+
+      // Check for existing consent preference
+      const savedConsent = localStorage.getItem("cookie_consent");
+
+      // Set default consent state based on saved preference or deny all
+      if (savedConsent === "yes") {
+        gtag("consent", "default", {
+          ad_storage: "granted",
+          ad_user_data: "granted",
+          ad_personalization: "granted",
+          analytics_storage: "granted",
+        });
+      } else {
+        gtag("consent", "default", {
+          ad_storage: "denied",
+          ad_user_data: "denied",
+          ad_personalization: "denied",
+          analytics_storage: "denied",
+          wait_for_update: 2000,
+        });
+      }
+    </script>
+
+    <!-- Microsoft Clarity - Now consent-aware -->
     <script type="text/javascript">
       (function (c, l, a, r, i, t, y) {
         c[a] =
@@ -99,6 +131,7 @@ const {
     <div
       id="cookie-banner"
       class="fixed bottom-6 left-1/2 z-50 w-[90%] max-w-sm -translate-x-1/2 rounded-xl border border-gray-300 bg-white p-4 text-center shadow-lg dark:border-gray-700 dark:bg-gray-800"
+      style="display: none;"
     >
       <p class="text-sm text-gray-800 dark:text-gray-100">
         We use cookies to understand how people use the site. OK?
@@ -132,28 +165,49 @@ const {
     >
     </div>
     <slot />
+
+    <!-- UPDATED CONSENT BANNER SCRIPT -->
     <script>
       const banner = document.getElementById("cookie-banner");
       const accept = document.getElementById("cookie-accept");
       const reject = document.getElementById("cookie-reject");
 
-      function setConsent(granted) {
+      function updateConsent(granted) {
+        // Save preference
         localStorage.setItem("cookie_consent", granted ? "yes" : "no");
+
+        // Hide banner
         banner.style.display = "none";
-        // Tell GTM about consent
+
+        // Update consent mode - THIS IS THE CRITICAL PART
+        if (typeof gtag !== "undefined") {
+          gtag("consent", "update", {
+            ad_storage: granted ? "granted" : "denied",
+            ad_user_data: granted ? "granted" : "denied",
+            ad_personalization: granted ? "granted" : "denied",
+            analytics_storage: granted ? "granted" : "denied",
+          });
+        }
+
+        // Also push to dataLayer for GTM triggers (if you need custom events)
         window.dataLayer = window.dataLayer || [];
         window.dataLayer.push({
-          event: "update_consent",
+          event: "consent_update",
           consent_granted: granted,
+          ad_storage_consent: granted ? "granted" : "denied",
+          analytics_storage_consent: granted ? "granted" : "denied",
         });
       }
 
-      if (localStorage.getItem("cookie_consent")) {
-        banner.style.display = "none";
+      // Show banner only if no saved consent
+      const savedConsent = localStorage.getItem("cookie_consent");
+      if (!savedConsent) {
+        banner.style.display = "block";
       }
 
-      accept.onclick = () => setConsent(true);
-      reject.onclick = () => setConsent(false);
+      // Wire up button handlers
+      accept.onclick = () => updateConsent(true);
+      reject.onclick = () => updateConsent(false);
     </script>
   </body>
 </html>
