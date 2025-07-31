@@ -80,21 +80,21 @@ const {
         wait_for_update: 500,
       });
 
-      // Then check for existing consent and update if granted
-      try {
-        const savedConsent = localStorage.getItem("cookie_consent");
-        if (savedConsent === "yes") {
-          gtag("consent", "update", {
-            ad_storage: "granted",
-            ad_user_data: "granted",
-            ad_personalization: "granted",
-            analytics_storage: "granted",
-          });
-        }
-      } catch (e) {
-        // localStorage might not be available
-        console.log("localStorage not available");
-      }
+      // // Then check for existing consent and update if granted
+      // try {
+      //   const savedConsent = localStorage.getItem("cookie_consent");
+      //   if (savedConsent === "yes") {
+      //     gtag("consent", "update", {
+      //       ad_storage: "granted",
+      //       ad_user_data: "granted",
+      //       ad_personalization: "granted",
+      //       analytics_storage: "granted",
+      //     });
+      //   }
+      // } catch (e) {
+      //   // localStorage might not be available
+      //   console.log("localStorage not available");
+      // }
     </script>
 
     <!-- Google Tag Manager - AFTER consent setup -->
