@@ -19,14 +19,14 @@ export default function Village() {
             className="w-full mb-4 rounded-lg shadow-lg"
           />
         </p>
-        <br />
-        <br />
-        <a
-          href="https://junothreadborne.me/docs/The%20Valley%20of%20Yet-Stills.pdf"
-          className="underline mb-8"
-        >
-          Download the PDF here.
-        </a>
+        <div className="text-center mb-6">
+          <a
+            href="https://junothreadborne.me/docs/The%20Archive%20of%20Unsaid%20Things.pdf"
+            className="underline text-2xl"
+          >
+            Download the PDF here.
+          </a>
+        </div>
         <hr />
         <div>
           <h1 className="chapter-title">The Valley of Yet-Stills</h1>

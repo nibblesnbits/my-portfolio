@@ -19,18 +19,14 @@ export default function Village() {
             className="w-full mb-4 rounded-lg shadow-lg"
           />
         </p>
-        <p className="text-xl md:text-2xl text-muted-foreground mb-6">
-          Hey, bud.
-        </p>
-        This story is for you.
-        <br />
-        <br />
-        <a
-          href="https://junothreadborne.me/docs/The%20Village%20of%20Voicekeepers.pdf"
-          className="underline mb-8"
-        >
-          Download the PDF here.
-        </a>
+        <div className="text-center mb-6">
+          <a
+            href="https://junothreadborne.me/docs/The%20Archive%20of%20Unsaid%20Things.pdf"
+            className="underline text-2xl"
+          >
+            Download the PDF here.
+          </a>
+        </div>
         <hr />
         <div>
           <h1 className="chapter-title">The Village of Voicekeepers</h1>

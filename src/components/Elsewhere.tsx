@@ -19,20 +19,14 @@ export default function Elsewhere() {
             className="w-full mb-4 rounded-lg shadow-lg"
           />
         </p>
-
-        <p className="text-xl md:text-2xl text-muted-foreground mb-6">
-          A fun little jaunt between the Elsebeneath and somewhere else.
-        </p>
-        <p className="text-muted-foreground mb-8 text-2xl">
-          <br />
-          <br />
+        <div className="text-center mb-6">
           <a
-            href="https://junothreadborne.me/docs/Elsewhere%2C%20Briefly.pdf"
-            className="underline"
+            href="https://junothreadborne.me/docs/The%20Archive%20of%20Unsaid%20Things.pdf"
+            className="underline text-2xl"
           >
             Download the PDF here.
           </a>
-        </p>
+        </div>
         <hr />
         <div>
           <h1 className="chapter-title">Elsewhere, Briefly</h1>
