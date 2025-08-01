@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import FontSizeAdjuster from "./FontSizeAdjuster";
 import StoryScrollTracker from "./StoryScrollTracker";
+import ChapterTitle from "./ChapterTitle";
 
 export default function Island() {
   // Define chapters for The Island of Almosts
@@ -120,7 +121,8 @@ export default function Island() {
             <source src="/audio/almosts.mp3" type="audio/mpeg" />
             Your browser does not support the audio element.
           </audio>
-          <h1 className="chapter-title">Chapter One: The Tangle</h1>
+          <ChapterTitle id="chapter-1" name="Chapter One: The Tangle" />
+
           <p className="story-text">
             Sam stood in the driveway, holding his yo-yo like it was mocking
             him.
@@ -264,9 +266,11 @@ export default function Island() {
             <em>just maybe</em>… a little curious.
           </p>
           <p className="story-text">And he followed.</p>
-          <h1 className="chapter-title">
-            Chapter Two: The Bird Who Never Sang
-          </h1>
+          <ChapterTitle
+            id="chapter-2"
+            name="Chapter Two: The Bird Who Never Sang"
+          />
+
           <p className="story-text">
             Practicio led Sam along the winding path. The sky above shifted from
             lavender to soft peach, like it was blushing from some secret joke.
@@ -359,9 +363,10 @@ export default function Island() {
             The wind carried a few quiet notes behind them as they walked
             away—half a melody, unfinished… but still beautiful.
           </p>
-          <h1 className="chapter-title">
-            Chapter Three: The Snail Who Raced a Cheetah
-          </h1>
+          <ChapterTitle
+            id="chapter-3"
+            name="Chapter Three: The Snail Who Raced a Cheetah"
+          />
           <p className="story-text">
             The next part of the island felt <em>slower</em>. The air was thick
             with the scent of rain and earth, and the grass here grew in soft
@@ -436,9 +441,11 @@ export default function Island() {
             “On this island,” the turtle said, “the race is never against
             someone else. It’s against the part of you that wants to stop.”
           </p>
-          <h1 className="chapter-title">
-            Chapter Three and a Half: The Shortcut
-          </h1>
+          <ChapterTitle
+            id="chapter-3-5"
+            name="Chapter Three and a Half: The Shortcut"
+          />
+
           <p className="story-text">
             After saying goodbye to Zoomie, the trail forked.
           </p>
@@ -492,9 +499,11 @@ export default function Island() {
           <p className="story-text">“Let’s keep going.”</p>
 
           <p className="story-text">Practicio smiled, and they walked on.</p>
-          <h1 className="chapter-title">
-            Chapter Four: The Painter Who Erased the World
-          </h1>
+          <ChapterTitle
+            id="chapter-4"
+            name="Chapter Four: The Painter Who Erased the World"
+          />
+
           <p className="story-text">
             The path curved gently into a forest of giant mushrooms and
             sea-glass trees. Light filtered through the leaves in ripples, like
@@ -578,7 +587,8 @@ export default function Island() {
             But it felt <em>real</em>.
           </p>
           <p className="story-text">And that was something.</p>
-          <h1 className="chapter-title">Chapter Five: Fall Number 4,030</h1>
+          <ChapterTitle id="chapter-5" name="Chapter Five: Fall Number 4,030" />
+
           <p className="story-text">
             The path rose again, gently winding up a hill scattered with pebbles
             and wildflowers. The sky above had shifted into soft golden-pink,
@@ -652,7 +662,8 @@ export default function Island() {
           <p className="story-text">The sky shimmered.</p>
           <p className="story-text">The world softened.</p>
           <p className="story-text">And then—</p>
-          <h1 className="chapter-title">Chapter Six: The First Trick</h1>
+          <ChapterTitle id="chapter-6" name="Chapter Six: The First Trick" />
+
           <p className="story-text">Sam woke up.</p>
           <p className="story-text">
             The driveway was back. So was the yo-yo. But the knot didn&#39;t
