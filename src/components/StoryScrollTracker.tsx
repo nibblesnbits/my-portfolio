@@ -119,13 +119,13 @@ export default function StoryScrollTracker({
 
           const storyKey =
             window.location.href
+              .replace(/([\?\#].*)/, "")
               .split("/")
-              .at(-1)
-              ?.replace(/\?(.*)/gi, "") ||
+              .at(-1) ||
             window.location.href
+              .replace(/([\?\#].*)/, "")
               .split("/")
-              .at(-2)
-              ?.replace(/\?(.*)/gi, "") ||
+              .at(-2) ||
             "";
 
           if (!badges.includes(storyKey)) {

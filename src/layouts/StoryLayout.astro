@@ -152,6 +152,7 @@ const {
 
           <a
             href={`https://twitter.com/intent/tweet?text=Check%20out%20this%20story%3A%20https%3A%2F%2Fjunothreadborne.me/story/${Astro.url.pathname
+              .replace(/([\?\#].*)/, "")
               .split("/")
               .filter(Boolean)
               .pop()}`}
@@ -171,6 +172,7 @@ const {
 
           <a
             href={`https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fjunothreadborne.me/story/${Astro.url.pathname
+              .replace(/([\?\#].*)/, "")
               .split("/")
               .filter(Boolean)
               .pop()}`}
