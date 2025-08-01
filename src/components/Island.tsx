@@ -234,14 +234,12 @@ export default function Island() {
             paw reading upside down. A kite flew in loops above the trees—
             <em>with no string at all</em>.
           </p>
-          <blockquote className="story-callout">
-            <p className="story-text">
-              “This island is full of people and creatures who were{" "}
-              <em>almost</em> good at something. Some gave up. Some are still
-              trying. And some…”—he looked at Sam—“just need to see things from
-              another angle.”
-            </p>
-          </blockquote>
+          <p className="story-text">
+            “This island is full of people and creatures who were{" "}
+            <em>almost</em> good at something. Some gave up. Some are still
+            trying. And some…”—he looked at Sam—“just need to see things from
+            another angle.”
+          </p>
           <p className="story-text">
             Sam’s eyes narrowed. “Are you saying <em>I’m</em> not good at yo-yo
             tricks?”
@@ -256,12 +254,10 @@ export default function Island() {
             made of scattered notebook pages and half-finished to-do lists. With
             each step, the grass beneath him glowed faintly.
           </p>
-          <blockquote className="story-callout">
-            <p className="story-text">
-              “Come with me. I want to show you something. Three some-things,
-              actually. Stories. And all of them? Almosts.”
-            </p>
-          </blockquote>
+          <p className="story-text">
+            “Come with me. I want to show you something. Three some-things,
+            actually. Stories. And all of them? Almosts.”
+          </p>
           <p className="story-text">Sam hesitated.</p>
           <p className="story-text">
             Then—he stood up. Yo-yo still tangled, heart still sore, but maybe…{" "}
@@ -290,11 +286,9 @@ export default function Island() {
           <p className="story-text">
             She noticed them and quickly stuffed one of the pages under a wing.
           </p>
-          <blockquote className="story-callout">
-            <p className="story-text">
-              “Oh! Visitors? Um. Sorry. I’m still… working on something.”
-            </p>
-          </blockquote>
+          <p className="story-text">
+            “Oh! Visitors? Um. Sorry. I’m still… working on something.”
+          </p>
           <p className="story-text">
             Practicio gave a small bow. “Sam, this is Thimble. The best
             almost-singer I’ve ever met.”
@@ -302,18 +296,14 @@ export default function Island() {
           <p className="story-text">
             Thimble looked embarrassed. “That’s not really a title, is it?”
           </p>
-          <blockquote className="story-callout">
-            <p className="story-text">
-              “It is here,” the turtle said gently. “Why don’t you show Sam one
-              of your songs?”
-            </p>
-          </blockquote>
+          <p className="story-text">
+            “It is here,” the turtle said gently. “Why don’t you show Sam one of
+            your songs?”
+          </p>
           <p className="story-text">
             The bird shuffled. “They’re not <em>done</em>.”
           </p>
-          <blockquote className="story-callout">
-            <p className="story-text">“They don’t have to be.”</p>
-          </blockquote>
+          <p className="story-text">“They don’t have to be.”</p>
           <p className="story-text">
             After a pause, Thimble pulled out a slip of paper and hummed a few
             bars. It was light and strange and hauntingly lovely.
@@ -355,20 +345,16 @@ export default function Island() {
             with a single, delicate line of lyrics—and tucked it into Sam’s
             pocket.
           </p>
-          <blockquote className="story-callout">
-            <p className="story-text">
-              “Here. It’s not finished. But it’s still <em>mine.</em> And maybe…
-              that’s enough for now.”
-            </p>
-          </blockquote>
+          <p className="story-text">
+            “Here. It’s not finished. But it’s still <em>mine.</em> And maybe…
+            that’s enough for now.”
+          </p>
           <p className="story-text">
             Practicio gave a soft smile as they turned to go.
           </p>
-          <blockquote className="story-callout">
-            <p className="story-text">
-              “Not everything needs to be a masterpiece to mean something.”
-            </p>
-          </blockquote>
+          <p className="story-text">
+            “Not everything needs to be a masterpiece to mean something.”
+          </p>
           <p className="story-text">
             The wind carried a few quiet notes behind them as they walked
             away—half a melody, unfinished… but still beautiful.
@@ -389,9 +375,7 @@ export default function Island() {
           <p className="story-text">
             A voice groaned from under a little leaf umbrella.
           </p>
-          <blockquote className="story-callout">
-            <p className="story-text">“Was. Used to be. Sort of.”</p>
-          </blockquote>
+          <p className="story-text">“Was. Used to be. Sort of.”</p>
           <p className="story-text">
             The snail was wearing a headband—damp, droopy, and too big—and had
             tiny racing stripes painted (badly) down his shell. Around him were
@@ -422,27 +406,20 @@ export default function Island() {
             takes me to <em>blink</em>.”
           </p>
           <p className="story-text">He lowered his voice.</p>
-          <blockquote className="story-callout">
-            <p className="story-text">
-              “So I stopped. What was the point? I’d never be <em>that</em>{" "}
-              fast.”
-            </p>
-          </blockquote>
+          <p className="story-text">
+            “So I stopped. What was the point? I’d never be <em>that</em> fast.”
+          </p>
           <p className="story-text">Sam was quiet.</p>
           <p className="story-text">Practicio looked at him gently.</p>
-          <blockquote className="story-callout">
-            <p className="story-text">
-              “Comparison can make you forget how far <em>you’ve</em> come.
-              Zoomie was never supposed to race cheetahs. He was supposed to
-              race <em>yesterday’s Zoomie.</em>”
-            </p>
-          </blockquote>
+          <p className="story-text">
+            “Comparison can make you forget how far <em>you’ve</em> come. Zoomie
+            was never supposed to race cheetahs. He was supposed to race{" "}
+            <em>yesterday’s Zoomie.</em>”
+          </p>
           <p className="story-text">Sam looked down at his yo-yo.</p>
-          <blockquote className="story-callout">
-            <p className="story-text">
-              “I keep thinking I’m supposed to be as good as Jamie.”
-            </p>
-          </blockquote>
+          <p className="story-text">
+            “I keep thinking I’m supposed to be as good as Jamie.”
+          </p>
           <p className="story-text">
             Zoomie snorted. “Well <em>don’t</em>. Jamie’s Jamie. You’re you. If
             I’d just kept training, I might’ve been the fastest snail{" "}
@@ -455,12 +432,10 @@ export default function Island() {
           </p>
           <p className="story-text">He smiled.</p>
           <p className="story-text">And Practicio smiled, too.</p>
-          <blockquote className="story-callout">
-            <p className="story-text">
-              “On this island,” the turtle said, “the race is never against
-              someone else. It’s against the part of you that wants to stop.”
-            </p>
-          </blockquote>
+          <p className="story-text">
+            “On this island,” the turtle said, “the race is never against
+            someone else. It’s against the part of you that wants to stop.”
+          </p>
           <h1 className="chapter-title">
             Chapter Three and a Half: The Shortcut
           </h1>
@@ -473,25 +448,19 @@ export default function Island() {
             could see a shimmer—like the place he came from.
           </p>
           <p className="story-text">He pointed.</p>
-          <blockquote className="story-callout">
-            <p className="story-text">“Is that… the way home?”</p>
-          </blockquote>
+          <p className="story-text">“Is that… the way home?”</p>
           <p className="story-text">Practicio looked at it for a long time.</p>
-          <blockquote className="story-callout">
-            <p className="story-text">
-              “Sort of. It leads back. But it skips the rest.”
-            </p>
-          </blockquote>
+          <p className="story-text">
+            “Sort of. It leads back. But it skips the rest.”
+          </p>
           <p className="story-text">
             Sam’s fingers tightened around his yo-yo.
           </p>
-          <blockquote className="story-callout">
-            <p className="story-text">
-              “I don’t know if I want to see more Almosts. It’s kind of… sad.
-              Like, what if I end up like them? What if <em>this</em> is just my
-              Almost?”
-            </p>
-          </blockquote>
+          <p className="story-text">
+            “I don’t know if I want to see more Almosts. It’s kind of… sad.
+            Like, what if I end up like them? What if <em>this</em> is just my
+            Almost?”
+          </p>
           <p className="story-text">
             Practicio didn’t answer right away. He just watched Sam. Not
             pushing.
@@ -503,32 +472,25 @@ export default function Island() {
           <p className="story-text">
             But something tugged at him. A memory. A page in his pocket.
           </p>
-          <blockquote className="story-callout">
-            <p className="story-text">
-              “Thimble gave me a song,” he whispered. “And Zoomie gave me a
-              poster.”
-            </p>
-          </blockquote>
+          <p className="story-text">
+            “Thimble gave me a song,” he whispered. “And Zoomie gave me a
+            poster.”
+          </p>
           <p className="story-text">He looked at the yo-yo in his hand.</p>
-          <blockquote className="story-callout">
-            <p className="story-text">
-              “I think they <em>kept</em> going. Somewhere. Even if it didn’t
-              work out.”
-            </p>
-          </blockquote>
+          <p className="story-text">
+            “I think they <em>kept</em> going. Somewhere. Even if it didn’t work
+            out.”
+          </p>
           <p className="story-text">Practicio nodded slowly.</p>
-          <blockquote className="story-callout">
-            <p className="story-text">
-              “The shortcut skips the struggle. But it skips the story, too.”
-            </p>
-          </blockquote>
+          <p className="story-text">
+            “The shortcut skips the struggle. But it skips the story, too.”
+          </p>
           <p className="story-text">
             Sam looked down the crooked path one last time.
           </p>
           <p className="story-text">Then turned away from it.</p>
-          <blockquote className="story-callout">
-            <p className="story-text">“Let’s keep going.”</p>
-          </blockquote>
+          <p className="story-text">“Let’s keep going.”</p>
+
           <p className="story-text">Practicio smiled, and they walked on.</p>
           <h1 className="chapter-title">
             Chapter Four: The Painter Who Erased the World
@@ -561,12 +523,10 @@ export default function Island() {
             “Oh! Visitors! Just a moment, I’m—well, actually, I’m{" "}
             <em>restarting</em>. Again.”
           </p>
-          <blockquote className="story-callout">
-            <p className="story-text">
-              “Sam,” said Practicio, “this is <em>Inky</em>. She’s one of the
-              most talented painters I’ve ever met.”
-            </p>
-          </blockquote>
+          <p className="story-text">
+            “Sam,” said Practicio, “this is <em>Inky</em>. She’s one of the most
+            talented painters I’ve ever met.”
+          </p>
           <p className="story-text">
             Inky waved a brush. “I <em>was</em>. Maybe. Before I started{" "}
             <em>thinking</em> about being good.”
@@ -584,29 +544,23 @@ export default function Island() {
             fixes.”
           </p>
           <p className="story-text">She picked up a brush with a sigh.</p>
-          <blockquote className="story-callout">
-            <p className="story-text">
-              “Now I paint and repaint until the colors forget what they were
-              trying to be.”
-            </p>
-          </blockquote>
+          <p className="story-text">
+            “Now I paint and repaint until the colors forget what they were
+            trying to be.”
+          </p>
           <p className="story-text">
             Practicio gently touched one of the canvases. It was beautiful—soft
             blues and oranges, like a dream about the ocean—but the center was
             completely smudged away.
           </p>
-          <blockquote className="story-callout">
-            <p className="story-text">
-              “Sometimes,” the turtle said, “we lose the joy of making because
-              we’re too busy judging the making.”
-            </p>
-          </blockquote>
+          <p className="story-text">
+            “Sometimes,” the turtle said, “we lose the joy of making because
+            we’re too busy judging the making.”
+          </p>
           <p className="story-text">Sam swallowed. That one hit close.</p>
-          <blockquote className="story-callout">
-            <p className="story-text">
-              “But what if it <em>is</em> bad?” he asked.
-            </p>
-          </blockquote>
+          <p className="story-text">
+            “But what if it <em>is</em> bad?” he asked.
+          </p>
           <p className="story-text">
             Inky gave him a crooked smile. “Then it’s{" "}
             <em>one step closer to being better</em>. You don’t learn anything
@@ -615,9 +569,7 @@ export default function Island() {
           <p className="story-text">
             She dipped a new brush in orange and handed it to Sam.
           </p>
-          <blockquote className="story-callout">
-            <p className="story-text">“Here. Try. Just a line.”</p>
-          </blockquote>
+          <p className="story-text">“Here. Try. Just a line.”</p>
           <p className="story-text">
             Sam hesitated. Then drew one wobbly stroke.
           </p>
@@ -638,15 +590,11 @@ export default function Island() {
             differently—like it wasn’t broken, just paused.
           </p>
           <p className="story-text">At the top of the hill, they heard it.</p>
-          <blockquote className="story-callout">
-            <p className="story-text">
-              <em>WHOOOSH—CLUNK—POOF.</em>
-            </p>
-          </blockquote>
+          <p className="story-text">
+            <em>WHOOOSH—CLUNK—POOF.</em>
+          </p>
           <p className="story-text">And then:</p>
-          <blockquote className="story-callout">
-            <p className="story-text">“WELL, THAT COULD’VE BEEN WORSE!”</p>
-          </blockquote>
+          <p className="story-text">“WELL, THAT COULD’VE BEEN WORSE!”</p>
           <p className="story-text">
             Sam stepped over the ridge and burst out laughing.
           </p>
@@ -657,12 +605,9 @@ export default function Island() {
             rolled into a bush.
           </p>
           <p className="story-text">She sat up, shook her head, and grinned.</p>
-          <blockquote className="story-callout">
-            <p className="story-text">
-              “Fall number 4,030! Who’s counting? <em>I am!</em> Wanna see
-              4,031?”
-            </p>
-          </blockquote>
+          <p className="story-text">
+            “Fall number 4,030! Who’s counting? <em>I am!</em> Wanna see 4,031?”
+          </p>
           <p className="story-text">
             Practicio chuckled. “Sam, meet <strong>Kip</strong>. She’s been
             practicing the same trick for three years.”
@@ -687,17 +632,11 @@ export default function Island() {
             it’s small—like ‘don’t practice after eating six apples.’ But every
             time, I get closer.”
           </p>
-          <blockquote className="story-callout">
-            <p className="story-text">“And someday, I’ll land it.”</p>
-          </blockquote>
+          <p className="story-text">“And someday, I’ll land it.”</p>
           <p className="story-text">She looked at Sam’s yo-yo.</p>
-          <blockquote className="story-callout">
-            <p className="story-text">“You fallin’, too?”</p>
-          </blockquote>
+          <p className="story-text">“You fallin’, too?”</p>
           <p className="story-text">Sam nodded.</p>
-          <blockquote className="story-callout">
-            <p className="story-text">“Then you’re already on the way.”</p>
-          </blockquote>
+          <p className="story-text">“Then you’re already on the way.”</p>
           <p className="story-text">
             Kip grinned and grabbed her skateboard. “Race you to the next fall!”
           </p>
@@ -705,13 +644,11 @@ export default function Island() {
           <p className="story-text">
             Practicio placed a gentle hand on his shoulder.
           </p>
-          <blockquote className="story-callout">
-            <p className="story-text">
-              “You’ve seen the island now. The Almosts. The Could-Have-Beens.
-              But you, Sam? You’re not done yet. And <em>that</em> makes all the
-              difference.”
-            </p>
-          </blockquote>
+          <p className="story-text">
+            “You’ve seen the island now. The Almosts. The Could-Have-Beens. But
+            you, Sam? You’re not done yet. And <em>that</em> makes all the
+            difference.”
+          </p>
           <p className="story-text">The sky shimmered.</p>
           <p className="story-text">The world softened.</p>
           <p className="story-text">And then—</p>
