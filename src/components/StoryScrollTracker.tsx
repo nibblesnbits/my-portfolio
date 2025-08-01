@@ -122,7 +122,12 @@ const removeBadge = (badgeToRemove: string) => {
             window.location.href
               .split("/")
               .at(-1)
-              ?.replace(/\?(.*)/gi, "") ?? "";
+              ?.replace(/\?(.*)/gi, "") ||
+            window.location.href
+              .split("/")
+              .at(-2)
+              ?.replace(/\?(.*)/gi, "") ||
+            "";
 
           if (!badges.includes(storyKey)) {
             const updated = [...badges, storyKey];
