@@ -37,7 +37,13 @@ export default function StoryScrollTracker({
   // Transform scroll progress to opacity for donate button (fades in at 50%)
   const donateOpacity = useTransform(scrollYProgress, [0.4, 0.6], [0, 1]);
   const donateScale = useTransform(scrollYProgress, [0.4, 0.6], [0.8, 1]);
-
+const removeBadge = (badgeToRemove: string) => {
+  const updated = badges.filter((b) => b !== badgeToRemove);
+  setBadges(updated);
+  if (typeof window !== "undefined") {
+    localStorage.setItem("earned-badges", JSON.stringify(updated));
+  }
+};
   useEffect(() => {
     const handleScroll = () => {
       const scrollTop = window.scrollY;
@@ -152,14 +158,26 @@ export default function StoryScrollTracker({
         animate={{ opacity: badges.length > 0 ? 1 : 0 }}
       >
         {badges.map((badge) => (
-          <motion.img
+          <div
             key={badge}
-            src={`/badges/${badge}.png`} // put badge images in /public/badges/
-            alt={`${badge} badge`}
-            className="w-10 h-10 rounded-full border-2 border-gray-300"
-            whileHover={{ scale: 1.2 }}
-            whileTap={{ scale: 0.95 }}
-          />
+            className="relative group" // group enables hover state for children
+          >
+            <motion.img
+              src={`/badges/${badge}.png`}
+              alt={`${badge} badge`}
+              className="w-10 h-10 rounded-full border-2 border-gray-300"
+              whileHover={{ scale: 1.2 }}
+              whileTap={{ scale: 0.95 }}
+            />
+
+            {/* X Button (hidden until hover) */}
+            <button
+              onClick={() => removeBadge(badge)}
+              className="absolute -top-2 -right-2 bg-red-500 text-white rounded-full w-5 h-5 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity"
+            >
+              ✕
+            </button>
+          </div>
         ))}
       </motion.div>
       {/* Progress Bar */}
