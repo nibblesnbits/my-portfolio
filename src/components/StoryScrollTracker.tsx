@@ -23,6 +23,7 @@ export default function StoryScrollTracker({
   const [scrollProgress, setScrollProgress] = useState(0);
   const [milestonesReached, setMilestonesReached] = useState(new Set<string>());
   const [badges, setBadges] = useState<string[]>([]);
+  const [mouseX, setMouseX] = useState<number | null>(null);
 
   useEffect(() => {
     if (typeof window !== "undefined") {
@@ -32,18 +33,19 @@ export default function StoryScrollTracker({
       }
     }
   }, []);
-  const { scrollYProgress } = useScroll();
 
-  // Transform scroll progress to opacity for donate button (fades in at 50%)
+  const { scrollYProgress } = useScroll();
   const donateOpacity = useTransform(scrollYProgress, [0.4, 0.6], [0, 1]);
   const donateScale = useTransform(scrollYProgress, [0.4, 0.6], [0.8, 1]);
-const removeBadge = (badgeToRemove: string) => {
-  const updated = badges.filter((b) => b !== badgeToRemove);
-  setBadges(updated);
-  if (typeof window !== "undefined") {
-    localStorage.setItem("earned-badges", JSON.stringify(updated));
-  }
-};
+
+  const removeBadge = (badgeToRemove: string) => {
+    const updated = badges.filter((b) => b !== badgeToRemove);
+    setBadges(updated);
+    if (typeof window !== "undefined") {
+      localStorage.setItem("earned-badges", JSON.stringify(updated));
+    }
+  };
+
   useEffect(() => {
     const handleScroll = () => {
       const scrollTop = window.scrollY;
@@ -52,7 +54,6 @@ const removeBadge = (badgeToRemove: string) => {
       const progress = Math.min(scrollTop / docHeight, 1);
       setScrollProgress(progress);
 
-      // Track chapter milestones
       chapters.forEach((chapter) => {
         if (
           progress >= chapter.threshold &&
@@ -60,7 +61,6 @@ const removeBadge = (badgeToRemove: string) => {
         ) {
           setMilestonesReached((prev) => new Set([...prev, chapter.id]));
 
-          // Fire GTM event for chapter progress
           if (typeof window !== "undefined" && window.dataLayer) {
             window.dataLayer.push({
               event: "story_progress",
@@ -74,7 +74,6 @@ const removeBadge = (badgeToRemove: string) => {
         }
       });
 
-      // Track major reading milestones
       const readingMilestones = [25, 50, 75, 90, 100];
       readingMilestones.forEach((milestone) => {
         const key = `reading-${milestone}`;
@@ -94,7 +93,6 @@ const removeBadge = (badgeToRemove: string) => {
         }
       });
 
-      // Track time spent reading (fire every 30 seconds)
       const timeKey = `time-${Math.floor(Date.now() / 30000)}`;
       if (!milestonesReached.has(timeKey)) {
         setMilestonesReached((prev) => new Set([...prev, timeKey]));
@@ -118,6 +116,7 @@ const removeBadge = (badgeToRemove: string) => {
             story_title: storyTitle,
             scroll_progress: 100,
           });
+
           const storyKey =
             window.location.href
               .split("/")
@@ -140,7 +139,7 @@ const removeBadge = (badgeToRemove: string) => {
 
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
-  }, [milestonesReached, chapters, storyTitle]);
+  }, [milestonesReached, chapters, storyTitle, badges]);
 
   const handleDonateClick = () => {
     if (typeof window !== "undefined" && window.dataLayer) {
@@ -161,34 +160,64 @@ const removeBadge = (badgeToRemove: string) => {
 
   return (
     <>
+      {/* Floating Badge Dock */}
       <motion.div
-        className="fixed bottom-6 left-1/2 -translate-x-1/2 flex gap-3 bg-white/90 backdrop-blur-sm p-3 rounded-full shadow-lg z-50"
+        className="fixed bottom-6 left-1/2 -translate-x-1/2 flex bg-white/90 backdrop-blur-sm p-3 rounded-full shadow-lg z-50"
         initial={{ opacity: 0 }}
         animate={{ opacity: badges.length > 0 ? 1 : 0 }}
+        onMouseMove={(e) => {
+          const rect = e.currentTarget.getBoundingClientRect();
+          setMouseX(e.clientX - rect.left);
+        }}
+        onMouseLeave={() => setMouseX(null)}
       >
-        {badges.map((badge) => (
-          <div
-            key={badge}
-            className="relative group" // group enables hover state for children
-          >
-            <motion.img
-              src={`/badges/${badge}.png`}
-              alt={`${badge} badge`}
-              className="w-10 h-10 rounded-full border-2 border-gray-300"
-              whileHover={{ scale: 1.2 }}
-              whileTap={{ scale: 0.95 }}
-            />
+        {badges.map((badge, i) => {
+          const baseWidth = 40; // matches w-10
+          const centerX = i * (baseWidth + 12) + baseWidth / 2;
+          let scale = 1;
 
-            {/* X Button (hidden until hover) */}
-            <button
-              onClick={() => removeBadge(badge)}
-              className="absolute -top-2 -right-2 bg-red-500 text-white rounded-full w-5 h-5 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity"
+          if (mouseX !== null) {
+            const distance = Math.abs(mouseX - centerX);
+            scale = Math.max(1, 2 - distance / 80);
+          }
+
+          return (
+            <motion.div
+              key={badge}
+              className="relative group cursor-pointer flex items-center justify-center"
+              animate={{ scale }}
+              style={{
+                marginLeft: i === 0 ? 0 : 8 * scale, // spacing scales with size
+                marginRight: i === badges.length - 1 ? 0 : 8 * scale,
+              }}
+              transition={{ type: "spring", stiffness: 300, damping: 20 }}
             >
-              ✕
-            </button>
-          </div>
-        ))}
+              <motion.img
+                src={`/badges/${badge}.png`}
+                alt={`${badge} badge`}
+                className="w-10 h-10 rounded-full border-2 border-gray-300"
+                onClick={() => {
+                  if (typeof window !== "undefined") {
+                    window.location.href = `/story/${badge}`;
+                  }
+                }}
+                whileHover={{ scale: 1.05 }}
+                whileTap={{ scale: 0.95 }}
+              />
+              <button
+                onClick={(e) => {
+                  e.stopPropagation();
+                  removeBadge(badge);
+                }}
+                className="absolute -top-2 -right-2 bg-red-500 text-white rounded-full w-5 h-5 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity"
+              >
+                ✕
+              </button>
+            </motion.div>
+          );
+        })}
       </motion.div>
+
       {/* Progress Bar */}
       {showProgressBar && (
         <motion.div
@@ -203,10 +232,7 @@ const removeBadge = (badgeToRemove: string) => {
       {/* Floating Donate Button */}
       <motion.div
         className="fixed bottom-6 right-6 z-40"
-        style={{
-          opacity: donateOpacity,
-          scale: donateScale,
-        }}
+        style={{ opacity: donateOpacity, scale: donateScale }}
       >
         <motion.a
           href={donateUrl}
@@ -226,7 +252,7 @@ const removeBadge = (badgeToRemove: string) => {
         </motion.a>
       </motion.div>
 
-      {/* Reading Progress Indicator (optional) */}
+      {/* Reading Progress Indicator */}
       <motion.div
         className="fixed bottom-6 left-6 z-40 bg-black/80 text-white px-3 py-1 rounded-full text-sm"
         initial={{ opacity: 0 }}
