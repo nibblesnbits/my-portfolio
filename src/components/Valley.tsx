@@ -1,11 +1,57 @@
-// src/components/Animated404.tsx
 import { motion } from "framer-motion";
 import FontSizeAdjuster from "./FontSizeAdjuster";
+import StoryScrollTracker from "./StoryScrollTracker";
 
-export default function Village() {
+export default function Valley() {
+  const chapters = [
+    { id: "chapter-1", threshold: 0.15, name: "Chapter One: The Trick That Wouldn't Land" },
+    { id: "chapter-2", threshold: 0.25, name: "Chapter Two: The Path with No Guide" },
+    { id: "chapter-3", threshold: 0.35, name: "Chapter Three: The Clockmaker and the Time That Wasn't" },
+    { id: "chapter-4", threshold: 0.45, name: "Chapter Four: The Gardener and the Seeds That Wait" },
+    { id: "chapter-5", threshold: 0.55, name: "Chapter Five: The Shadow and the Mirror That Listens" },
+    { id: "chapter-6", threshold: 0.65, name: "Chapter Six: The Cat and the Stars That Haven't Shown" },
+    { id: "chapter-7", threshold: 0.85, name: "Chapter Seven: The Trick That Still Doesn't Work" },
+  ];
+
+  const handlePDFDownload = () => {
+    if (typeof window !== "undefined" && window.dataLayer) {
+      window.dataLayer.push({
+        event: "pdf_download",
+        story_title: "The Valley of Yet-Stills",
+        download_type: "full_story",
+      });
+    }
+  };
+
+  const handleAudioPlay = () => {
+    if (typeof window !== "undefined" && window.dataLayer) {
+      window.dataLayer.push({
+        event: "audio_play",
+        story_title: "The Valley of Yet-Stills",
+        media_type: "audiobook",
+      });
+    }
+  };
+
+  const handleFeedbackClick = () => {
+    if (typeof window !== "undefined" && window.dataLayer) {
+      window.dataLayer.push({
+        event: "feedback_click",
+        story_title: "The Valley of Yet-Stills",
+        click_type: "feedback_form",
+      });
+    }
+  };
+
   return (
     <>
       <FontSizeAdjuster />
+      <StoryScrollTracker
+        storyTitle="The Valley of Yet-Stills"
+        chapters={chapters}
+        showProgressBar={true}
+      />
+
       <motion.div
         className="max-w-2xl mb-8 mt-8 book-container"
         initial={{ opacity: 0, y: 20 }}
@@ -23,6 +69,7 @@ export default function Village() {
           <a
             href="https://junothreadborne.me/docs/The%20Archive%20of%20Unsaid%20Things.pdf"
             className="underline text-2xl"
+            onClick={handlePDFDownload}
           >
             Download the PDF here.
           </a>
@@ -47,7 +94,7 @@ export default function Village() {
               ).
             </em>
           </p>
-          <audio controls className="w-full mb-4">
+          <audio controls className="w-full mb-4" onPlay={handleAudioPlay}>
             <source src="/audio/tvoys.mp3" type="audio/mpeg" />
             Your browser does not support the audio element.
           </audio>
@@ -784,6 +831,7 @@ export default function Village() {
           target="_blank"
           rel="noopener noreferrer"
           className="inline-block px-6 py-3 rounded-lg bg-secondary text-secondary-foreground font-medium hover:opacity-90 transition mb-4"
+          onClick={handleFeedbackClick}
         >
           💭 Share What Stayed With You
         </a>
@@ -795,32 +843,18 @@ export default function Village() {
         >
           🔙 Return Home
         </a>
-      </motion.div>
-      <div className="row py-2 lg:py-0 items-center flex-wrap-reverse">
-        <div className="text-center lg:col-6 lg:mb-0 lg:text-left">
-          <ul>
-            <li className="m-2 inline-block">
-              &copy; Juno Threadborne 2025{" "}
-              <a href="https://thrd.me/mirror">✨</a>
-            </li>
-          </ul>
-        </div>
-        <div className="text-center lg:col-6 lg:my-0 flex items-center justify-center lg:justify-end">
-          <div className="kofi-button">
-            <a
-              href="https://thrd.me/tip"
-              type="button"
-              className="text-white bg-[#3b5998] font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-[#3b5998]/55 me-2 mb-2"
-            >
-              <img
-                src="https://storage.ko-fi.com/cdn/logomarkLogo.png"
-                alt="Ko-fi donations"
-              />
-              &emsp;Fuel the Next Chapter
-            </a>
+
+        <div className="row py-2 lg:py-0 items-center flex-wrap-reverse">
+          <div className="text-center lg:col-6 lg:mb-0 lg:text-left">
+            <ul>
+              <li className="m-2 inline-block">
+                &copy; Juno Threadborne 2025{" "}
+                <a href="https://thrd.me/mirror">✨</a>
+              </li>
+            </ul>
           </div>
         </div>
-      </div>
+      </motion.div>
     </>
   );
 }

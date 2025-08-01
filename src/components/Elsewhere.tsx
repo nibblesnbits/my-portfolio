@@ -1,11 +1,79 @@
-// src/components/Animated404.tsx
 import { motion } from "framer-motion";
 import FontSizeAdjuster from "./FontSizeAdjuster";
+import StoryScrollTracker from "./StoryScrollTracker";
 
 export default function Elsewhere() {
+  const chapters = [
+    { id: "introduction", threshold: 0.05, name: "Unnecessary Introduction" },
+    { id: "chapter-1", threshold: 0.15, name: "Chapter 1: The Errand" },
+    { id: "chapter-2", threshold: 0.25, name: "Chapter 2: Entry Conditions" },
+    {
+      id: "chapter-3",
+      threshold: 0.35,
+      name: "Chapter 3: The Buffet of Unfinished Thoughts",
+    },
+    { id: "chapter-4", threshold: 0.45, name: "Chapter 4: REDACTED" },
+    {
+      id: "chapter-5",
+      threshold: 0.55,
+      name: "Chapter 5: The Mirror of Incorrect Memory",
+    },
+    {
+      id: "chapter-6",
+      threshold: 0.65,
+      name: "Chapter 6: The Game of Miscommunication",
+    },
+    {
+      id: "chapter-7",
+      threshold: 0.75,
+      name: "Chapter 7: The Man with No Shoes",
+    },
+    {
+      id: "chapter-8",
+      threshold: 0.85,
+      name: "Chapter 8: The Stitcher's Paradox",
+    },
+    {
+      id: "chapter-9",
+      threshold: 0.95,
+      name: "Chapter 9: The Conference of Inanimate Objects",
+    },
+    {
+      id: "chapter-9-5",
+      threshold: 0.98,
+      name: "Chapter 9.5: Things Remembered Differently",
+    },
+  ];
+
+  const handlePDFDownload = () => {
+    if (typeof window !== "undefined" && window.dataLayer) {
+      window.dataLayer.push({
+        event: "pdf_download",
+        story_title: "Elsewhere, Briefly",
+        download_type: "full_story",
+      });
+    }
+  };
+
+  const handleFeedbackClick = () => {
+    if (typeof window !== "undefined" && window.dataLayer) {
+      window.dataLayer.push({
+        event: "feedback_click",
+        story_title: "Elsewhere, Briefly",
+        click_type: "feedback_form",
+      });
+    }
+  };
+
   return (
     <>
       <FontSizeAdjuster />
+      <StoryScrollTracker
+        storyTitle="Elsewhere, Briefly"
+        chapters={chapters}
+        showProgressBar={true}
+      />
+
       <motion.div
         className="max-w-2xl mt-8 mb-8 book-container"
         initial={{ opacity: 0, y: 20 }}
@@ -23,6 +91,7 @@ export default function Elsewhere() {
           <a
             href="https://junothreadborne.me/docs/The%20Archive%20of%20Unsaid%20Things.pdf"
             className="underline text-2xl"
+            onClick={handlePDFDownload}
           >
             Download the PDF here.
           </a>
@@ -1955,6 +2024,7 @@ export default function Elsewhere() {
           target="_blank"
           rel="noopener noreferrer"
           className="inline-block px-6 py-3 rounded-lg bg-secondary text-secondary-foreground font-medium hover:opacity-90 transition mb-4"
+          onClick={handleFeedbackClick}
         >
           💭 Share What Stayed With You
         </a>
@@ -1966,32 +2036,18 @@ export default function Elsewhere() {
         >
           🔙 Return Home
         </a>
-      </motion.div>
-      <div className="row py-2 lg:py-0 items-center flex-wrap-reverse">
-        <div className="text-center lg:col-6 lg:mb-0 lg:text-left">
-          <ul>
-            <li className="m-2 inline-block">
-              &copy; Juno Threadborne 2025{" "}
-              <a href="https://thrd.me/mirror">✨</a>
-            </li>
-          </ul>
-        </div>
-        <div className="text-center lg:col-6 lg:my-0 flex items-center justify-center lg:justify-end">
-          <div className="kofi-button">
-            <a
-              href="https://thrd.me/tip"
-              type="button"
-              className="text-white bg-[#3b5998] font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-[#3b5998]/55 me-2 mb-2"
-            >
-              <img
-                src="https://storage.ko-fi.com/cdn/logomarkLogo.png"
-                alt="Ko-fi donations"
-              />
-              &emsp;Fuel the Next Chapter
-            </a>
+
+        <div className="row py-2 lg:py-0 items-center flex-wrap-reverse">
+          <div className="text-center lg:col-6 lg:mb-0 lg:text-left">
+            <ul>
+              <li className="m-2 inline-block">
+                &copy; Juno Threadborne 2025{" "}
+                <a href="https://thrd.me/mirror">✨</a>
+              </li>
+            </ul>
           </div>
         </div>
-      </div>
+      </motion.div>
     </>
   );
 }

@@ -1,11 +1,58 @@
-// src/components/Animated404.tsx
 import { motion } from "framer-motion";
 import FontSizeAdjuster from "./FontSizeAdjuster";
+import StoryScrollTracker from "./StoryScrollTracker";
 
 export default function Village() {
+  const chapters = [
+    { id: "chapter-1", threshold: 0.05, name: "Chapter 1: The Wind in the Walls" },
+    { id: "chapter-2", threshold: 0.1, name: "Chapter 2: Nightfall in the Village" },
+    { id: "chapter-3", threshold: 0.15, name: "Chapter 3: The Bakery That Listens" },
+    { id: "chapter-4", threshold: 0.2, name: "Chapter 4: Said-So Academy" },
+    { id: "chapter-5", threshold: 0.25, name: "Chapter 5: The Sleepover" },
+    { id: "chapter-6", threshold: 0.3, name: "Chapter 6: The Thought That Didn't Finish" },
+    { id: "chapter-7", threshold: 0.35, name: "Chapter 7: Return to the Wind" },
+    { id: "chapter-8", threshold: 0.4, name: "Chapter 8: The Tangle" },
+    { id: "chapter-9", threshold: 0.45, name: "Chapter 9: The News" },
+    { id: "chapter-10", threshold: 0.5, name: "Chapter 10: The Split" },
+    { id: "chapter-11", threshold: 0.55, name: "Chapter 11: The Path Once Taken" },
+    { id: "chapter-12", threshold: 0.6, name: "Chapter 12: The Path Meant for Another" },
+    { id: "chapter-13", threshold: 0.65, name: "Chapter 13: Still Here" },
+    { id: "chapter-14", threshold: 0.7, name: "Chapter 14: A Mountain More Than You Can Chew" },
+    { id: "chapter-15", threshold: 0.75, name: "Chapter 15: The Summit and the Shrine" },
+    { id: "chapter-16", threshold: 0.8, name: "Chapter 16: The Village On Fire" },
+    { id: "chapter-17", threshold: 0.85, name: "Chapter 17: Backdraft" },
+    { id: "chapter-18", threshold: 0.9, name: "Chapter 18: The End?" },
+  ];
+
+  const handlePDFDownload = () => {
+    if (typeof window !== "undefined" && window.dataLayer) {
+      window.dataLayer.push({
+        event: "pdf_download",
+        story_title: "The Village of Voicekeepers",
+        download_type: "full_story",
+      });
+    }
+  };
+
+  const handleFeedbackClick = () => {
+    if (typeof window !== "undefined" && window.dataLayer) {
+      window.dataLayer.push({
+        event: "feedback_click",
+        story_title: "The Village of Voicekeepers",
+        click_type: "feedback_form",
+      });
+    }
+  };
+
   return (
     <>
       <FontSizeAdjuster />
+      <StoryScrollTracker
+        storyTitle="The Village of Voicekeepers"
+        chapters={chapters}
+        showProgressBar={true}
+      />
+
       <motion.div
         className="max-w-2xl mb-8 mt-8 book-container"
         initial={{ opacity: 0, y: 20 }}
@@ -23,6 +70,7 @@ export default function Village() {
           <a
             href="https://junothreadborne.me/docs/The%20Archive%20of%20Unsaid%20Things.pdf"
             className="underline text-2xl"
+            onClick={handlePDFDownload}
           >
             Download the PDF here.
           </a>
@@ -4690,6 +4738,7 @@ export default function Village() {
           target="_blank"
           rel="noopener noreferrer"
           className="inline-block px-6 py-3 rounded-lg bg-secondary text-secondary-foreground font-medium hover:opacity-90 transition mb-4"
+          onClick={handleFeedbackClick}
         >
           💭 Share What Stayed With You
         </a>
@@ -4701,6 +4750,8 @@ export default function Village() {
         >
           🔙 Return Home
         </a>
+
+        {/* Footer content stays the same */}
         <div className="row py-2 lg:py-0 items-center flex-wrap-reverse">
           <div className="text-center lg:col-6 lg:mb-0 lg:text-left">
             <ul>
@@ -4710,33 +4761,9 @@ export default function Village() {
               </li>
             </ul>
           </div>
+          {/* Remove the old static Ko-fi button since we now have the floating one */}
         </div>
       </motion.div>
-      <div className="row py-2 lg:py-0 items-center flex-wrap-reverse">
-        <div className="text-center lg:col-6 lg:mb-0 lg:text-left">
-          <ul>
-            <li className="m-2 inline-block">
-              &copy; Juno Threadborne 2025{" "}
-              <a href="https://thrd.me/mirror">✨</a>
-            </li>
-          </ul>
-        </div>
-        <div className="text-center lg:col-6 lg:my-0 flex items-center justify-center lg:justify-end">
-          <div className="kofi-button">
-            <a
-              href="https://thrd.me/tip"
-              type="button"
-              className="text-white bg-[#3b5998] font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-[#3b5998]/55 me-2 mb-2"
-            >
-              <img
-                src="https://storage.ko-fi.com/cdn/logomarkLogo.png"
-                alt="Ko-fi donations"
-              />
-              &emsp;Fuel the Next Chapter
-            </a>
-          </div>
-        </div>
-      </div>
     </>
   );
 }

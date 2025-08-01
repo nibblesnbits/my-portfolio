@@ -1,11 +1,60 @@
-// src/components/Animated404.tsx
 import { motion } from "framer-motion";
 import FontSizeAdjuster from "./FontSizeAdjuster";
+import StoryScrollTracker from "./StoryScrollTracker";
 
-export default function Village() {
+export default function Archive() {
+  const chapters = [
+    { id: "prologue", threshold: 0.05, name: "Prologue: Things Begun" },
+    { id: "chapter-1", threshold: 0.15, name: "Chapter 1: Things Lost" },
+    { id: "chapter-2", threshold: 0.25, name: "Chapter 2: Things Kept" },
+    { id: "chapter-3", threshold: 0.35, name: "Chapter 3: Things Unsaid" },
+    { id: "chapter-4", threshold: 0.45, name: "Chapter 4: Things Hidden" },
+    { id: "chapter-5", threshold: 0.55, name: "Chapter 5: Things Buried" },
+    { id: "chapter-6", threshold: 0.65, name: "Chapter 6: Things Returned" },
+    { id: "chapter-7", threshold: 0.75, name: "Chapter 7: Things Shared" },
+    { id: "chapter-8", threshold: 0.8, name: "Chapter 8: Things Rooted" },
+    { id: "chapter-9", threshold: 0.85, name: "Chapter 9: Things Carried" },
+    { id: "chapter-10", threshold: 0.88, name: "Chapter 10: Things Gathered" },
+    { id: "chapter-11", threshold: 0.91, name: "Chapter 11: Things Broken" },
+    { id: "chapter-12", threshold: 0.94, name: "Chapter 12: Things Mended" },
+    {
+      id: "chapter-14",
+      threshold: 0.97,
+      name: "Chapter 14: Things Remembered",
+    },
+    { id: "chapter-15", threshold: 0.98, name: "Chapter 15: Things Given" },
+    { id: "chapter-16", threshold: 0.99, name: "Chapter 16: Things Made New" },
+  ];
+
+  const handlePDFDownload = () => {
+    if (typeof window !== "undefined" && window.dataLayer) {
+      window.dataLayer.push({
+        event: "pdf_download",
+        story_title: "The Archive of Unsaid Things",
+        download_type: "full_story",
+      });
+    }
+  };
+
+  const handleFeedbackClick = () => {
+    if (typeof window !== "undefined" && window.dataLayer) {
+      window.dataLayer.push({
+        event: "feedback_click",
+        story_title: "The Archive of Unsaid Things",
+        click_type: "feedback_form",
+      });
+    }
+  };
+
   return (
     <>
       <FontSizeAdjuster />
+      <StoryScrollTracker
+        storyTitle="The Archive of Unsaid Things"
+        chapters={chapters}
+        showProgressBar={true}
+      />
+
       <motion.div
         className="max-w-2xl mb-8 mt-8 book-container"
         initial={{ opacity: 0, y: 20 }}
@@ -23,10 +72,12 @@ export default function Village() {
           <a
             href="https://junothreadborne.me/docs/The%20Archive%20of%20Unsaid%20Things.pdf"
             className="underline text-2xl"
+            onClick={handlePDFDownload}
           >
             Download the PDF here.
           </a>
         </div>
+        <hr />
         <hr />
         <div>
           <h1 className="chapter-title">The Archive of Unsaid Things</h1>
@@ -4251,6 +4302,7 @@ export default function Village() {
           target="_blank"
           rel="noopener noreferrer"
           className="inline-block px-6 py-3 rounded-lg bg-secondary text-secondary-foreground font-medium hover:opacity-90 transition mb-4"
+          onClick={handleFeedbackClick}
         >
           💭 Share What Stayed With You
         </a>
@@ -4262,32 +4314,18 @@ export default function Village() {
         >
           🔙 Return Home
         </a>
-      </motion.div>
-      <div className="row py-2 lg:py-0 items-center flex-wrap-reverse">
-        <div className="text-center lg:col-6 lg:mb-0 lg:text-left">
-          <ul>
-            <li className="m-2 inline-block">
-              &copy; Juno Threadborne 2025{" "}
-              <a href="https://thrd.me/mirror">✨</a>
-            </li>
-          </ul>
-        </div>
-        <div className="text-center lg:col-6 lg:my-0 flex items-center justify-center lg:justify-end">
-          <div className="kofi-button">
-            <a
-              href="https://thrd.me/tip"
-              type="button"
-              className="text-white bg-[#3b5998] font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-[#3b5998]/55 me-2 mb-2"
-            >
-              <img
-                src="https://storage.ko-fi.com/cdn/logomarkLogo.png"
-                alt="Ko-fi donations"
-              />
-              &emsp;Fuel the Next Chapter
-            </a>
+
+        <div className="row py-2 lg:py-0 items-center flex-wrap-reverse">
+          <div className="text-center lg:col-6 lg:mb-0 lg:text-left">
+            <ul>
+              <li className="m-2 inline-block">
+                &copy; Juno Threadborne 2025{" "}
+                <a href="https://thrd.me/mirror">✨</a>
+              </li>
+            </ul>
           </div>
         </div>
-      </div>
+      </motion.div>
     </>
   );
 }

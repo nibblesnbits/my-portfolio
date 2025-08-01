@@ -1,11 +1,62 @@
-// src/components/Animated404.tsx
 import { motion } from "framer-motion";
 import FontSizeAdjuster from "./FontSizeAdjuster";
+import StoryScrollTracker from "./StoryScrollTracker";
 
-export default function Village() {
+export default function Mountain() {
+  const chapters = [
+    { id: "chapter-1", threshold: 0.1, name: "Chapter One: The Puzzle and the Stuck Sides" },
+    { id: "chapter-2", threshold: 0.18, name: "Chapter 2: The Trail of Tried Things" },
+    { id: "chapter-3", threshold: 0.26, name: "Chapter 3: The Climb of First Doubts" },
+    { id: "chapter-4", threshold: 0.34, name: "Chapter 4: The Shrine of the Start-Overs" },
+    { id: "chapter-5", threshold: 0.42, name: "Chapter 5: The Shortcut of False Progress" },
+    { id: "chapter-6", threshold: 0.5, name: "Chapter 6: The Song That Shows the Way" },
+    { id: "chapter-7", threshold: 0.58, name: "Chapter 7: The Towers of the Climber" },
+    { id: "chapter-8", threshold: 0.66, name: "Chapter 8: The Wind and the Whisper" },
+    { id: "chapter-9", threshold: 0.74, name: "Chapter 9: The Ridge of Resting Fears" },
+    { id: "chapter-10", threshold: 0.82, name: "Chapter 10: The Turn of Practicio's Path" },
+    { id: "chapter-11", threshold: 0.9, name: "Chapter 11: The Loop of the Wrong Move" },
+    { id: "chapter-12", threshold: 0.95, name: "Chapter 12: The Summit of Stillness and Stars" },
+  ];
+
+  const handlePDFDownload = () => {
+    if (typeof window !== "undefined" && window.dataLayer) {
+      window.dataLayer.push({
+        event: "pdf_download",
+        story_title: "The Mountain of Mastery",
+        download_type: "full_story",
+      });
+    }
+  };
+
+  const handleAudioPlay = () => {
+    if (typeof window !== "undefined" && window.dataLayer) {
+      window.dataLayer.push({
+        event: "audio_play",
+        story_title: "The Mountain of Mastery",
+        media_type: "audiobook",
+      });
+    }
+  };
+
+  const handleFeedbackClick = () => {
+    if (typeof window !== "undefined" && window.dataLayer) {
+      window.dataLayer.push({
+        event: "feedback_click",
+        story_title: "The Mountain of Mastery",
+        click_type: "feedback_form",
+      });
+    }
+  };
+
   return (
     <>
       <FontSizeAdjuster />
+      <StoryScrollTracker
+        storyTitle="The Mountain of Mastery"
+        chapters={chapters}
+        showProgressBar={true}
+      />
+
       <motion.div
         className="max-w-2xl mb-8 mt-8 book-container"
         initial={{ opacity: 0, y: 20 }}
@@ -23,6 +74,7 @@ export default function Village() {
           <a
             href="https://junothreadborne.me/docs/The%20Archive%20of%20Unsaid%20Things.pdf"
             className="underline text-2xl"
+            onClick={handlePDFDownload}
           >
             Download the PDF here.
           </a>
@@ -47,7 +99,7 @@ export default function Village() {
               ).
             </em>
           </p>
-          <audio controls className="w-full mb-4">
+          <audio controls className="w-full mb-4" onPlay={handleAudioPlay}>
             <source src="/audio/mom.mp3" type="audio/mpeg" />
             Your browser does not support the audio element.
           </audio>
@@ -1854,6 +1906,7 @@ export default function Village() {
             <strong>So does he.</strong>
           </p>
         </div>
+        
         <br />
         <p className="mt-6 mb-2 text-center text-muted-foreground">
           I'd love to hear what moments mattered most to you.
@@ -1863,6 +1916,7 @@ export default function Village() {
           target="_blank"
           rel="noopener noreferrer"
           className="inline-block px-6 py-3 rounded-lg bg-secondary text-secondary-foreground font-medium hover:opacity-90 transition mb-4"
+          onClick={handleFeedbackClick}
         >
           💭 Share What Stayed With You
         </a>
@@ -1874,32 +1928,18 @@ export default function Village() {
         >
           🔙 Return Home
         </a>
-      </motion.div>
-      <div className="row py-2 lg:py-0 items-center flex-wrap-reverse">
-        <div className="text-center lg:col-6 lg:mb-0 lg:text-left">
-          <ul>
-            <li className="m-2 inline-block">
-              &copy; Juno Threadborne 2025{" "}
-              <a href="https://thrd.me/mirror">✨</a>
-            </li>
-          </ul>
-        </div>
-        <div className="text-center lg:col-6 lg:my-0 flex items-center justify-center lg:justify-end">
-          <div className="kofi-button">
-            <a
-              href="https://thrd.me/tip"
-              type="button"
-              className="text-white bg-[#3b5998] font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-[#3b5998]/55 me-2 mb-2"
-            >
-              <img
-                src="https://storage.ko-fi.com/cdn/logomarkLogo.png"
-                alt="Ko-fi donations"
-              />
-              &emsp;Fuel the Next Chapter
-            </a>
+
+        <div className="row py-2 lg:py-0 items-center flex-wrap-reverse">
+          <div className="text-center lg:col-6 lg:mb-0 lg:text-left">
+            <ul>
+              <li className="m-2 inline-block">
+                &copy; Juno Threadborne 2025{" "}
+                <a href="https://thrd.me/mirror">✨</a>
+              </li>
+            </ul>
           </div>
         </div>
-      </div>
+      </motion.div>
     </>
   );
 }
