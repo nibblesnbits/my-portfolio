@@ -118,7 +118,11 @@ const removeBadge = (badgeToRemove: string) => {
             story_title: storyTitle,
             scroll_progress: 100,
           });
-          const storyKey = window.location.href.split("/").at(-1) ?? "";
+          const storyKey =
+            window.location.href
+              .split("/")
+              .at(-1)
+              ?.replace(/\?(.*)/gi, "") ?? "";
 
           if (!badges.includes(storyKey)) {
             const updated = [...badges, storyKey];
