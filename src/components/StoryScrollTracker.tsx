@@ -92,6 +92,21 @@ export default function StoryScrollTracker({
           });
         }
       }
+
+      // Fire postMessage when reader finishes the book
+      if (progress >= 1 && !milestonesReached.has("badge-sent")) {
+        setMilestonesReached((prev) => new Set([...prev, "badge-sent"]));
+
+        if (window.parent && window.parent !== window) {
+          window.parent.postMessage(
+            {
+              type: `BADGE_UNLOCKED`,
+              badge: storyTitle, // or some unique ID
+            },
+            "https://elsebeneath.online" // target origin for security
+          );
+        }
+      }
     };
 
     window.addEventListener("scroll", handleScroll);
