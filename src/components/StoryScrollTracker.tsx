@@ -22,6 +22,16 @@ export default function StoryScrollTracker({
 }: StoryScrollTrackerProps) {
   const [scrollProgress, setScrollProgress] = useState(0);
   const [milestonesReached, setMilestonesReached] = useState(new Set<string>());
+  const [badges, setBadges] = useState<string[]>([]);
+
+  useEffect(() => {
+    if (typeof window !== "undefined") {
+      const saved = localStorage.getItem("earned-badges");
+      if (saved) {
+        setBadges(JSON.parse(saved));
+      }
+    }
+  }, []);
   const { scrollYProgress } = useScroll();
 
   // Transform scroll progress to opacity for donate button (fades in at 50%)
@@ -93,18 +103,22 @@ export default function StoryScrollTracker({
         }
       }
 
-      // Fire postMessage when reader finishes the book
-      if (progress >= 1 && !milestonesReached.has("badge-sent")) {
+      if (progress >= 0.98 && !milestonesReached.has("badge-sent")) {
         setMilestonesReached((prev) => new Set([...prev, "badge-sent"]));
 
-        if (window.parent && window.parent !== window) {
-          window.parent.postMessage(
-            {
-              type: `BADGE_UNLOCKED`,
-              badge: storyTitle, // or some unique ID
-            },
-            "https://elsebeneath.online" // target origin for security
-          );
+        if (typeof window !== "undefined" && window.dataLayer) {
+          window.dataLayer.push({
+            event: "story_completed",
+            story_title: storyTitle,
+            scroll_progress: 100,
+          });
+          const storyKey = window.location.href.split("/").at(-1) ?? "";
+
+          if (!badges.includes(storyKey)) {
+            const updated = [...badges, storyKey];
+            setBadges(updated);
+            localStorage.setItem("earned-badges", JSON.stringify(updated));
+          }
         }
       }
     };
@@ -132,6 +146,22 @@ export default function StoryScrollTracker({
 
   return (
     <>
+      <motion.div
+        className="fixed bottom-6 left-1/2 -translate-x-1/2 flex gap-3 bg-white/90 backdrop-blur-sm p-3 rounded-full shadow-lg z-50"
+        initial={{ opacity: 0 }}
+        animate={{ opacity: badges.length > 0 ? 1 : 0 }}
+      >
+        {badges.map((badge) => (
+          <motion.img
+            key={badge}
+            src={`/badges/${badge}.png`} // put badge images in /public/badges/
+            alt={`${badge} badge`}
+            className="w-10 h-10 rounded-full border-2 border-gray-300"
+            whileHover={{ scale: 1.2 }}
+            whileTap={{ scale: 0.95 }}
+          />
+        ))}
+      </motion.div>
       {/* Progress Bar */}
       {showProgressBar && (
         <motion.div
