@@ -1,21 +1,70 @@
 import { motion } from "framer-motion";
 import FontSizeAdjuster from "./FontSizeAdjuster";
 import StoryScrollTracker from "./StoryScrollTracker";
+import ChapterTitle from "./ChapterTitle";
 
 export default function Mountain() {
   const chapters = [
-    { id: "chapter-1", threshold: 0.1, name: "Chapter One: The Puzzle and the Stuck Sides" },
-    { id: "chapter-2", threshold: 0.18, name: "Chapter 2: The Trail of Tried Things" },
-    { id: "chapter-3", threshold: 0.26, name: "Chapter 3: The Climb of First Doubts" },
-    { id: "chapter-4", threshold: 0.34, name: "Chapter 4: The Shrine of the Start-Overs" },
-    { id: "chapter-5", threshold: 0.42, name: "Chapter 5: The Shortcut of False Progress" },
-    { id: "chapter-6", threshold: 0.5, name: "Chapter 6: The Song That Shows the Way" },
-    { id: "chapter-7", threshold: 0.58, name: "Chapter 7: The Towers of the Climber" },
-    { id: "chapter-8", threshold: 0.66, name: "Chapter 8: The Wind and the Whisper" },
-    { id: "chapter-9", threshold: 0.74, name: "Chapter 9: The Ridge of Resting Fears" },
-    { id: "chapter-10", threshold: 0.82, name: "Chapter 10: The Turn of Practicio's Path" },
-    { id: "chapter-11", threshold: 0.9, name: "Chapter 11: The Loop of the Wrong Move" },
-    { id: "chapter-12", threshold: 0.95, name: "Chapter 12: The Summit of Stillness and Stars" },
+    {
+      id: "chapter-1",
+      threshold: 0.1,
+      name: "Chapter One: The Puzzle and the Stuck Sides",
+    },
+    {
+      id: "chapter-2",
+      threshold: 0.18,
+      name: "Chapter 2: The Trail of Tried Things",
+    },
+    {
+      id: "chapter-3",
+      threshold: 0.26,
+      name: "Chapter 3: The Climb of First Doubts",
+    },
+    {
+      id: "chapter-4",
+      threshold: 0.34,
+      name: "Chapter 4: The Shrine of the Start-Overs",
+    },
+    {
+      id: "chapter-5",
+      threshold: 0.42,
+      name: "Chapter 5: The Shortcut of False Progress",
+    },
+    {
+      id: "chapter-6",
+      threshold: 0.5,
+      name: "Chapter 6: The Song That Shows the Way",
+    },
+    {
+      id: "chapter-7",
+      threshold: 0.58,
+      name: "Chapter 7: The Towers of the Climber",
+    },
+    {
+      id: "chapter-8",
+      threshold: 0.66,
+      name: "Chapter 8: The Wind and the Whisper",
+    },
+    {
+      id: "chapter-9",
+      threshold: 0.74,
+      name: "Chapter 9: The Ridge of Resting Fears",
+    },
+    {
+      id: "chapter-10",
+      threshold: 0.82,
+      name: "Chapter 10: The Turn of Practicio's Path",
+    },
+    {
+      id: "chapter-11",
+      threshold: 0.9,
+      name: "Chapter 11: The Loop of the Wrong Move",
+    },
+    {
+      id: "chapter-12",
+      threshold: 0.95,
+      name: "Chapter 12: The Summit of Stillness and Stars",
+    },
   ];
 
   const handlePDFDownload = () => {
@@ -103,9 +152,10 @@ export default function Mountain() {
             <source src="/audio/mom.mp3" type="audio/mpeg" />
             Your browser does not support the audio element.
           </audio>
-          <h1 className="chapter-title">
-            Chapter One: The Puzzle and the Stuck Sides
-          </h1>
+          <ChapterTitle
+            id="chapter-1"
+            name="Chapter One: The Puzzle and the Stuck Sides"
+          />
           <p className="story-text">
             Sam sat on the back steps, turning the cube over in his hands like
             maybe—just maybe—this time it would make sense.
@@ -253,9 +303,10 @@ export default function Mountain() {
             The mountain <em>was</em> the puzzle.
           </p>
           <p className="story-text">And he had already taken the first turn.</p>
-          <h1 className="chapter-title">
-            Chapter 2: The Trail of Tried Things
-          </h1>
+          <ChapterTitle
+            id="chapter-2"
+            name="Chapter 2: The Trail of Tried Things"
+          />
           <p className="story-text">
             The path looked too clean. Like someone had swept it, then left it
             full of memory.
@@ -353,9 +404,10 @@ export default function Mountain() {
             Practicio patted Sam on the back and smiled. &quot;Let&#39;s find
             out.&quot;
           </p>
-          <h1 className="chapter-title">
-            Chapter 3: The Climb of First Doubts
-          </h1>
+          <ChapterTitle
+            id="chapter-3"
+            name="Chapter 3: The Climb of First Doubts"
+          />
           <p className="story-text">
             The path ahead was jagged. He could see the whole path—winding back
             and forth, sometimes looping over itself like a scribble someone had
@@ -499,9 +551,10 @@ export default function Mountain() {
           <p className="story-text">Something inside him clicked, too.</p>
           <p className="story-text">And the climb wasn&#39;t over.</p>
           <p className="story-text">But it felt a little less lonely.</p>
-          <h1 className="chapter-title">
-            Chapter 4: The Shrine of the Start-Overs
-          </h1>
+          <ChapterTitle
+            id="chapter-4"
+            name="Chapter 4: The Shrine of the Start-Overs"
+          />
           <p className="story-text">
             The mountain curved inward, then outward again, like it had
             forgotten which direction it was supposed to be going. The path here
@@ -701,9 +754,10 @@ export default function Mountain() {
             And the wind behind them sounded like applause made of scissors and
             glue.
           </p>
-          <h1 className="chapter-title">
-            Chapter 5: The Shortcut of False Progress
-          </h1>
+          <ChapterTitle
+            id="chapter-5"
+            name="Chapter 5: The Shortcut of False Progress"
+          />
           <p className="story-text">
             The path curved around a steep rock wall, climbing up in slow
             switchbacks.
@@ -862,9 +916,10 @@ export default function Mountain() {
           <p className="story-text">
             And for the first time in a while—he could feel it changing.
           </p>
-          <h1 className="chapter-title">
-            Chapter 6: The Song That Shows the Way
-          </h1>
+          <ChapterTitle
+            id="chapter-6"
+            name="Chapter 6: The Song That Shows the Way"
+          />
           <p className="story-text">
             The mouth of the cave looked like the mountain had taken a breath
             and then held it for a thousand years.
@@ -1065,9 +1120,10 @@ export default function Mountain() {
           <p className="story-text">One last hum. One final echo.</p>
           <p className="story-text">And then—</p>
           <p className="story-text">They stepped into the light.</p>
-          <h1 className="chapter-title">
-            Chapter 7: The Towers of the Climber
-          </h1>
+          <ChapterTitle
+            id="chapter-7"
+            name="Chapter 7: The Towers of the Climber"
+          />
           <p className="story-text">The ridge was quiet.</p>
           <p className="story-text">
             Not silent. Just… <em>careful.</em>
@@ -1292,7 +1348,10 @@ export default function Mountain() {
             And for the first time since the mountain began, his steps echoed{" "}
             <em>alone</em>.
           </p>
-          <h1 className="chapter-title">Chapter 8: The Wind and the Whisper</h1>
+          <ChapterTitle
+            id="chapter-8"
+            name="Chapter 8: The Wind and the Whisper"
+          />
           <p className="story-text">The path was narrow.</p>
           <p className="story-text">
             Not dangerous. Just <em>quiet</em>.
@@ -1392,9 +1451,10 @@ export default function Mountain() {
           <p className="story-text">
             Just to <em>keep going.</em>
           </p>
-          <h1 className="chapter-title">
-            Chapter 9: The Ridge of Resting Fears
-          </h1>
+          <ChapterTitle
+            id="chapter-9"
+            name="Chapter 9: The Ridge of Resting Fears"
+          />
           <p className="story-text">
             Sam had reached a resting place—narrow but flat—near the top of the
             mountain. Practicio had taken another route at the last fork, too
@@ -1420,30 +1480,16 @@ export default function Mountain() {
           <p className="story-text">
             <strong>He could see everything.</strong>
           </p>
-          <ul className="bullet-list">
-            <li>
-              <p className="story-text">The trail of trinkets below.</p>
-            </li>
-            <li>
-              <p className="story-text">The Valley of Yet-Stills.</p>
-            </li>
-            <li>
-              <p className="story-text">
-                A glimpse of the Island of Almosts, just <em>barely</em>{" "}
-                visible—like a smudge of memory on the horizon.
-              </p>
-            </li>
-            <li>
-              <p className="story-text">
-                The cave behind him, the place of song.
-              </p>
-            </li>
-            <li>
-              <p className="story-text">
-                The cairn where he had added his own star.
-              </p>
-            </li>
-          </ul>
+          <p className="story-text">The trail of trinkets below.</p>
+          <p className="story-text">The Valley of Yet-Stills.</p>
+          <p className="story-text">
+            A glimpse of the Island of Almosts, just <em>barely</em>{" "}
+            visible—like a smudge of memory on the horizon.
+          </p>
+          <p className="story-text">The cave behind him, the place of song.</p>
+          <p className="story-text">
+            The cairn where he had added his own star.
+          </p>
           <p className="story-text">Sam let out a breath.</p>
           <p className="story-text">&quot;I&#39;ve come a long way.&quot;</p>
           <p className="story-text">But then—silence.</p>
@@ -1528,9 +1574,10 @@ export default function Mountain() {
             Practicio grinned. &quot;No. But now you know how to get
             there.&quot;
           </p>
-          <h1 className="chapter-title">
-            Chapter 10: The Turn of Practicio&#39;s Path
-          </h1>
+          <ChapterTitle
+            id="chapter-10"
+            name="Chapter 10: The Turn of Practicio's Path"
+          />
           <p className="story-text">The sky was thinning.</p>
           <p className="story-text">
             Not in color—but in distance.
@@ -1637,9 +1684,10 @@ export default function Mountain() {
           </p>
           <p className="story-text">And they climbed.</p>
           <p className="story-text">Together.</p>
-          <h1 className="chapter-title">
-            Chapter 11: The Loop of the Wrong Move
-          </h1>
+          <ChapterTitle
+            id="chapter-11"
+            name="Chapter 11: The Loop of the Wrong Move"
+          />
           <p className="story-text">Sam took a step.</p>
           <p className="story-text">Then another.</p>
           <p className="story-text">Then another.</p>
@@ -1744,9 +1792,10 @@ export default function Mountain() {
           <p className="story-text">They looked toward the summit.</p>
           <p className="story-text">One step left.</p>
           <p className="story-text">Just one.</p>
-          <h1 className="chapter-title">
-            Chapter 12: The Summit of Stillness and Stars
-          </h1>
+          <ChapterTitle
+            id="chapter-12"
+            name="Chapter 12: The Summit of Stillness and Stars"
+          />
           <p className="story-text">The path ended without warning.</p>
           <p className="story-text">No archway. No sign.</p>
           <p className="story-text">Just a last flat stretch of stone.</p>
@@ -1906,7 +1955,7 @@ export default function Mountain() {
             <strong>So does he.</strong>
           </p>
         </div>
-        
+
         <br />
         <p className="mt-6 mb-2 text-center text-muted-foreground">
           I'd love to hear what moments mattered most to you.
