@@ -75,12 +75,12 @@ export default function Kippen() {
           <p className="story-text">by Juno Threadborne</p>
           <hr />
           <br />
-          {/* <audio controls className="w-full mb-4" onPlay={handleAudioPlay}>
+          <audio controls className="w-full mb-4" onPlay={handleAudioPlay}>
             <source src="/audio/kippen.mp3" type="audio/mpeg" />
             Your browser does not support the audio element.
           </audio>
           <hr />
-          <br /> */}
+          <br />
           <p className="story-text">
             Kippen woke the way he always did—like someone who had never once
             worried the world might not adore him. There was no one in the house
@@ -156,7 +156,7 @@ export default function Kippen() {
           </p>
           <p className="story-text">
             Behind him, a windchime above the door blurted, “Don’t forget your
-            laces!”
+            own laces!”
           </p>
           <p className="story-text">
             Gable spun on his heel, laughing. “Right! Thanks!” and casually
@@ -240,9 +240,9 @@ export default function Kippen() {
             <br />
             Her smile didn’t vanish, but it dimmed.
             <br />
-            She looked down at her letters. “Well… yes. I suppose you do.”
+            She looked down at her letters. “Well… mostly.”
           </p>
-          <p className="story-text">Kippen noticed.</p>
+          <p className="story-text">Kippen flinched.</p>
           <p className="story-text">
             Not all of him.
             <br />
