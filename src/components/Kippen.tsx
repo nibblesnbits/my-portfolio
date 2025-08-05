@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import FontSizeAdjuster from "./FontSizeAdjuster";
 import StoryScrollTracker from "./StoryScrollTracker";
+import { TextSelectionSharing } from "./TextSelectionsSharing";
 
 export default function Kippen() {
   const chapters = [{ id: "book", threshold: 0.9, name: "Book" }];
@@ -67,7 +68,13 @@ export default function Kippen() {
           </a>
         </div>
         <hr />
-        <div>
+        <TextSelectionSharing
+          storyTitle="A Kitten Named Kippen"
+          author="Juno Threadborne"
+          minSelectionLength={15}
+          platforms={["twitter", "linkedin", "facebook", "copy"]}
+          className="prose prose-lg max-w-none"
+        >
           <h1 className="chapter-title">A Kitten Named Kippen</h1>
           <p className="story-text">
             <em>An Elsebeneath Interlude</em>
@@ -569,7 +576,7 @@ export default function Kippen() {
             <br />
             Just… a little less lonely than before.
           </p>
-        </div>
+        </TextSelectionSharing>
         <br />
         <p className="mt-6 mb-2 text-center text-muted-foreground">
           I'd love to hear what moments mattered most to you.
