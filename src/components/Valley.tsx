@@ -68,7 +68,7 @@ export default function Valley() {
         </p>
         <div className="text-center mb-6">
           <a
-            href="https://junothreadborne.me/docs/The%20Archive%20of%20Unsaid%20Things.pdf"
+            href="https://junothreadborne.me/docs/The%20Valley%20of%20Yet-Stills.pdf"
             className="underline text-2xl"
             onClick={handlePDFDownload}
           >
@@ -99,8 +99,11 @@ export default function Valley() {
             <source src="/audio/tvoys.mp3" type="audio/mpeg" />
             Your browser does not support the audio element.
           </audio>
-          
-          <ChapterTitle id="chapter-1" name="Chapter One: The Trick That Wouldn&#39;t Land" />
+
+          <ChapterTitle
+            id="chapter-1"
+            name="Chapter One: The Trick That Wouldn&#39;t Land"
+          />
           <p className="story-text">Sam stood in the driveway again.</p>
           <p className="story-text">Same spot. Same shoes. Same yo-yo.</p>
           <p className="story-text">
@@ -191,7 +194,10 @@ export default function Valley() {
           </blockquote>
           <p className="story-text">Sam took a breath.</p>
           <p className="story-text">And walked toward the sound.</p>
-          <ChapterTitle id="chapter-2" name="Chapter Two: The Path with No Guide" />
+          <ChapterTitle
+            id="chapter-2"
+            name="Chapter Two: The Path with No Guide"
+          />
           <p className="story-text">
             The grass swayed as he moved. Not like it was pushing him
             forward—more like it was letting him pass. Soft green blades
@@ -254,7 +260,10 @@ export default function Valley() {
           <p className="story-text">And with that, he took the next step.</p>
           <p className="story-text">The breeze sighed in approval.</p>
           <p className="story-text">And the ticking grew closer.</p>
-          <ChapterTitle id="chapter-1" name="Chapter Three: The Clockmaker and the Time That Wasn&#39;t" />
+          <ChapterTitle
+            id="chapter-1"
+            name="Chapter Three: The Clockmaker and the Time That Wasn&#39;t"
+          />
           <p className="story-text">
             The ticking grew louder—like a metronome keeping time with his feet.
           </p>
@@ -373,8 +382,11 @@ export default function Valley() {
             <br />
             Like... progress.
           </p>
-          
-          <ChapterTitle id="chapter-1" name="Chapter Four: The Gardener and the Seeds That Wait" />
+
+          <ChapterTitle
+            id="chapter-1"
+            name="Chapter Four: The Gardener and the Seeds That Wait"
+          />
           <p className="story-text">
             The path from the clockmaker&#39;s shed wound downhill, past tufts
             of wild lavender and stones arranged in quiet spirals. The ticking
@@ -486,7 +498,10 @@ export default function Valley() {
           <p className="story-text">
             The kind of things that wait for you to catch up.
           </p>
-          <ChapterTitle id="chapter-5" name="Chapter Five: The Shadow and the Mirror That Listens" />
+          <ChapterTitle
+            id="chapter-5"
+            name="Chapter Five: The Shadow and the Mirror That Listens"
+          />
           <p className="story-text">The air grew cooler as Sam walked.</p>
           <p className="story-text">
             Not cold—just still. Like a library you didn&#39;t know you&#39;d
@@ -637,7 +652,10 @@ export default function Valley() {
           <p className="story-text">
             And for a moment—just a moment—he felt taller than he was.
           </p>
-          <ChapterTitle id="chapter-6" name="Chapter Six: The Cat and the Stars That Haven't Shown" />
+          <ChapterTitle
+            id="chapter-6"
+            name="Chapter Six: The Cat and the Stars That Haven't Shown"
+          />
           <p className="story-text">
             The path opened wider again, curving along the edge of a low ridge
             where the trees grew thin and the sky grew wide. The air smelled
@@ -735,7 +753,10 @@ export default function Valley() {
           </p>
           <p className="story-text">Not a lot.</p>
           <p className="story-text">But enough.</p>
-          <ChapterTitle id="chapter-7" name="Chapter Seven: The Trick That Still Doesn&#39;t Work" />
+          <ChapterTitle
+            id="chapter-7"
+            name="Chapter Seven: The Trick That Still Doesn&#39;t Work"
+          />
           <p className="story-text">The path curved back toward itself.</p>
           <p className="story-text">
             Not in a circle, exactly. More like a loop—one you could walk again

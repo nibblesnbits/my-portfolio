@@ -61,14 +61,14 @@ export default function Village() {
       >
         <p className="text-xl md:text-2xl text-muted-foreground mb-6">
           <img
-            src="/vov-cover.webp"
+            src="/village-cover.webp"
             alt="Village of Voicekeepers"
             className="w-full mb-4 rounded-lg shadow-lg"
           />
         </p>
         <div className="text-center mb-6">
           <a
-            href="https://junothreadborne.me/docs/The%20Archive%20of%20Unsaid%20Things.pdf"
+            href="https://junothreadborne.me/docs/The%20Village%20of%20Voicekeepers.pdf"
             className="underline text-2xl"
             onClick={handlePDFDownload}
           >

@@ -121,7 +121,7 @@ export default function Mountain() {
         </p>
         <div className="text-center mb-6">
           <a
-            href="https://junothreadborne.me/docs/The%20Archive%20of%20Unsaid%20Things.pdf"
+            href="https://junothreadborne.me/docs/The%20Mountain%20of%20Mastery.pdf"
             className="underline text-2xl"
             onClick={handlePDFDownload}
           >

@@ -1,0 +1,13 @@
+---
+// src/pages/404.astro
+import Layout from "../../layouts/StoryLayout.astro";
+import KippenComponent from "../../components/Kippen.tsx";
+---
+
+<Layout title="A Kitten Named Kippen" image="/kippen-cover.png">
+  <main
+    class="min-h-screen flex flex-col items-center justify-center text-center px-4"
+  >
+    <KippenComponent client:load />
+  </main>
+</Layout>
