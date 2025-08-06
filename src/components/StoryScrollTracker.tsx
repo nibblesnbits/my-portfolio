@@ -1,5 +1,10 @@
-import { motion, useScroll, useTransform } from "framer-motion";
-import { useEffect, useState } from "react";
+import {
+  motion,
+  useScroll,
+  useTransform,
+  AnimatePresence,
+} from "framer-motion";
+import { useEffect, useState, useCallback, useRef } from "react";
 
 interface Chapter {
   id: string;
@@ -12,6 +17,126 @@ interface StoryScrollTrackerProps {
   chapters?: Chapter[];
   donateUrl?: string;
   showProgressBar?: boolean;
+  // New props for resume functionality
+  resumeThreshold?: number; // Minimum scroll % to save position (default: 5%)
+  debounceMs?: number; // Debounce delay for saving (default: 500ms)
+}
+
+interface SavedPosition {
+  scrollY: number;
+  scrollProgress: number;
+  timestamp: number;
+  storyTitle: string;
+}
+
+interface ResumeModalProps {
+  isOpen: boolean;
+  onResume: () => void;
+  onDismiss: () => void;
+  scrollProgress: number;
+  storyTitle: string;
+}
+
+function ResumeModal({
+  isOpen,
+  onResume,
+  onDismiss,
+  scrollProgress,
+  storyTitle,
+}: ResumeModalProps) {
+  if (!isOpen) return null;
+
+  const formatTimeAgo = (timestamp: number) => {
+    const now = Date.now();
+    const diff = now - timestamp;
+    const minutes = Math.floor(diff / 60000);
+    const hours = Math.floor(diff / 3600000);
+    const days = Math.floor(diff / 86400000);
+
+    if (days > 0) return `${days} day${days > 1 ? "s" : ""} ago`;
+    if (hours > 0) return `${hours} hour${hours > 1 ? "s" : ""} ago`;
+    if (minutes > 0) return `${minutes} minute${minutes > 1 ? "s" : ""} ago`;
+    return "just now";
+  };
+
+  return (
+    <AnimatePresence>
+      <motion.div
+        className="fixed inset-0 bg-black/50 backdrop-blur-sm z-[100] flex items-center justify-center p-4"
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        exit={{ opacity: 0 }}
+        onClick={onDismiss}
+      >
+        <motion.div
+          className="bg-white rounded-xl shadow-2xl max-w-md w-full p-6"
+          initial={{ scale: 0.9, opacity: 0, y: 20 }}
+          animate={{ scale: 1, opacity: 1, y: 0 }}
+          exit={{ scale: 0.9, opacity: 0, y: 20 }}
+          transition={{ type: "spring", duration: 0.3 }}
+          onClick={(e) => e.stopPropagation()}
+        >
+          <div className="flex items-center gap-3 mb-4">
+            <div className="w-10 h-10 bg-gradient-to-br from-purple-500 to-blue-500 rounded-full flex items-center justify-center">
+              <svg
+                className="w-5 h-5 text-white"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.746 0 3.332.477 4.5 1.253v13C19.832 18.477 18.246 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"
+                />
+              </svg>
+            </div>
+            <div>
+              <h3 className="font-semibold text-gray-900">Welcome back!</h3>
+              <p className="text-sm text-gray-600">
+                Continue reading where you left off
+              </p>
+            </div>
+          </div>
+
+          <div className="bg-gray-50 rounded-lg p-4 mb-6">
+            <div className="flex justify-between items-center mb-2">
+              <span className="text-sm font-medium text-gray-700">
+                Progress in "{storyTitle}"
+              </span>
+              <span className="text-sm font-bold text-purple-600">
+                {Math.round(scrollProgress * 100)}%
+              </span>
+            </div>
+            <div className="w-full bg-gray-200 rounded-full h-2">
+              <motion.div
+                className="bg-gradient-to-r from-purple-500 to-blue-500 h-2 rounded-full"
+                initial={{ width: 0 }}
+                animate={{ width: `${scrollProgress * 100}%` }}
+                transition={{ duration: 0.8, ease: "easeOut" }}
+              />
+            </div>
+          </div>
+
+          <div className="flex gap-3">
+            <button
+              onClick={onDismiss}
+              className="flex-1 px-4 py-2 border border-gray-300 rounded-lg text-gray-700 hover:bg-gray-50 transition-colors font-medium"
+            >
+              Start Over
+            </button>
+            <button
+              onClick={onResume}
+              className="flex-1 px-4 py-2 bg-gradient-to-r from-purple-600 to-blue-600 text-white rounded-lg hover:from-purple-700 hover:to-blue-700 transition-colors font-medium"
+            >
+              Continue Reading
+            </button>
+          </div>
+        </motion.div>
+      </motion.div>
+    </AnimatePresence>
+  );
 }
 
 export default function StoryScrollTracker({
@@ -19,17 +144,76 @@ export default function StoryScrollTracker({
   chapters = [],
   donateUrl = "https://thrd.me/tip",
   showProgressBar = true,
+  resumeThreshold = 0.05, // 5% minimum to save
+  debounceMs = 500,
 }: StoryScrollTrackerProps) {
   const [scrollProgress, setScrollProgress] = useState(0);
   const [milestonesReached, setMilestonesReached] = useState(new Set<string>());
   const [badges, setBadges] = useState<string[]>([]);
   const [mouseX, setMouseX] = useState<number | null>(null);
+  const [showResumeModal, setShowResumeModal] = useState(false);
+  const [savedPosition, setSavedPosition] = useState<SavedPosition | null>(
+    null
+  );
 
+  // Refs for debouncing and cleanup
+  const savePositionTimeoutRef = useRef<NodeJS.Timeout | null>(null);
+  const hasCheckedForSavedPosition = useRef(false);
+
+  // Generate a unique key for this story's saved position
+  const getStorageKey = useCallback(() => {
+    const urlPath =
+      typeof window !== "undefined"
+        ? window.location.pathname.replace(/\/$/, "")
+        : "";
+    return `story-position-${btoa(urlPath + storyTitle).replace(
+      /[^a-zA-Z0-9]/g,
+      ""
+    )}`;
+  }, [storyTitle]);
+
+  // Load saved position on mount
+  useEffect(() => {
+    if (typeof window === "undefined" || hasCheckedForSavedPosition.current)
+      return;
+
+    hasCheckedForSavedPosition.current = true;
+
+    try {
+      const saved = localStorage.getItem(getStorageKey());
+      if (saved) {
+        const position: SavedPosition = JSON.parse(saved);
+
+        // Validate the saved position is for the same story and not too old (7 days)
+        const isValidPosition =
+          position.storyTitle === storyTitle &&
+          position.scrollProgress >= resumeThreshold &&
+          position.scrollProgress < 0.95 && // Don't resume if nearly finished
+          Date.now() - position.timestamp < 7 * 24 * 60 * 60 * 1000; // 7 days
+
+        if (isValidPosition) {
+          setSavedPosition(position);
+          setShowResumeModal(true);
+        }
+      }
+    } catch (error) {
+      console.warn("Failed to load saved reading position:", error);
+      // Clean up corrupted data
+      localStorage.removeItem(getStorageKey());
+    }
+  }, [storyTitle, getStorageKey, resumeThreshold]);
+
+  // Load badges on mount
   useEffect(() => {
     if (typeof window !== "undefined") {
-      const saved = localStorage.getItem("earned-badges");
-      if (saved) {
-        setBadges(JSON.parse(saved));
+      try {
+        const saved = localStorage.getItem("earned-badges");
+        if (saved) {
+          setBadges(JSON.parse(saved));
+        }
+      } catch (error) {
+        console.warn("Failed to load badges:", error);
+        localStorage.removeItem("earned-badges");
       }
     }
   }, []);
@@ -38,11 +222,86 @@ export default function StoryScrollTracker({
   const donateOpacity = useTransform(scrollYProgress, [0.4, 0.6], [0, 1]);
   const donateScale = useTransform(scrollYProgress, [0.4, 0.6], [0.8, 1]);
 
+  // Debounced function to save scroll position
+  const saveScrollPosition = useCallback(
+    (progress: number, scrollY: number) => {
+      if (typeof window === "undefined" || progress < resumeThreshold) return;
+
+      // Clear existing timeout
+      if (savePositionTimeoutRef.current) {
+        clearTimeout(savePositionTimeoutRef.current);
+      }
+
+      // Set new timeout
+      savePositionTimeoutRef.current = setTimeout(() => {
+        try {
+          const position: SavedPosition = {
+            scrollY,
+            scrollProgress: progress,
+            timestamp: Date.now(),
+            storyTitle,
+          };
+          localStorage.setItem(getStorageKey(), JSON.stringify(position));
+        } catch (error) {
+          console.warn("Failed to save reading position:", error);
+        }
+      }, debounceMs);
+    },
+    [resumeThreshold, debounceMs, storyTitle, getStorageKey]
+  );
+
+  // Resume reading function
+  const handleResumeReading = useCallback(() => {
+    if (!savedPosition) return;
+
+    setShowResumeModal(false);
+
+    // Smooth scroll to saved position
+    window.scrollTo({
+      top: savedPosition.scrollY,
+      behavior: "smooth",
+    });
+
+    // Track resume action
+    if (typeof window !== "undefined" && window.dataLayer) {
+      window.dataLayer.push({
+        event: "reading_resumed",
+        story_title: storyTitle,
+        resumed_progress: Math.round(savedPosition.scrollProgress * 100),
+        time_since_last_read: Date.now() - savedPosition.timestamp,
+      });
+    }
+  }, [savedPosition, storyTitle]);
+
+  const handleDismissResume = useCallback(() => {
+    setShowResumeModal(false);
+
+    // Clear saved position since user chose to start over
+    if (typeof window !== "undefined") {
+      localStorage.removeItem(getStorageKey());
+    }
+
+    // Track dismissal
+    if (typeof window !== "undefined" && window.dataLayer) {
+      window.dataLayer.push({
+        event: "reading_resume_dismissed",
+        story_title: storyTitle,
+        dismissed_progress: savedPosition
+          ? Math.round(savedPosition.scrollProgress * 100)
+          : 0,
+      });
+    }
+  }, [getStorageKey, storyTitle, savedPosition]);
+
   const removeBadge = (badgeToRemove: string) => {
     const updated = badges.filter((b) => b !== badgeToRemove);
     setBadges(updated);
     if (typeof window !== "undefined") {
-      localStorage.setItem("earned-badges", JSON.stringify(updated));
+      try {
+        localStorage.setItem("earned-badges", JSON.stringify(updated));
+      } catch (error) {
+        console.warn("Failed to save badges:", error);
+      }
     }
   };
 
@@ -54,6 +313,10 @@ export default function StoryScrollTracker({
       const progress = Math.min(scrollTop / docHeight, 1);
       setScrollProgress(progress);
 
+      // Save scroll position (debounced)
+      saveScrollPosition(progress, scrollTop);
+
+      // Existing chapter tracking logic
       chapters.forEach((chapter) => {
         if (
           progress >= chapter.threshold &&
@@ -74,6 +337,7 @@ export default function StoryScrollTracker({
         }
       });
 
+      // Existing milestone tracking logic
       const readingMilestones = [25, 50, 75, 90, 100];
       readingMilestones.forEach((milestone) => {
         const key = `reading-${milestone}`;
@@ -93,6 +357,7 @@ export default function StoryScrollTracker({
         }
       });
 
+      // Existing time tracking logic
       const timeKey = `time-${Math.floor(Date.now() / 30000)}`;
       if (!milestonesReached.has(timeKey)) {
         setMilestonesReached((prev) => new Set([...prev, timeKey]));
@@ -107,8 +372,14 @@ export default function StoryScrollTracker({
         }
       }
 
+      // Existing completion logic with position cleanup
       if (progress >= 0.98 && !milestonesReached.has("badge-sent")) {
         setMilestonesReached((prev) => new Set([...prev, "badge-sent"]));
+
+        // Clean up saved position since story is completed
+        if (typeof window !== "undefined") {
+          localStorage.removeItem(getStorageKey());
+        }
 
         if (typeof window !== "undefined" && window.dataLayer) {
           window.dataLayer.push({
@@ -131,15 +402,32 @@ export default function StoryScrollTracker({
           if (!badges.includes(storyKey)) {
             const updated = [...badges, storyKey];
             setBadges(updated);
-            localStorage.setItem("earned-badges", JSON.stringify(updated));
+            try {
+              localStorage.setItem("earned-badges", JSON.stringify(updated));
+            } catch (error) {
+              console.warn("Failed to save badges:", error);
+            }
           }
         }
       }
     };
 
-    window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, [milestonesReached, chapters, storyTitle, badges]);
+    window.addEventListener("scroll", handleScroll, { passive: true });
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+      // Clear any pending save operations
+      if (savePositionTimeoutRef.current) {
+        clearTimeout(savePositionTimeoutRef.current);
+      }
+    };
+  }, [
+    milestonesReached,
+    chapters,
+    storyTitle,
+    badges,
+    saveScrollPosition,
+    getStorageKey,
+  ]);
 
   const handleDonateClick = () => {
     if (typeof window !== "undefined" && window.dataLayer) {
@@ -160,6 +448,15 @@ export default function StoryScrollTracker({
 
   return (
     <>
+      {/* Resume Reading Modal */}
+      <ResumeModal
+        isOpen={showResumeModal}
+        onResume={handleResumeReading}
+        onDismiss={handleDismissResume}
+        scrollProgress={savedPosition?.scrollProgress || 0}
+        storyTitle={storyTitle}
+      />
+
       {/* Floating Badge Dock */}
       <motion.div
         className="fixed bottom-6 left-1/2 -translate-x-1/2 flex bg-white/90 backdrop-blur-sm p-3 rounded-full shadow-lg z-50"
@@ -172,7 +469,7 @@ export default function StoryScrollTracker({
         onMouseLeave={() => setMouseX(null)}
       >
         {badges.map((badge, i) => {
-          const baseWidth = 40; // matches w-10
+          const baseWidth = 40;
           const centerX = i * (baseWidth + 12) + baseWidth / 2;
           let scale = 1;
 
@@ -187,7 +484,7 @@ export default function StoryScrollTracker({
               className="relative group cursor-pointer flex items-center justify-center"
               animate={{ scale }}
               style={{
-                marginLeft: i === 0 ? 0 : 8 * scale, // spacing scales with size
+                marginLeft: i === 0 ? 0 : 8 * scale,
                 marginRight: i === badges.length - 1 ? 0 : 8 * scale,
               }}
               transition={{ type: "spring", stiffness: 300, damping: 20 }}
