@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import FontSizeAdjuster from "./FontSizeAdjuster";
 import StoryScrollTracker from "./StoryScrollTracker";
 import { TextSelectionSharing } from "./TextSelectionsSharing";
+import TranslateInvite from "./TranslateRequest";
 
 export default function Kippen() {
   const chapters = [{ id: "book", threshold: 0.9, name: "Book" }];
@@ -39,6 +40,7 @@ export default function Kippen() {
   return (
     <>
       <FontSizeAdjuster />
+      <TranslateInvite />
       <StoryScrollTracker
         storyTitle="A Kitten Named Kippen"
         chapters={chapters}

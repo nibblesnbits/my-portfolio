@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import FontSizeAdjuster from "./FontSizeAdjuster";
 import StoryScrollTracker from "./StoryScrollTracker";
+import TranslateInvite from "./TranslateRequest";
 
 export default function Elsewhere() {
   const chapters = [
@@ -67,6 +68,7 @@ export default function Elsewhere() {
 
   return (
     <>
+      <TranslateInvite />
       <FontSizeAdjuster />
       <StoryScrollTracker
         storyTitle="Elsewhere, Briefly"

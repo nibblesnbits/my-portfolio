@@ -185,6 +185,20 @@
   code {
     @apply bg-muted px-1 py-0.5 rounded text-sm font-mono;
   }
+
+  select {
+  background-color: #222; /* dark background */
+  color: #eee; /* light text */
+  border: 1px solid #555;
+  border-radius: 4px;
+  padding: 0.25rem 0.5rem;
+}
+
+select option {
+  background-color: #333; /* slightly lighter dark */
+  color: #eee; /* light text */
+}
+
 }
 
 

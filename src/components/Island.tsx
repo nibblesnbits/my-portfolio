@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import FontSizeAdjuster from "./FontSizeAdjuster";
 import StoryScrollTracker from "./StoryScrollTracker";
 import ChapterTitle from "./ChapterTitle";
+import TranslateInvite from "./TranslateRequest";
 
 export default function Island() {
   // Define chapters for The Island of Almosts
@@ -67,6 +68,7 @@ export default function Island() {
 
   return (
     <>
+      <TranslateInvite />
       <FontSizeAdjuster />
       <StoryScrollTracker
         storyTitle="The Island of Almosts"

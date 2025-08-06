@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import FontSizeAdjuster from "./FontSizeAdjuster";
 import StoryScrollTracker from "./StoryScrollTracker";
+import TranslateInvite from "./TranslateRequest";
 
 export default function Archive() {
   const chapters = [
@@ -48,6 +49,7 @@ export default function Archive() {
 
   return (
     <>
+      <TranslateInvite />
       <FontSizeAdjuster />
       <StoryScrollTracker
         storyTitle="The Archive of Unsaid Things"

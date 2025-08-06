@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import FontSizeAdjuster from "./FontSizeAdjuster";
 import StoryScrollTracker from "./StoryScrollTracker";
 import ChapterTitle from "./ChapterTitle";
+import TranslateInvite from "./TranslateRequest";
 
 export default function Mountain() {
   const chapters = [
@@ -99,6 +100,7 @@ export default function Mountain() {
 
   return (
     <>
+      <TranslateInvite />
       <FontSizeAdjuster />
       <StoryScrollTracker
         storyTitle="The Mountain of Mastery"

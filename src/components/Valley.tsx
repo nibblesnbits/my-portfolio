@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import FontSizeAdjuster from "./FontSizeAdjuster";
 import StoryScrollTracker from "./StoryScrollTracker";
 import ChapterTitle from "./ChapterTitle";
+import TranslateInvite from "./TranslateRequest";
 
 export default function Valley() {
   const chapters = [
@@ -46,6 +47,7 @@ export default function Valley() {
 
   return (
     <>
+      <TranslateInvite />
       <FontSizeAdjuster />
       <StoryScrollTracker
         storyTitle="The Valley of Yet-Stills"

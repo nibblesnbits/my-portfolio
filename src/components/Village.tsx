@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import FontSizeAdjuster from "./FontSizeAdjuster";
 import StoryScrollTracker from "./StoryScrollTracker";
+import TranslateInvite from "./TranslateRequest";
 
 export default function Village() {
   const chapters = [
@@ -46,6 +47,7 @@ export default function Village() {
 
   return (
     <>
+      <TranslateInvite />
       <FontSizeAdjuster />
       <StoryScrollTracker
         storyTitle="The Village of Voicekeepers"
