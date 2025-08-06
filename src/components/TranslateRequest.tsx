@@ -84,6 +84,18 @@ const translations = {
       "https://docs.google.com/forms/d/e/1FAIpQLSdYAYJTbfInDEuSyFupBmVd-zLECV23HrL7hgyGuL-LoBg3Ew/viewform?usp=sharing&ouid=112014812140367339055",
     close: "Zavřít",
   },
+  tr: {
+    greeting: "Merhaba!",
+    message:
+      "The Elsebeneath’e geldiğiniz için çok teşekkür ederim. Ben Juno Threadborne, yazar. Bu hikâyenin size ulaşmasından büyük mutluluk duyuyorum.",
+    invite:
+      "Eğer çeviriye yardımcı olmak isterseniz ya da hikâyeyi kendi dilinizde okumak istiyorsanız, lütfen benimle şu adresten iletişime geçin:",
+    email: "jthreadborne@gmail.com",
+    or: "veya bu formu doldurun:",
+    formUrl:
+      "https://docs.google.com/forms/d/e/1FAIpQLSdYAYJTbfInDEuSyFupBmVd-zLECV23HrL7hgyGuL-LoBg3Ew/viewform?usp=sharing&ouid=11201481214036733905",
+    close: "Kapat",
+  },
 };
 
 const languageNames = {
@@ -94,6 +106,7 @@ const languageNames = {
   ko: "한국어",
   nl: "Nederlands",
   cs: "Čeština",
+  tr: "Türkçe",
 };
 
 export default function TranslateInvite() {
