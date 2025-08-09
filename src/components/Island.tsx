@@ -3,6 +3,7 @@ import FontSizeAdjuster from "./FontSizeAdjuster";
 import StoryScrollTracker from "./StoryScrollTracker";
 import ChapterTitle from "./ChapterTitle";
 import TranslateInvite from "./TranslateRequest";
+import PersonalizationForm from "./PersonalizationForm";
 
 export default function Island() {
   // Define chapters for The Island of Almosts
@@ -97,6 +98,10 @@ export default function Island() {
           >
             Download the PDF here.
           </a>
+        </div>
+        <hr />
+        <div>
+          <PersonalizationForm />
         </div>
         <hr />
         <div>
