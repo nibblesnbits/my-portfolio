@@ -113,8 +113,7 @@ export default function Island() {
 
           <p className="story-text">
             <em>
-              Listen to the Audiobook (narrated by <a href="/lumina">Lumina</a>{" "}
-              with music provided by{" "}
+              Listen to the Audiobook (with music provided by{" "}
               <a
                 className="underline"
                 href="https://pixabay.com/users/9096471/"
