@@ -158,7 +158,6 @@ export default function Archive() {
 <p className="story-text">“Was it the kind you meant to say?”</p>
 <p className="story-text">Gable closed his hand around the card.</p>
 <p className="story-text">“I don’t know yet.”</p>
-<p className="story-text">The wind, it seemed, had forgotten how to carry certain things.</p>
 <p className="story-text">The hush wasn’t empty—it was listening. The ribbons didn’t sway; they leaned. And somewhere beyond the garden, something had begun to ring without sound.</p>
 <h1 className="chapter-title">Chapter 2: <em>Things Kept</em></h1>
 <p className="story-text">Gable didn’t speak on the way back.</p>
