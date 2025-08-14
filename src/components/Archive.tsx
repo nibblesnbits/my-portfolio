@@ -377,6 +377,7 @@ export default function Archive() {
             Gable rolled his eyes, the corner of his mouth twitching toward
             something that wasn’t a smile.
           </p>
+          <p className="story-text">His voice was low.</p>
           <p className="story-text">“We’re mourning, Vel.”</p>
           <hr />
           <p className="story-text">
@@ -409,6 +410,9 @@ export default function Archive() {
           <p className="story-text">“Was it the kind you meant to say?”</p>
           <p className="story-text">Gable closed his hand around the card.</p>
           <p className="story-text">“I don’t know yet.”</p>
+          <p className="story-text">
+            The wind, it seemed, had forgotten how to carry certain things.
+          </p>
           <p className="story-text">
             The hush wasn’t empty—it was listening. The ribbons didn’t sway;
             they leaned. And somewhere beyond the garden, something had begun to
@@ -580,6 +584,8 @@ export default function Archive() {
             empty tonight, save for a single card turned facedown.
             <br />
             He didn’t flip it over.
+            <br />
+            Some things didn’t need rereading.
           </p>
           <p className="story-text">
             At the end of the hall, the door to his room waited ajar.
@@ -672,11 +678,8 @@ export default function Archive() {
           <p className="story-text">
             He had a scarf made of stitched together neckties wrapped around his
             neck, flowing back in a gentle breeze that told him exactly where
-            the best bread in town was today.
-          </p>
-          <p className="story-text">
-            He hummed as he walked. Something tuneless but content. A little
-            melody that had followed him from a dream and hadn’t quite let go.
+            the best bread in town was today. He hummed as he walked. Something
+            tuneless but content.
           </p>
           <p className="story-text">
             Chimes whispered above him, strung from corners and doorways like
@@ -693,7 +696,7 @@ export default function Archive() {
           </p>
           <p className="story-text">Then he saw the sign.</p>
           <p className="story-text">
-            It was mounted above a wide wooden door, the lettering that had
+            It was mounted above a wide wooden door, with lettering that had
             taken its time to deepen in color.
           </p>
           <blockquote className="story-callout">
@@ -887,18 +890,15 @@ export default function Archive() {
             He touched the edge.
             <br />A quiet heat moved through his palm—recognition without shame.
           </p>
-          
           <p className="story-text">He kept moving.</p>
           <p className="story-text">
             A card stuck out of a stack, just slightly.
             <br />
             He tugged it free.
           </p>
-          <blockquote className="story-callout">
-            <p className="story-text">
-              <em>“I don’t want to be alone.”</em>
-            </p>
-          </blockquote>
+          <p className="story-text">
+            <em>“I don’t want to be alone.”</em>
+          </p>
           <p className="story-text">His breath caught.</p>
           <p className="story-text">
             No fancy script.
@@ -2019,12 +2019,6 @@ export default function Archive() {
             <br />
             But this time, it was on purpose.
           </p>
-          <p className="story-text">
-            Sam stepped through with backpack and both hands full—a wicker
-            basket tilted carefully against his chest, still warm, his face
-            still dusted with sugar. A chime just above the threshold gave a
-            lazy jingle, like it had been napping and didn’t mind being woken.
-          </p>
           <p className="story-text">Inside, the Archive was calm.</p>
           <p className="story-text">
             He walked to the long table near the front, cleared a corner with
@@ -2038,7 +2032,7 @@ export default function Archive() {
           <p className="story-text">
             He stopped a few feet from the table and raised an eyebrow.
           </p>
-          <p className="story-text">“What do we have here?”</p>
+          <p className="story-text">&quot;What do we have here?&quot;</p>
           <p className="story-text">
             Sam lifted the basket to Gable, revealing three flaky pastries,
             possibly more flake than anything else.
@@ -2047,15 +2041,16 @@ export default function Archive() {
             Gable raised an eyebrow. &quot;Her deal is for two.&quot;
           </p>
           <p className="story-text">
-            “Call it a trade secret,” he said. “One riddle, one story, and a
-            promise to return the basket. That gets you three.”
+            &quot;Call it a trade secret,&quot; he said. &quot;One riddle, one
+            story, and a promise to return the basket. That gets you
+            three.&quot;
           </p>
           <p className="story-text">
-            Gable gave a slow nod. “Brynn’s still got the touch.”
+            Gable gave a slow nod. &quot;Brynn&#39;s still got the touch.&quot;
           </p>
           <p className="story-text">
-            “Don’t let her hear you say that. She made me swear I’d tell no one
-            about the part where she smiled.”
+            &quot;Don&#39;t let her hear you say that. She made me swear I&#39;d
+            tell no one about the part where she smiled.&quot;
           </p>
           <p className="story-text">They sat.</p>
           <p className="story-text">
@@ -2065,55 +2060,63 @@ export default function Archive() {
           <p className="story-text">
             Gable took a bite, chewed, and frowned slightly.
           </p>
-          <p className="story-text">“Too much nutmeg.”</p>
-          <p className="story-text">Sam looked offended. “That’s the point.”</p>
-          <p className="story-text">“It’s a distraction.”</p>
-          <p className="story-text">“It’s a personality.”</p>
+          <p className="story-text">&quot;Too much nutmeg.&quot;</p>
+          <p className="story-text">
+            Sam looked offended. &quot;That&#39;s the point.&quot;
+          </p>
+          <p className="story-text">&quot;It&#39;s a distraction.&quot;</p>
+          <p className="story-text">&quot;It&#39;s a personality.&quot;</p>
           <p className="story-text">
             Gable said nothing, but his second bite was bigger.
           </p>
           <p className="story-text">
             They ate in easy silence for a few minutes. Crumbs collected like
-            confessions along the table’s edge. The Archive didn’t seem to mind.
+            confessions along the table&#39;s edge. The Archive didn&#39;t seem
+            to mind.
           </p>
           <p className="story-text">Sam glanced around between bites.</p>
-          <p className="story-text">“So... Which one is yours?”</p>
-          <p className="story-text">Gable blinked. “What?”</p>
+          <p className="story-text">&quot;So... Which one is yours?&quot;</p>
+          <p className="story-text">Gable blinked. &quot;What?&quot;</p>
           <p className="story-text">
-            “Where your stuff ends up. What does the Archive file you under?”
+            &quot;Where your stuff ends up. What does the Archive file you
+            under?&quot;
           </p>
           <p className="story-text">
             Gable leaned back in his chair and exhaled through his nose.
-            “I&#39;d tell you, but the books might hear.”
+            &quot;I&#39;d tell you, but the books might hear.&quot;
           </p>
-          <p className="story-text">“Sounds mysterious.”</p>
-          <p className="story-text">“Sounds accurate.”</p>
+          <p className="story-text">&quot;Sounds mysterious.&quot;</p>
+          <p className="story-text">&quot;Sounds accurate.&quot;</p>
           <p className="story-text">Sam grinned and leaned in.</p>
           <p className="story-text">
-            “I bet it’s something like ‘Things Left in Coat Pockets.’ Or ‘Words
-            With Splinters.’”
+            &quot;I bet it&#39;s something like &#39;Things Left in Coat
+            Pockets.&#39; Or &#39;Words With Splinters.&#39;&quot;
           </p>
-          <p className="story-text">Gable raised an eyebrow. “Splinters?”</p>
           <p className="story-text">
-            “Yeah, like… words that stuck. The kind you don’t notice until
-            later, when you touch something else and it hurts.”
+            Gable raised an eyebrow. &quot;Splinters?&quot;
+          </p>
+          <p className="story-text">
+            &quot;Yeah, like… words that stuck. The kind you don&#39;t notice
+            until later, when you touch something else and it hurts.&quot;
           </p>
           <p className="story-text">
             Gable looked at him for a long moment, then—quietly—smiled.
           </p>
           <p className="story-text">
-            Sam brightened. “Ha! I’m right, aren’t I?”
+            Sam brightened. &quot;Ha! I&#39;m right, aren&#39;t I?&quot;
           </p>
-          <p className="story-text">“You’re something.”</p>
+          <p className="story-text">&quot;You&#39;re something.&quot;</p>
           <p className="story-text">
             They returned to their pastries. Gable pulled a card from his
             pocket, set it on the table.
           </p>
           <p className="story-text">
-            Gable didn’t say anything. Just watched him.
+            Gable didn&#39;t say anything. Just watched him.
           </p>
-          <p className="story-text">Sam looked up. “Is this mine?”</p>
-          <p className="story-text">“Keep it safe,” Gable said with a wink.</p>
+          <p className="story-text">Sam looked up. &quot;Is this mine?&quot;</p>
+          <p className="story-text">
+            &quot;Keep it safe,&quot; Gable said with a wink.
+          </p>
           <p className="story-text">
             The card sat between them like a fourth pastry—less sweet, maybe,
             but more filling. He held the card out. Sam took it.
@@ -2125,34 +2128,39 @@ export default function Archive() {
             But nothing written. Not yet.
           </p>
           <p className="story-text">
-            “If you’re holding back something important,” Gable said quietly,
-            “it writes itself.”
+            &quot;If you&#39;re holding back something important,&quot; Gable
+            said quietly, &quot;it writes itself.&quot;
           </p>
           <p className="story-text">
             Sam looked at it.
             <br />
             Then at him.
           </p>
-          <p className="story-text">“That’s not creepy at all.”</p>
           <p className="story-text">
-            “It’s better than honesty,” Gable said with a shrug. “Honesty is
-            what you choose to share. This place remembers what you{" "}
-            <em>meant.</em>”
+            &quot;That&#39;s not creepy at all.&quot;
           </p>
-          <p className="story-text">They didn’t talk much after that.</p>
           <p className="story-text">
-            Gable started sorting a pile of cards near the table’s edge. Sam
+            &quot;It&#39;s better than honesty,&quot; Gable said with a shrug.
+            &quot;Honesty is what you choose to share. This place remembers what
+            you <em>meant.</em>&quot;
+          </p>
+          <p className="story-text">They didn&#39;t talk much after that.</p>
+          <p className="story-text">
+            Gable started sorting a pile of cards near the table&#39;s edge. Sam
             began building a very deliberate tower out of sugar flakes and
             folded napkins.
           </p>
           <p className="story-text">
-            Sam brushed the last of the crumbs off his shirt, and stood.
+            Sam brushed the last of the crumbs off his shirt and tucked the card
+            carefully into his notebook.
           </p>
           <p className="story-text">
-            &quot;Welp. Off to another adventure,&quot; he said as the strode to
-            the door.
+            &quot;I should get this basket back to Brynn,&quot; he said,
+            standing and stretching. &quot;But I&#39;ll be around.&quot;
           </p>
-          <p className="story-text">A book tilted slightly as he passed.</p>
+          <p className="story-text">
+            A book tilted slightly as he moved toward the door.
+          </p>
           <p className="story-text">Its spine read:</p>
           <blockquote className="story-callout">
             <p className="story-text">
@@ -2163,25 +2171,12 @@ export default function Archive() {
           </blockquote>
           <p className="story-text">Sam paused.</p>
           <p className="story-text">Smiled.</p>
-          <p className="story-text">And bounded away.</p>
+          <p className="story-text">&quot;See you soon, Gable.&quot;</p>
           <p className="story-text">
-            As the door clicked softly behind Sam, the room stilled again.
+            As he reached for the door handle, a thin metal pencil cup toppled
+            from a high shelf and hit the floor with an unapologetic clatter.
           </p>
-          <p className="story-text">For half a breath.</p>
-          <p className="story-text">Then—</p>
-          <blockquote className="story-callout">
-            <p className="story-text">
-              <em>scrrrape—thump.</em>
-            </p>
-          </blockquote>
-          <p className="story-text">
-            A thin metal pencil cup toppled from a high shelf and hit the floor
-            with an unapologetic clatter.
-          </p>
-          <p className="story-text">Gable didn’t flinch.</p>
-          <p className="story-text">
-            “I told you that shelf was unstable,” he muttered, not looking up.
-          </p>
+          <p className="story-text">Sam looked up.</p>
           <p className="story-text">
             From the top ledge—tail flicking in an entirely unrepentant
             rhythm—Vel peered down with feline indifference.
@@ -2196,7 +2191,7 @@ export default function Archive() {
             It was no longer.
           </p>
           <p className="story-text">
-            Gable raised an eyebrow. “You’re not even hungry.”
+            Gable raised an eyebrow. &quot;You&#39;re not even hungry.&quot;
           </p>
           <p className="story-text">
             Vel sniffed it delicately, then took a bite far too large for her
@@ -2206,42 +2201,39 @@ export default function Archive() {
           </p>
           <p className="story-text">She chewed with dignity.</p>
           <p className="story-text">
-            The chime above the door rang out a long, exasperated sigh as the
-            door slammed open. Sam sprinted in reaching for the index card on
-            the table.
+            Sam let go of the door handle and stepped back into the room.
           </p>
           <p className="story-text">
-            He skidded to a stop and locked eyes on Vel.
-          </p>
-          <p className="story-text">
-            &quot;Oh, <em>ahem</em> hello.&quot; he stuck out a hand, then
-            turned it to pet her, then pulled back.
+            &quot;Oh, hello there.&quot; He stuck out a hand, then turned it to
+            pet her, then pulled back uncertainly.
           </p>
           <p className="story-text">Vel nodded.</p>
           <p className="story-text">
-            &quot;Hello, Sam. Vel&quot; Her voice was silky. She turned her nose
-            up to meet Sam&#39;s eyes, winked, and twirled.
+            &quot;Hello, Sam.&quot; Her voice was silky. She turned her nose up
+            to meet Sam&#39;s eyes, winked, and twirled.
           </p>
           <p className="story-text">
             Then—without ceremony—plopped herself into the chair Sam had
             vacated. She swallowed and licked a crumb from her whiskers.
           </p>
           <p className="story-text">
-            &quot;She&#39;s good at introductions,&quot; Gable muttered with
+            &quot;She&#39;s good at introductions,&quot; Gable muttered with a
             small smile. &quot;Her name&#39;s Vel.&quot;
           </p>
           <p className="story-text">Sam tilted his head, squinting.</p>
           <p className="story-text">Then asked, perfectly casual:</p>
-          <p className="story-text">“Hey, Vel? How long have you been here?”</p>
-          <p className="story-text">The paw didn’t move.</p>
+          <p className="story-text">
+            &quot;Hey, Vel? How long have you been here?&quot;
+          </p>
+          <p className="story-text">The paw didn&#39;t move.</p>
           <p className="story-text">Neither did she.</p>
           <p className="story-text">Not for a long breath.</p>
           <p className="story-text">Not for two.</p>
           <p className="story-text">
-            Vel’s ears had twitched just slightly—like a radio catching a signal
-            it didn’t want.
+            Vel&#39;s ears had twitched just slightly—like a radio catching a
+            signal it didn&#39;t want.
             <br />
-            Her eyes didn’t blink.
+            Her eyes didn&#39;t blink.
             <br />
             And behind them: something ancient bristled.
             <br />A tension like string pulled too tight for too long.
@@ -2249,7 +2241,7 @@ export default function Archive() {
           <p className="story-text">
             Gable turned to look at her.
             <br />
-            He’d seen that kind of stillness before.
+            He&#39;d seen that kind of stillness before.
             <br />
             Usually right before a shelf gave out.
           </p>
@@ -2260,7 +2252,7 @@ export default function Archive() {
           </p>
           <blockquote className="story-callout">
             <p className="story-text">
-              <em>“Not everyone who stays… means to.”</em>
+              <em>&quot;Not everyone who stays… means to.&quot;</em>
             </p>
           </blockquote>
           <h1 className="chapter-title">
@@ -2271,180 +2263,109 @@ export default function Archive() {
             said.
           </p>
           <p className="story-text">
-            “She was a teacher,” Vel continued, eyes somewhere far beyond the
-            Archive’s walls. “Used to wear bracelets with bells. Said it helped
-            her students remember she was human.”
+            &quot;Not everyone who stays… means to.&quot;
           </p>
           <p className="story-text">
-            A faint breeze lifted the edge of a card on the table.
+            The words hung in the air like dust motes that hadn&#39;t decided
+            where to settle.
           </p>
           <p className="story-text">
-            “She came here once, by accident. During a migraine. Said the pain
-            made the world go quiet enough to hear herself think—and what she
-            thought scared her.”
+            Sam sat forward. &quot;What do you mean?&quot;
           </p>
           <p className="story-text">
-            Vel shifted. Not dramatically. Just enough that it made Sam feel
-            like the chair had gotten colder.
+            Vel was quiet for a moment, tail curled tight around her paws.
           </p>
           <p className="story-text">
-            “She didn’t stay. Flickers never do. They slip in when something
-            breaks open, then slip out before they notice it’s happened.”
+            &quot;You ever lose something so completely you forget what shape it
+            used to have?&quot;
           </p>
+          <p className="story-text">Sam nodded slowly.</p>
           <p className="story-text">
-            Sam frowned. “You said <em>first.</em> How long—”
+            &quot;I came here carrying more grief than I knew what to do with.
+            Other people&#39;s grief. My own. Grief I&#39;d been paid to hold
+            and translate and dance into something bearable.&quot;
           </p>
-          <p className="story-text">Vel didn’t answer.</p>
+          <p className="story-text">She looked toward the nearest shelf.</p>
           <p className="story-text">
-            Gable, still sorting cards, didn’t look up. But he said,
-            <br />
-            “Flickers are the breeze that stirs the door but never walks
-            through. You never know if they’ll come back. Most don’t.”
-          </p>
-          <p className="story-text">
-            Vel exhaled through her nose. “Some do. Some become Echoes.”
-          </p>
-          <p className="story-text">
-            She glanced at Sam then, and her voice changed just slightly—like
-            someone trying to hand over something delicate without dropping it.
-          </p>
-          <p className="story-text">
-            “Echoes feel too much to forget. Even if they leave, they leave...
-            weight. Threads. Sound that keeps ringing even when the bell is
-            gone.”
-          </p>
-          <p className="story-text">Sam sat forward. “What are you?”</p>
-          <p className="story-text">Vel was quiet for a moment.</p>
-          <p className="story-text">Then:</p>
-          <p className="story-text">
-            “You ever say a word so often it loses meaning?”
-          </p>
-          <p className="story-text">Sam nodded.</p>
-          <p className="story-text">
-            “Now imagine being said <em>so many times</em>—felt so deeply—that
-            the word becomes something else. Not noise. Not meaning. Just…
-            presence.”
-          </p>
-          <p className="story-text">Vel looked down.</p>
-          <p className="story-text">
-            &quot;I don&#39;t know how the Elsebeneath found me. But when it
-            did, it never let go.&quot;
-          </p>
-          <p className="story-text">
-            Vel reached up onto the table and hopped up with a practiced grace.
-          </p>
-          <p className="story-text">
-            “I didn’t even look like this when it did.”
-          </p>
-          <p className="story-text">
-            She sat, tail curling around her paws. The light caught the brass
-            telescope at her neck—it gleamed briefly, then dulled.
-          </p>
-          <p className="story-text">
-            “At first, I thought I was dead. Or dreaming. But the Elsebeneath
-            didn’t <em>feel</em> like either.”
-          </p>
-          <p className="story-text">
-            Sam tilted his head. “What did it feel like?”
-          </p>
-          <p className="story-text">
-            Vel thought for a long time.
-            <br />
-            Then: “Like someone had finally asked me the right question. And was
-            willing to wait for the answer.”
-          </p>
-          <p className="story-text">
-            She looked toward the nearest shelf. Not reading the titles. Just…
-            listening.
-          </p>
-          <p className="story-text">
-            “I stayed. Not because I meant to. But because people started
-            finding me.
-            <br />
-            People who’d lost something they couldn’t name.
-            <br />
-            People who’d been carrying things too long.
-            <br />
-            People like Gable.”
+            &quot;At first, I thought I was just visiting. But people started
+            finding me. People who&#39;d lost something they couldn&#39;t name.
+            People who&#39;d been carrying things too long.&quot;
           </p>
           <p className="story-text">
             Her voice was soft, but Sam felt the weight of it anyway.
           </p>
           <p className="story-text">
-            “I helped them. I don’t know why. Maybe because I knew what it was
-            to ache without language.
-            <br />
-            And once you help one person let go, it’s hard to stop.
-            <br />
-            Harder, still, to remember what you were before.”
+            &quot;I helped them. Because I knew what it was to ache without
+            language. And once you help one person let go, it&#39;s hard to
+            stop.&quot;
           </p>
           <p className="story-text">
-            Sam watched her. He didn’t fidget. Didn’t interrupt.
-            <br />
-            He just… stared.
+            Sam watched her. He didn&#39;t fidget. Didn&#39;t interrupt.
           </p>
-          <p className="story-text">Vel continued.</p>
           <p className="story-text">
-            “After a while, I couldn’t carry it anymore.
-            <br />
-            So I gave up the part of me that kept asking.
-            <br />
-            The part that remembered what it was like to be called by name.”
+            &quot;But the more I held for others, the less I could hold for
+            myself. So I gave up pieces. Small ones, at first. A memory here. A
+            dream there.&quot;
           </p>
           <p className="story-text">A long pause.</p>
-          <p className="story-text">Then Gable’s voice, from the corner:</p>
-          <p className="story-text">“She gave me her name.”</p>
+          <p className="story-text">Then Gable&#39;s voice, from the corner:</p>
+          <p className="story-text">&quot;She gave me her name.&quot;</p>
           <p className="story-text">
-            He wasn’t looking at them—just flipping through a stack of old
-            cards.{" "}
+            He wasn&#39;t looking at them—just flipping through a stack of old
+            cards.
           </p>
           <p className="story-text">
-            “Wrapped it in a riddle and asked me to forget the answer. I didn’t.
-            But the Archive took it anyway.”
+            &quot;Wrapped it up like a gift and handed it over. Said she
+            didn&#39;t need the weight of being called.&quot;
           </p>
           <p className="story-text">
-            Vel’s gaze didn’t leave the table. “That’s how you Root. Not with a
-            shout. With a whisper too heavy to lift.”
+            Vel&#39;s gaze didn&#39;t leave the table. &quot;I thought it would
+            make things easier. Lighter.&quot;
+          </p>
+          <p className="story-text">Sam swallowed. &quot;Did it?&quot;</p>
+          <p className="story-text">
+            Vel raised one paw, studied it like she was seeing it for the first
+            time.
           </p>
           <p className="story-text">
-            Sam swallowed. “So this… this cat thing…”
+            &quot;The Archive doesn&#39;t let you disappear completely. But
+            it&#39;ll let you... soften. Become something smaller. Something
+            that can slip between the cracks and listen.&quot;
           </p>
           <p className="story-text">
-            Vel raised one paw delicately. “The Archive won’t let you vanish—but
-            it’ll let you... soften.
-            <br />
-            And fading into a shape no one expects?
-            <br />
-            It makes it easier.
-            <br />
-            To listen.
-            <br />
-            To stay.”
+            Gable set down his cards. &quot;What she&#39;s not telling you is
+            that when she gave up her name, she gave up her history.&quot;
           </p>
           <p className="story-text">
-            Gable snorted gently. “She’s being poetic. What she means is, she
-            turned into an unpaid grief counselor and eventually burned herself
-            into the floorboards.”
+            &quot;I remember. Sort of,&quot; Vel said quietly. &quot;I just...
+            can&#39;t reach it anymore.&quot;
           </p>
           <p className="story-text">
-            Vel blinked once. Slowly. “It’s called <em>emotional labor</em>,
-            Gable.”
+            She looked up at Sam then, and her eyes were older than her cat-face
+            should have allowed.
           </p>
           <p className="story-text">
-            “And you’ve got a union rep now, apparently,” he said, nodding
-            toward Sam.
+            &quot;That&#39;s why we&#39;re going down. To get back what I gave
+            away.&quot;
           </p>
           <p className="story-text">
-            Sam raised a hand, unsure if it was a wave or a solemn vow.
+            Sam nodded slowly. &quot;And you think it&#39;s still there? After
+            all this time?&quot;
           </p>
           <p className="story-text">
-            “Careful,” Vel said, not looking at him. “You’ll be sorting cards by
-            morning.”
+            &quot;The Archive doesn&#39;t lose things,&quot; Gable said.
+            &quot;It just files them very, very carefully.&quot;
           </p>
           <p className="story-text">
-            Outside, one chime stirred. Then stilled again.
-            <br />
-            Like it had remembered something worth waiting for.
+            Vel&#39;s tail twitched—not annoyed, but something like hope.
+          </p>
+          <p className="story-text">
+            &quot;Besides,&quot; she added, &quot;some gifts are too heavy to
+            keep forever. Even for a place like this.&quot;
+          </p>
+          <p className="story-text">
+            Outside, one chime stirred. Then stilled again. Like it had
+            remembered something worth waiting for.
           </p>
           <h1 className="chapter-title">
             Chapter 9: <em>Things Carried</em>
