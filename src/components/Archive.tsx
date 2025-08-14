@@ -887,32 +887,8 @@ export default function Archive() {
             He touched the edge.
             <br />A quiet heat moved through his palm—recognition without shame.
           </p>
-          <p className="story-text">
-            He passed a weathered wall with a fading poster half-curling off at
-            the edges.
-            <br />
-            Someone had tried to smooth it out, but only half-successfully. The
-            image was a snail with racing stripes painted, badly, down it&#39;s
-            shell.
-          </p>
-          <p className="story-text">The caption read:</p>
-          <blockquote className="story-callout">
-            <p className="story-text">“SHELL ON, HEAD HIGH!”</p>
-          </blockquote>
-          <p className="story-text">Sam gave the snail a nod.</p>
-          <p className="story-text">“Thanks, Zoomie”</p>
-          <p className="story-text">
-            Sam grinned. “You guys have the weirdest motivational posters.”
-          </p>
-          <p className="story-text">
-            Gable didn’t look up from where he was sorting cards by
-            resonance—most of them fluttering indignantly under his fingers.
-          </p>
-          <p className="story-text">
-            “Not ours. They show up on their own. Probably because someone once
-            meant to say that and never did.”
-          </p>
-          <p className="story-text">Sam kept moving.</p>
+          
+          <p className="story-text">He kept moving.</p>
           <p className="story-text">
             A card stuck out of a stack, just slightly.
             <br />
@@ -972,8 +948,6 @@ export default function Archive() {
             The Archive could keep it now.
             <br />
             He didn’t have to.
-            <br />
-            Sam tucked the card back between two others
           </p>
           <p className="story-text">He stepped back with his hands up.</p>
           <p className="story-text">
