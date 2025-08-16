@@ -132,7 +132,7 @@ export default function Archive() {
             Past the bakery with the jam that tasted like secrets you hadn’t
             told yet.
             <br />
-            And beyond the square where the wind liked to rehearse.
+            And into the square where the wind liked to rehearse.
           </p>
           <p className="story-text">He paused.</p>
           <p className="story-text">
@@ -249,9 +249,9 @@ export default function Archive() {
             <em>Thousands.</em>”
           </p>
           <p className="story-text">
-            Behind them, someone shouted something muffled and sharp. Another
-            voice hissed in reply. Sam glanced over his shoulder. Glin quickened
-            his pace.
+            Sam&#39;s mouth opened to speak, but behind them, someone shouted
+            something muffled and sharp. Another voice hissed in reply. Sam
+            glanced over his shoulder. Glin quickened his pace.
           </p>
           <p className="story-text">
             They passed a stack of props labeled{" "}
@@ -278,13 +278,13 @@ export default function Archive() {
           <p className="story-text">The Stage itself was empty.</p>
           <p className="story-text">And not.</p>
           <p className="story-text">
-            Somewhere above, lighting rigs moved without wires. A breeze passed
-            that tasted like the end of an argument. And faintly, just under the
-            surface of everything, the floor <em>throbbed</em>—like a drum that
-            hadn’t picked a rhythm yet.
-          </p>
-          <p className="story-text">
-            Somewhere overhead, the lights flickered.
+            The top tier of the stage was ringed by a thick crimson curtain.
+            <br />
+            Somewhere above, lighting rigs moved without wires.
+            <br />A breeze passed that tasted like the end of an argument.
+            <br />
+            And faintly, just under the surface of everything, the floor{" "}
+            <em>throbbed</em>—like a drum that hadn’t picked a rhythm yet.
           </p>
           <p className="story-text">
             From somewhere behind the curtain, Sam heard a voice. Low. Gravely.
@@ -317,7 +317,7 @@ export default function Archive() {
           <p className="story-text">
             “Oh,” Glin said. “Right. No, she’s just in one of her loops again.”
           </p>
-          <p className="story-text">“Loop?”</p>
+          <p className="story-text">“Loops?”</p>
           <p className="story-text">
             Glin nodded. “She gets like this when a scene won’t settle. Doesn’t
             know which version to hold onto, so she keeps trying them on—like
@@ -326,11 +326,11 @@ export default function Archive() {
           <p className="story-text">
             Sam heard another voice. This one lighter.
           </p>
-          <p className="story-text">
-            “It was a goodbye,” he said. “Or a warning. One of them stayed when
-            they were supposed to leave. Or they left when they said they
-            wouldn’t. I honestly don’t know anymore.”
-          </p>
+          <blockquote className="story-callout">
+            <p className="story-text">
+              “It was a goodbye, or a warning. I honestly don’t know anymore.”
+            </p>
+          </blockquote>
           <p className="story-text">
             Glin kept walking. They passed a spiral staircase that dissolved as
             they reached the bottom step, and a doorway labeled{" "}
@@ -379,11 +379,12 @@ export default function Archive() {
           <hr />
           <p className="story-text">They turned back toward the stage.</p>
           <p className="story-text">
-            The actors were no longer standing still.
+            A loud <em>thud</em>, and the curtain rose. In its place stood three
+            actors.
           </p>
           <p className="story-text">
-            The woman in the cape paced tight circles, her boots striking harder
-            than necessary.
+            The first—a woman in a cape—paced in tight circles, her boots
+            striking harder than necessary.
             <br />
             The tall one leaned against a curtain rod that hadn’t been there
             before, arms crossed, one eyebrow raised like a challenge he hadn’t
@@ -393,14 +394,13 @@ export default function Archive() {
           </p>
           <p className="story-text">He hovered.</p>
           <p className="story-text">
-            You could feel it. His steps were hesitant, each one angled slightly
-            toward someone else. He looked like he was trying to agree with all
-            three of them at once.
+            You could feel it. Their steps were hesitant, each one angled
+            slightly toward someone else. They looked like they were trying to
+            agree with all three of them at once.
           </p>
-          <p className="story-text">“Should we go back in?” Sam asked.</p>
+          <p className="story-text">“Should we leave?” Sam asked.</p>
           <p className="story-text">Glin grimaced.</p>
           <p className="story-text">“We’re in it now.”</p>
-          <hr />
           <p className="story-text">
             They stepped forward as the woman turned sharply.
           </p>
@@ -438,15 +438,10 @@ export default function Archive() {
           </p>
           <p className="story-text">And it hummed.</p>
           <p className="story-text">
-            “You think I <em>meant</em> to forget?” the youngest blurted. He had
-            turned to the woman now—small, unsure, unraveling.
+            “You think I <em>meant</em> to forget?” the youngest blurted. They
+            had turned to the woman now—small, unsure, unraveling.
           </p>
           <p className="story-text">She didn’t answer.</p>
-          <p className="story-text">
-            The fan snapped shut again. The tall one stepped forward.
-          </p>
-          <p className="story-text">“We should just show him,” he said.</p>
-          <p className="story-text">“No,” said the woman. “Not yet.”</p>
           <p className="story-text">
             Sam looked to Glin. Glin raised his hands helplessly.
           </p>
@@ -454,7 +449,7 @@ export default function Archive() {
             “You said the scene changed,” Sam said. “What was it before?”
           </p>
           <p className="story-text">Three heads turned toward him.</p>
-          <p className="story-text">Three different silences.</p>
+          <p className="story-text">Three different silences followed.</p>
           <h1 className="chapter-title">
             Chapter 3: <em>Her Lines</em>
           </h1>
@@ -539,7 +534,7 @@ export default function Archive() {
           </p>
           <p className="story-text">
             Even Arin—seated to the side, hands folded—looked more like a prop
-            than a person. No fidgeting. No storm behind his eyes. Just quiet
+            than a person. No fidgeting. No storm behind the eyes. Just quiet
             admiration. Like a student watching a master class.
           </p>
           <p className="story-text">Jun stood up.</p>
@@ -618,7 +613,9 @@ export default function Archive() {
           <p className="story-text">
             A silhouette emerged — <em>Arin</em>, barely formed.
           </p>
-          <p className="story-text">They looked at him. But said nothing.</p>
+          <p className="story-text">
+            They looked at the figure. But said nothing.
+          </p>
           <p className="story-text">Jun stared at the echo.</p>
           <p className="story-text">
             “I thought… if someone said my name, I’d stop.
@@ -696,7 +693,6 @@ export default function Archive() {
           </p>
           <p className="story-text">Only they didn’t.</p>
           <p className="story-text">Not yet.</p>
-          <hr />
           <p className="story-text">
             They took their place in the same scene.
             <br />
@@ -716,17 +712,15 @@ export default function Archive() {
             One hand brushed the map Cal once held.
             <br />
             One foot hesitated at the spot Jun had stood.
-            <br />
-            But they didn’t recreate either version.
           </p>
-          <p className="story-text">
-            They re-entered the moment like it was happening <em>now.</em>
-          </p>
-          <hr />
           <p className="story-text">Then they spoke.</p>
-          <p className="story-text">Not loud.</p>
-          <p className="story-text">Not bold.</p>
-          <p className="story-text">Just true.</p>
+          <p className="story-text">
+            Not loud.
+            <br />
+            Not bold.
+            <br />
+            Just true.
+          </p>
           <p className="story-text">“No one said anything.”</p>
           <p className="story-text">
             They looked toward where Cal had once stood.
@@ -738,11 +732,18 @@ export default function Archive() {
             They stepped backward now, to where <em>they</em> had been in both
             stories.
           </p>
-          <p className="story-text">Folded hands.</p>
-          <p className="story-text">Still breath.</p>
-          <p className="story-text">Eyes trained on the floor.</p>
-          <p className="story-text">“I was there,” they said.</p>
-          <p className="story-text">“I was always there.”</p>
+          <p className="story-text">
+            Folded hands.
+            <br />
+            Still breath.
+            <br />
+            Eyes trained on the floor.
+          </p>
+          <p className="story-text">
+            “I was there,” they said.
+            <br />
+            “I was always there.”
+          </p>
           <p className="story-text">And then something strange happened.</p>
           <p className="story-text">They turned—</p>
           <p className="story-text">
@@ -756,9 +757,6 @@ export default function Archive() {
             It sounded like <em>doubt.</em>
           </p>
           <p className="story-text">They took another step.</p>
-          <p className="story-text">
-            Spoke again—<strong>Jun’s line</strong> now.
-          </p>
           <p className="story-text">
             “I didn’t believe I was allowed to stay.”
           </p>
@@ -805,9 +803,7 @@ export default function Archive() {
             “We all hurt. But some of us actually had to make a choice.”
           </p>
           <p className="story-text">Jun didn’t speak. But his body did.</p>
-          <p className="story-text">
-            He shifted slightly—<em>away</em> from Cal.
-          </p>
+          <p className="story-text">He shifted slightly—away from Cal.</p>
           <hr />
           <p className="story-text">
             Arin’s hands curled into fists at their sides.
@@ -823,13 +819,9 @@ export default function Archive() {
           </p>
           <p className="story-text">A pause.</p>
           <p className="story-text">“That’s not kindness.”</p>
-          <hr />
-          <p className="story-text">The Stage flickered.</p>
-          <p className="story-text">Not in anger.</p>
           <p className="story-text">
-            In <em>strain.</em>
-          </p>
-          <p className="story-text">
+            The Stage flickered.
+            <br />
             Like too many truths were trying to surface at once.
           </p>
           <p className="story-text">
@@ -851,7 +843,7 @@ export default function Archive() {
             That’s the problem.”
           </p>
           <p className="story-text">
-            The Cue Well gurgled softly. No page emerged.
+            The cue well gurgled softly. No page emerged.
           </p>
           <p className="story-text">Not yet.</p>
           <hr />
@@ -1007,7 +999,6 @@ export default function Archive() {
             And for a moment, the stage pulsed with a color none of them could
             name.
           </p>
-          <hr />
           <p className="story-text">Applause didn’t follow.</p>
           <p className="story-text">
             But something <em>like</em> it did.
@@ -1019,7 +1010,7 @@ export default function Archive() {
             <br />
             The floor stopped humming.
           </p>
-          <p className="story-text">The Cue Well stilled.</p>
+          <p className="story-text">The cue well stilled.</p>
           <p className="story-text">
             And somewhere behind the set, a script unrolled itself and fell
             silent.
