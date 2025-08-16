@@ -74,7 +74,7 @@ export default function Archive() {
             <em>Listen to the audio book</em>
           </p>
           <audio controls className="w-full mb-4" onPlay={handleAudioPlay}>
-            <source src="/audio/theater.mp3" type="audio/mpeg" />
+            <source src="/audio/theatre.mp3" type="audio/mpeg" />
             Your browser does not support the audio element.
           </audio>
           <h1 className="chapter-title">
