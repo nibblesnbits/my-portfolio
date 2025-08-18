@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import FontSizeAdjuster from "./FontSizeAdjuster";
 import StoryScrollTracker from "./StoryScrollTracker";
 import TranslateInvite from "./TranslateRequest";
+import ChapterTitle from "./ChapterTitle";
 
 export default function Archive() {
   const chapters = [
@@ -13,18 +14,17 @@ export default function Archive() {
     { id: "chapter-5", threshold: 0.55, name: "Chapter 5: Things Buried" },
     { id: "chapter-6", threshold: 0.65, name: "Chapter 6: Things Returned" },
     { id: "chapter-7", threshold: 0.75, name: "Chapter 7: Things Shared" },
-    { id: "chapter-8", threshold: 0.8, name: "Chapter 8: Things Rooted" },
-    { id: "chapter-9", threshold: 0.85, name: "Chapter 9: Things Carried" },
-    { id: "chapter-10", threshold: 0.88, name: "Chapter 10: Things Gathered" },
-    { id: "chapter-11", threshold: 0.91, name: "Chapter 11: Things Broken" },
-    { id: "chapter-12", threshold: 0.94, name: "Chapter 12: Things Mended" },
+    { id: "chapter-8", threshold: 0.85, name: "Chapter 9: Things Carried" },
+    { id: "chapter-9", threshold: 0.88, name: "Chapter 10: Things Gathered" },
+    { id: "chapter-10", threshold: 0.91, name: "Chapter 11: Things Broken" },
+    { id: "chapter-11", threshold: 0.94, name: "Chapter 12: Things Mended" },
     {
-      id: "chapter-14",
+      id: "chapter-12",
       threshold: 0.97,
-      name: "Chapter 14: Things Remembered",
+      name: "Chapter 13: Things Remembered",
     },
-    { id: "chapter-15", threshold: 0.98, name: "Chapter 15: Things Given" },
-    { id: "chapter-16", threshold: 0.99, name: "Chapter 16: Things Made New" },
+    { id: "chapter-14", threshold: 0.98, name: "Chapter 15: Things Given" },
+    { id: "chapter-15", threshold: 0.99, name: "Chapter 16: Things Made New" },
   ];
 
   const handlePDFDownload = () => {
@@ -97,9 +97,7 @@ export default function Archive() {
             <br /> – Graham
           </p>
           <hr />
-          <h1 className="chapter-title">
-            Prologue: <em>Things Begun</em>
-          </h1>
+          <ChapterTitle id="prologue" name="Prologue: Things Begun" />
           <blockquote className="story-callout">
             <p className="story-text">
               <em>Even silence has rules.</em>
@@ -227,9 +225,11 @@ export default function Archive() {
             <br />
             the cracks that form when hearts are broken.
           </p>
-          <h1 className="chapter-title">
-            Chapter 1: <em>Things Lost</em>
-          </h1>
+          <ChapterTitle id="chapter-1" name="Chapter One: Things Lost" />
+          <audio controls className="w-full mb-4">
+            <source src="/audio/archive/archive-1.mp3" type="audio/mpeg" />
+            Your browser does not support the audio element.
+          </audio>
           <p className="story-text">The wind had stopped singing.</p>
           <p className="story-text">
             It hadn’t left, exactly. It still moved—still stirred ribbons
@@ -290,7 +290,9 @@ export default function Archive() {
             The moment passed. The wind moved on.
           </p>
           <p className="story-text">So did she.</p>
+          <br />
           <hr />
+          <br />
           <p className="story-text">
             She walked for a while, toward nothing in particular.
           </p>
@@ -379,7 +381,9 @@ export default function Archive() {
           </p>
           <p className="story-text">His voice was low.</p>
           <p className="story-text">“We’re mourning, Vel.”</p>
+          <br />
           <hr />
+          <br />
           <p className="story-text">
             By the time the mourners began to leave, the sky had shifted into
             stone-like hues.
@@ -418,9 +422,11 @@ export default function Archive() {
             they leaned. And somewhere beyond the garden, something had begun to
             ring without sound.
           </p>
-          <h1 className="chapter-title">
-            Chapter 2: <em>Things Kept</em>
-          </h1>
+          <ChapterTitle id="chapter-2" name="Chapter Two: Things Kept" />
+          <audio controls className="w-full mb-4">
+            <source src="/audio/archive/archive-2.mp3" type="audio/mpeg" />
+            Your browser does not support the audio element.
+          </audio>
           <p className="story-text">Gable didn’t speak on the way back.</p>
           <p className="story-text">
             He moved like someone with nowhere to go—just a quiet trust that the
@@ -573,7 +579,9 @@ export default function Archive() {
             <br />
             Some just needed a place to wait.
           </p>
+          <br />
           <hr />
+          <br />
           <p className="story-text">
             The Archive settled behind him like any winter home, all creaks,
             groans and cupboard sighs.
@@ -637,7 +645,9 @@ export default function Archive() {
           <p className="story-text">
             Only that the Archive hadn’t asked for either.
           </p>
+          <br />
           <hr />
+          <br />
           <p className="story-text">
             Outside, the wind threaded through the shutters, quieter than
             breath.
@@ -665,9 +675,11 @@ export default function Archive() {
           <p className="story-text">
             but only in places she’d promised herself never to return to.
           </p>
-          <h1 className="chapter-title">
-            Chapter 3: <em>Things Unsaid</em>
-          </h1>
+          <ChapterTitle id="chapter-3" name="Chapter Three: Things Unsaid" />
+          <audio controls className="w-full mb-4">
+            <source src="/audio/archive/archive-3.mp3" type="audio/mpeg" />
+            Your browser does not support the audio element.
+          </audio>
           <p className="story-text">
             Morning arrived softly—like a page someone loved too much to leave
             unread again.
@@ -717,7 +729,9 @@ export default function Archive() {
           </p>
           <p className="story-text">“Let’s find out what you’re not saying.”</p>
           <p className="story-text">And stepped inside.</p>
+          <br />
           <hr />
+          <br />
           <p className="story-text">
             The room smelled like old pages and older pauses.
           </p>
@@ -1074,7 +1088,9 @@ export default function Archive() {
           </p>
           <p className="story-text">Gable nodded.</p>
           <p className="story-text">“Welcome to the Archive.”</p>
+          <br />
           <hr />
+          <br />
           <p className="story-text">
             They made their way back toward the main desk—though “desk” was
             generous. It looked more like a repurposed piano lid with drawers
@@ -1124,11 +1140,9 @@ export default function Archive() {
           </blockquote>
           <p className="story-text">“Who was he?”</p>
           <p className="story-text">Sam smiled.</p>
-          <blockquote className="story-callout">
-            <p className="story-text">
-              “Someone I haven’t stopped listening to.”
-            </p>
-          </blockquote>
+          <p className="story-text">
+            “Someone I haven’t stopped listening to.”
+          </p>
           <p className="story-text">
             Gable wrapped the scarf once around his wrist, eyed it like a
             wristwatch, then motioned Sam back towards the door.
@@ -1137,11 +1151,15 @@ export default function Archive() {
           <p className="story-text">
             &quot;Samuel, actually. Sam for short. And yeah. I think I do.&quot;
           </p>
+          <p className="story-text">He bounded out.</p>
+          <br />
           <hr />
+          <br />
           <p className="story-text">
             The village had begun to settle.
             <br />
-            Not quiet, exactly—Elsebeneath was never truly silent—but still.
+            Not quiet, exactly—the Elsebeneath was never truly silent—but...
+            still.
             <br />
             Like someone holding their breath between memories.
           </p>
@@ -1155,53 +1173,15 @@ export default function Archive() {
             ribbons that didn’t rustle anymore.
           </p>
           <p className="story-text">
-            And there—on a crooked windowsill, half-tucked in shadow—Vel blinked
-            at him.
-          </p>
-          <p className="story-text">“You gave him a card,” she said.</p>
-          <p className="story-text">Her voice was lazy, half-purr.</p>
-          <p className="story-text">“He gave me a scarf,” Gable replied.</p>
-          <p className="story-text">She tilted her head, whiskers twitching.</p>
-          <p className="story-text">“Fair trade?”</p>
-          <p className="story-text">He paused.</p>
-          <p className="story-text">“We’ll see.”</p>
-          <p className="story-text">
-            Vel flicked her tail once, then tucked it around her paws like a
-            question mark.
-          </p>
-          <p className="story-text">
-            And, after a long silence—
-            <br />
-            “You didn’t know the kid.”
-          </p>
-          <p className="story-text">
-            Gable looked out past her—toward the part of the sky that had
-            forgotten its color again.
-          </p>
-          <p className="story-text">
-            “No,” he said. “Not well. But he used to come in. Told stories.
-            About stars, mostly. One time he swore the moon had feelings.”
-          </p>
-          <p className="story-text">He smiled faintly.</p>
-          <p className="story-text">“Made the books laugh.”</p>
-          <p className="story-text">
-            Vel didn’t answer right away.
-            <br />
-            She watched a breeze pass by and didn’t chase it.
-          </p>
-          <p className="story-text">Then, softly:</p>
-          <p className="story-text">
-            “Some people are harder to forget, even if you don’t remember why.”
-          </p>
-          <p className="story-text">Gable nodded once.</p>
-          <p className="story-text">
             The wind shifted against the walls, thin but persistent—
             <br />
             like it was practicing a sentence it hadn’t said in years.
           </p>
-          <h1 className="chapter-title">
-            Chapter 4: <em>Things Hidden</em>
-          </h1>
+          <ChapterTitle id="chapter-4" name="Chapter Four: Things Hidden" />
+          <audio controls className="w-full mb-4">
+            <source src="/audio/archive/archive-4.mp3" type="audio/mpeg" />
+            Your browser does not support the audio element.
+          </audio>
           <p className="story-text">The pool didn’t ripple.</p>
           <p className="story-text">
             It never really did—not in the usual way.{" "}
@@ -1275,7 +1255,9 @@ export default function Archive() {
           </p>
           <p className="story-text">Her tailed flicked again.</p>
           <p className="story-text">&quot;Or something like that.&quot;</p>
+          <br />
           <hr />
+          <br />
           <p className="story-text">The village was between selves again.</p>
           <p className="story-text">
             Some streets leaned east, some pretended they never had. Shadows
@@ -1314,7 +1296,9 @@ export default function Archive() {
             <br />
             And they continued.
           </p>
+          <br />
           <hr />
+          <br />
           <p className="story-text">
             They reached a fork where the cobblestones stopped pretending to
             agree. One path curved past the Listening Post, threadbare and
@@ -1338,7 +1322,9 @@ export default function Archive() {
             <br />
             Vel stood still until he disappeared around the curve.
           </p>
+          <br />
           <hr />
+          <br />
           <p className="story-text">
             The air changed.
             <br />
@@ -1437,9 +1423,11 @@ export default function Archive() {
             A breeze pushed against her—not strong. Deliberate.
           </p>
           <p className="story-text">She pressed into it.</p>
-          <h1 className="chapter-title">
-            Chapter 5: <em>Things Buried</em>
-          </h1>
+          <ChapterTitle id="chapter-5" name="Chapter Five: Things Buried" />
+          <audio controls className="w-full mb-4">
+            <source src="/audio/archive/archive-5.mp3" type="audio/mpeg" />
+            Your browser does not support the audio element.
+          </audio>
           <p className="story-text">
             The doors didn’t loom.
             <br />
@@ -1473,7 +1461,9 @@ export default function Archive() {
             The doors opened without sound—without resistance. Like they’d been
             waiting for her patronage.
           </p>
+          <br />
           <hr />
+          <br />
           <p className="story-text">The Archive felt aged and... aware.</p>
           <p className="story-text">
             Stacks bent toward her, as if shaped by years of listening. Books
@@ -1527,7 +1517,9 @@ export default function Archive() {
             <br />
             Still listening.
           </p>
+          <br />
           <hr />
+          <br />
           <p className="story-text">
             Vel remembered the sand before she remembered her body.
             <br />
@@ -1587,7 +1579,9 @@ export default function Archive() {
               <em>“But we learned to translate it.”</em>
             </p>
           </blockquote>
+          <br />
           <hr />
+          <br />
           <p className="story-text">
             The ceremony was not for someone she had known.
           </p>
@@ -1637,7 +1631,9 @@ export default function Archive() {
             <br />
             Like the sand beneath her had started to listen.
           </p>
+          <br />
           <hr />
+          <br />
           <p className="story-text">That was the first time she noticed it.</p>
           <p className="story-text">
             A quiet between silences.
@@ -1650,7 +1646,9 @@ export default function Archive() {
               <em>“But I think we were the first to hear it breathing.”</em>
             </p>
           </blockquote>
+          <br />
           <hr />
+          <br />
           <p className="story-text">That night, the dreams began.</p>
           <p className="story-text">
             Words spilled from mouths that had forgotten language.
@@ -1670,7 +1668,9 @@ export default function Archive() {
             <br />
             But <em>remembered.</em>
           </p>
+          <br />
           <hr />
+          <br />
           <p className="story-text">
             The elders thought she had been chosen.
             <br />
@@ -1712,9 +1712,11 @@ export default function Archive() {
             But it <strong>knew</strong> her.
           </p>
           <p className="story-text">And she didn’t ask how.</p>
-          <h1 className="chapter-title">
-            Chapter 6: <em>Things Returned</em>
-          </h1>
+          <ChapterTitle id="chapter-6" name="Chapter Six: Things Returned" />
+          <audio controls className="w-full mb-4">
+            <source src="/audio/archive/archive-6.mp3" type="audio/mpeg" />
+            Your browser does not support the audio element.
+          </audio>
           <p className="story-text">The door was still open.</p>
           <p className="story-text">
             Just slightly—just enough for the wind to pretend it hadn’t left.
@@ -1826,7 +1828,7 @@ export default function Archive() {
             &quot;I want to help.&quot; Her tail swiped his leg.
           </p>
           <p className="story-text">
-            “I&#39;m fine, by the way,” she added with flashed fang.
+            “I&#39;m fine, by the way,” she added with a flashed fang.
           </p>
           <p className="story-text">
             Gable stayed quiet, his face straightening into something more
@@ -1839,7 +1841,7 @@ export default function Archive() {
           </p>
           <p className="story-text">Gable finally spoke, chin to his chest.</p>
           <p className="story-text">
-            “You keep offering help that like it’s simple.”
+            “You keep offering help like it’s simple.”
           </p>
           <p className="story-text">“It is.”</p>
           <p className="story-text">
@@ -1875,7 +1877,9 @@ export default function Archive() {
             <br />
             The silence was his to break now.
           </p>
+          <br />
           <hr />
+          <br />
           <p className="story-text">
             He reached the table by the entrance—an old slab of warped wood,
             covered in dust and half-curled index cards. Most of them were
@@ -1915,8 +1919,8 @@ export default function Archive() {
           </p>
           <p className="story-text">
             “He was always too tall for our kitchen chairs. Ate like every meal
-            might be his last but never said so. Once broke the washing machine
-            and convinced Mom it had always made that sound.”
+            might be his last but never said so. Once cracked Ma’s butter churn
+            and insisted it had come that way.”
           </p>
           <p className="story-text">Gable started to pace.</p>
           <p className="story-text">
@@ -1957,7 +1961,7 @@ export default function Archive() {
             </p>
           </blockquote>
           <p className="story-text">
-            “Nothing big. Nothing that mattered. I didn’t think anyone would
+            “Nothing big. Nothing that mattered. I didn’t think he would even
             read them. But I sent them anyway. Every week.”
           </p>
           <p className="story-text">“He never wrote back.”</p>
@@ -2011,9 +2015,11 @@ export default function Archive() {
             <br />
             It waited.
           </p>
-          <h1 className="chapter-title">
-            Chapter 7: <em>Things Shared</em>
-          </h1>
+          <ChapterTitle id="chapter-7" name="Chapter Seven: Things Shared" />
+          <audio controls className="w-full mb-4">
+            <source src="/audio/archive/archive-7.mp3" type="audio/mpeg" />
+            Your browser does not support the audio element.
+          </audio>
           <p className="story-text">
             The door was open again.
             <br />
@@ -2021,7 +2027,7 @@ export default function Archive() {
           </p>
           <p className="story-text">Inside, the Archive was calm.</p>
           <p className="story-text">
-            He walked to the long table near the front, cleared a corner with
+            Sam walked to the long table near the front, cleared a corner with
             the sweep of a sleeve, and set the basket down with exaggerated
             ceremony.
           </p>
@@ -2159,16 +2165,31 @@ export default function Archive() {
             standing and stretching. &quot;But I&#39;ll be around.&quot;
           </p>
           <p className="story-text">
-            A book tilted slightly as he moved toward the door.
+            <em>
+              As he moved toward the door, something caught his eye—a familiar
+              title on a nearby shelf.
+            </em>
           </p>
-          <p className="story-text">Its spine read:</p>
-          <blockquote className="story-callout">
-            <p className="story-text">
-              <em>
-                The Sound the Moon Made When It Realized It Was Being Watched
-              </em>
-            </p>
-          </blockquote>
+          <p className="story-text">
+            A book tilted slightly as he moved toward the door.&quot;
+          </p>
+          <p className="story-text">
+            Or even simpler—just have the book&#39;s movement be what stops him:
+          </p>
+          <p className="story-text">
+            &quot;Sam brushed the last of the crumbs off his shirt and tucked
+            the card carefully into his notebook.
+          </p>
+          <p className="story-text">
+            &quot;I should get this basket back to Brynn,&quot; he said,
+            standing and stretching. &quot;But I&#39;ll be around.&quot;
+          </p>
+          <p className="story-text">
+            A book tilted slightly as he moved toward the door, and he paused.
+          </p>
+          <p className="story-text">
+            Its spine read: <em>How It Didn&#39;t Happen</em>
+          </p>
           <p className="story-text">Sam paused.</p>
           <p className="story-text">Smiled.</p>
           <p className="story-text">&quot;See you soon, Gable.&quot;</p>
@@ -2191,7 +2212,7 @@ export default function Archive() {
             It was no longer.
           </p>
           <p className="story-text">
-            Gable raised an eyebrow. &quot;You&#39;re not even hungry.&quot;
+            Gable raised an eyebrow. &quot;You can&#39;t even digest that.&quot;
           </p>
           <p className="story-text">
             Vel sniffed it delicately, then took a bite far too large for her
@@ -2225,13 +2246,10 @@ export default function Archive() {
           <p className="story-text">
             &quot;Hey, Vel? How long have you been here?&quot;
           </p>
-          <p className="story-text">The paw didn&#39;t move.</p>
-          <p className="story-text">Neither did she.</p>
-          <p className="story-text">Not for a long breath.</p>
-          <p className="story-text">Not for two.</p>
+          <p className="story-text">Vel didn&#39;t move.</p>
           <p className="story-text">
-            Vel&#39;s ears had twitched just slightly—like a radio catching a
-            signal it didn&#39;t want.
+            Her ears twitched just slightly—like a radio catching a signal it
+            didn&#39;t want.
             <br />
             Her eyes didn&#39;t blink.
             <br />
@@ -2255,9 +2273,11 @@ export default function Archive() {
               <em>&quot;Not everyone who stays… means to.&quot;</em>
             </p>
           </blockquote>
-          <h1 className="chapter-title">
-            Chapter 8: <em>Things Rooted</em>
-          </h1>
+          <ChapterTitle id="chapter-8" name="Chapter Eight: Things Rooted" />
+          <audio controls className="w-full mb-4">
+            <source src="/audio/archive/archive-8.mp3" type="audio/mpeg" />
+            Your browser does not support the audio element.
+          </audio>
           <p className="story-text">
             Sam stared at Vel for a long moment, processing what she&#39;d just
             said.
@@ -2367,221 +2387,11 @@ export default function Archive() {
             Outside, one chime stirred. Then stilled again. Like it had
             remembered something worth waiting for.
           </p>
-          <h1 className="chapter-title">
-            Chapter 9: <em>Things Carried</em>
-          </h1>
-          <p className="story-text">
-            The Archive had returned to a quiet rhythm.
-          </p>
-          <p className="story-text">
-            Soft footsteps. Shuffling paper. A faint breeze where there
-            shouldn’t be one.
-          </p>
-          <p className="story-text">
-            Vel was reorganizing a shelf that hadn’t asked for it.
-            <br />
-            Gable sat cross-legged on the floor, elbows resting on his knees,
-            fingers gently pressing the sides of his temple like he was holding
-            something still.
-            <br />
-            Sam perched on a stool by the window, trying to balance a card on
-            its edge and humming a tune no one else recognized.
-          </p>
-          <p className="story-text">The card toppled again.</p>
-          <p className="story-text">
-            Sam sighed dramatically, tried once more, and muttered something
-            about center of gravity and emotional sabotage.
-          </p>
-          <p className="story-text">
-            Vel paused mid-reach with a stack of books, ears flicking backward.
-          </p>
-          <p className="story-text">
-            “I heard that,” she said without turning.
-          </p>
-          <p className="story-text">
-            Sam grinned. “You’re a cat. You hear <em>everything.</em>”
-          </p>
-          <p className="story-text">
-            He glanced toward Gable, who hadn’t moved. He was still
-            cross-legged. Still holding his temples like he was trying to keep
-            something from spilling out.
-          </p>
-          <p className="story-text">
-            The room had settled, but not comfortably.
-          </p>
-          <p className="story-text">
-            Sam slid off his stool, footsteps soft as he crossed the space
-            toward Vel.
-          </p>
-          <p className="story-text">“Has he been like that all morning?”</p>
-          <p className="story-text">
-            Vel shifted one book to a different shelf. Then moved it back again.
-          </p>
-          <p className="story-text">“On and off,” she said. “Mostly off.”</p>
-          <p className="story-text">
-            Gable exhaled through his nose, slow and uneven.
-          </p>
-          <p className="story-text">Vel’s eyes flicked to him.</p>
-          <p className="story-text">She opened her mouth. Closed it.</p>
-          <p className="story-text">Sam watched her.</p>
-          <p className="story-text">“You want to help,” he said quietly.</p>
-          <p className="story-text">
-            She didn’t answer. But her tail swayed—not annoyed. Just unsure.
-          </p>
-          <p className="story-text">
-            Sam looked back at Gable, then down at the floor like it might offer
-            instructions.
-          </p>
-          <p className="story-text">
-            After a moment, he crouched beside Gable.
-          </p>
-          <p className="story-text">“You okay?”</p>
-          <p className="story-text">Gable didn’t answer. Not with words.</p>
-          <p className="story-text">
-            His shoulders twitched, just slightly. Like the question had been
-            heavier than he expected.
-          </p>
-          <p className="story-text">Sam glanced back. “Vel?”</p>
-          <p className="story-text">Vel hesitated. Then padded over, slow.</p>
-          <p className="story-text">She didn’t say anything either.</p>
-          <p className="story-text">Just sat beside them.</p>
-          <p className="story-text">
-            Gable let out a breath—not a sigh, but close.
-          </p>
-          <p className="story-text">
-            “I saw his face,” he said suddenly. Voice rough.
-            <br />
-            “In the stacks. Just for a second. I turned, and he was—”
-          </p>
-          <p className="story-text">
-            His hand moved to his coat pocket.
-            <br />
-            To the card.
-          </p>
-          <p className="story-text">
-            “I didn’t remember his name. But I remembered the shape of his mouth
-            when he laughed.”
-          </p>
-          <p className="story-text">
-            Vel blinked slowly. Then said, almost gently:
-          </p>
-          <p className="story-text">“That’s enough.”</p>
-          <p className="story-text">
-            Gable looked at her. Not startled. Just tired.
-          </p>
-          <p className="story-text">“No. It’s not.”</p>
-          <p className="story-text">“Then why—”</p>
-          <p className="story-text">
-            “Because I’ve already given up enough, Vel.”
-            <br />
-            He looked at her.
-            <br />
-            “I can’t end up like you.”
-          </p>
-          <p className="story-text">Then, without fanfare, she spoke:</p>
-          <p className="story-text">“I want to help.”</p>
-          <p className="story-text">A pause.</p>
-          <p className="story-text">
-            Then—
-            <br />
-            “That’s what you are, isn’t it?” Sam grinned, swinging his legs
-            gently from the stool. “You’re a helper.”
-          </p>
-          <p className="story-text">Vel didn’t answer.</p>
-          <p className="story-text">
-            Gable did.
-            <br />
-            “She can’t.”
-          </p>
-          <p className="story-text">He turned to Vel with soft eyes.</p>
-          <p className="story-text">
-            “But she used to.” He let his eyes wander from Vel to the back of
-            the Archive.
-          </p>
-          <p className="story-text">
-            Vel hissed.
-            <br />
-            “These books just stopped slapping me at random, and you want me to
-            go <em>there?</em>”
-          </p>
-          <p className="story-text">
-            Gable blinked once, slow, then turned to Sam.
-          </p>
-          <p className="story-text">
-            “I’ve been keeping it. Quietly. Not touching it unless she asked.”
-          </p>
-          <p className="story-text">Vel’s voice was almost a whisper.</p>
-          <p className="story-text">“I never did.”</p>
-          <p className="story-text">
-            She sighed through her nose. “Names are heavier than people think.”
-          </p>
-          <p className="story-text">
-            Sam blinked. “But you have one. Vel is pretty.”
-          </p>
-          <p className="story-text">
-            “Not in a way I can wear,” she said. “It&#39;s like... trying to
-            hold water with a broken cup. I can feel what people need, but I
-            can&#39;t hold it all in anymore.”
-          </p>
-          <p className="story-text">
-            Gable picked at a loose thread on his sleeve.
-          </p>
-          <p className="story-text">
-            “She gave it up. All of it. The syllables, the memories, the weight.
-            It was the only way she could stop feeling <em>everything.</em>”
-          </p>
-          <p className="story-text">
-            Sam&#39;s face twisted, then brightened into something more
-            familiar.
-          </p>
-          <p className="story-text">&quot;Then let&#39;s go get it.&quot;</p>
-          <p className="story-text">Vel froze.</p>
-          <p className="story-text">
-            &quot;It&#39;s not that easy,&quot; Gable grumbled.
-          </p>
-          <p className="story-text">
-            Vel padded back to Sam and sat. Sam stood and started stretching
-            like he was seconds from a starting pistol.
-          </p>
-          <p className="story-text">
-            &quot;It was enough trouble just to get this room to resist her.
-            Names stick. And so does forgetting.&quot;
-          </p>
-          <p className="story-text">Sam stopped stretching.</p>
-          <p className="story-text">
-            &quot;<em>Resist?</em>&quot;
-          </p>
-          <p className="story-text">Gable reclaimed his chair at the table.</p>
-          <p className="story-text">
-            “She’s forgotten so much that a place like this?”
-            <br />
-            He took a bite of the last pastry. A few crumbs tumbled daintily
-            down his coat.
-          </p>
-          <p className="story-text">“It tends to get… opportunistic.”</p>
-          <p className="story-text">
-            The three of them sat in silence for a moment, the weight of what
-            Sam had suggested settling around them.
-          </p>
-          <p className="story-text">
-            &quot;You don&#39;t have to,&quot; Vel said finally. &quot;Either of
-            you. This is my—&quot;
-          </p>
-          <p className="story-text">
-            &quot;We&#39;re doing it,&quot; Sam interrupted.
-          </p>
-          <p className="story-text">Gable looked at him, then at Vel.</p>
-          <p className="story-text">&quot;You sure about this?&quot;</p>
-          <p className="story-text">
-            Vel&#39;s eyes met his. &quot;I&#39;m sure I can&#39;t keep being
-            half of what I used to be.&quot;
-          </p>
-          <p className="story-text">
-            Gable nodded slowly. &quot;Then we go down.&quot;
-          </p>
-          <h1 className="chapter-title">
-            Chapter 10: <em>Things Gathered</em>
-          </h1>
+          <ChapterTitle id="chapter-9" name="Chapter Nine: Things Gathered" />
+          <audio controls className="w-full mb-4">
+            <source src="/audio/archive/archive-9.mp3" type="audio/mpeg" />
+            Your browser does not support the audio element.
+          </audio>
           <p className="story-text">The Archive had quieted again.</p>
           <p className="story-text">
             Gable stood near the front hall, one hand resting on a table that
@@ -2670,7 +2480,9 @@ export default function Archive() {
           </p>
           <p className="story-text">“Now it remembers you,” he said softly.</p>
           <p className="story-text">Vel blinked once. Said nothing.</p>
+          <br />
           <hr />
+          <br />
           <p className="story-text">
             Gable turned toward the hallway.
             <br />
@@ -2715,9 +2527,11 @@ export default function Archive() {
             And somewhere, tucked on a forgotten shelf, a book titled{" "}
             <em>Things I Wish I Had Known</em> turned a page.
           </p>
-          <h1 className="chapter-title">
-            Chapter 11: <em>Things Broken</em>
-          </h1>
+          <ChapterTitle id="chapter-10" name="Chapter Ten: Things Broken" />
+          <audio controls className="w-full mb-4">
+            <source src="/audio/archive/archive-10.mp3" type="audio/mpeg" />
+            Your browser does not support the audio element.
+          </audio>
           <p className="story-text">
             The descent wasn&#39;t steep.
             <br />
@@ -2966,7 +2780,9 @@ export default function Archive() {
           <blockquote className="story-callout">
             <p className="story-text">“You’re here now.”</p>
           </blockquote>
+          <br />
           <hr />
+          <br />
           <p className="story-text">
             The room <strong>cracked.</strong>
           </p>
@@ -3006,11 +2822,13 @@ export default function Archive() {
             More books floated now. The air thickened with stories trying to be
             born.
             <br />
-            And then everything happened at once.
+            And then everything blurred.
           </p>
-          <h1 className="chapter-title">
-            Chapter 12: <em>Things Refused</em>
-          </h1>
+          <ChapterTitle id="chapter-11" name="Chapter Eleven: Things Refused" />
+          <audio controls className="w-full mb-4">
+            <source src="/audio/archive/archive-11.mp3" type="audio/mpeg" />
+            Your browser does not support the audio element.
+          </audio>
           <p className="story-text">The books opened all at once.</p>
           <p className="story-text">
             No warning. No sound.
@@ -3034,14 +2852,13 @@ export default function Archive() {
             <br />
             <strong>Versions of himself.</strong>
           </p>
-          <ul className="bullet-list">
-            <li>One stood silent at a hospital bed, refusing to speak.</li>
-            <li>
-              One was shouting at no one in particular, eyes wild, soaked in
-              rain.
-            </li>
-            <li>One just looked tired. So tired.</li>
-          </ul>
+          <p className="story-text">
+            One stood silent at a hospital bed, refusing to speak.
+            <br />
+            One was shouting at no one in particular, eyes wild, soaked in rain.
+            <br />
+            One just looked tired. So tired.
+          </p>
           <p className="story-text">
             They weren’t ghosts.
             <br />
@@ -3192,13 +3009,26 @@ export default function Archive() {
             hadn’t just stared down a dozen versions of obliteration.
           </p>
           <p className="story-text">Sam smiled.</p>
-          <p className="story-text">“I like the quiet ones better.”</p>
-          <p className="story-text">“They’re next,” she said.</p>
+          <p className="story-text">
+            &quot;I like the quiet ones better.&quot;
+          </p>
+          <p className="story-text">&quot;They&#39;re next,&quot; she said.</p>
           <p className="story-text">And together, they walked on.</p>
-          <h1 className="chapter-title">
-            Chapter 13: <em>Things Mended</em>
-          </h1>
-          <p className="story-text">The Archive changed again.</p>
+          <ChapterTitle id="chapter-12" name="Chapter Twelve: Things Mended" />
+          <audio controls className="w-full mb-4">
+            <source src="/audio/archive/archive-12.mp3" type="audio/mpeg" />
+            Your browser does not support the audio element.
+          </audio>
+          <p className="story-text">
+            Sam felt it before he saw it—a tension in the air, like the moment
+            before lightning strikes. Vel&#39;s steps had grown uneven,
+            unstable, then... gone.
+          </p>
+          <p className="story-text">
+            &quot;Vel?&quot; he started to say, but the word caught in his
+            throat as the corridor opened into a wider space, and he saw what
+            was waiting for them.
+          </p>
           <p className="story-text">
             The air that had been sharp before was now unstable, like it had
             become a liquid on the verge of boiling. Every shelf trembled. Every
@@ -3398,9 +3228,14 @@ export default function Archive() {
           <p className="story-text">
             And the Archive, quiet now, let them go on.
           </p>
-          <h1 className="chapter-title">
-            Chapter 14: <em>Things Remembered</em>
-          </h1>
+          <ChapterTitle
+            id="chapter-13"
+            name="Chapter Thirteen: Things Remembered"
+          />
+          <audio controls className="w-full mb-4">
+            <source src="/audio/archive/archive-13.mp3" type="audio/mpeg" />
+            Your browser does not support the audio element.
+          </audio>
           <p className="story-text">
             The hallway ended with something that wasn’t quite a door.
           </p>
@@ -3547,11 +3382,6 @@ export default function Archive() {
           <p className="story-text">Mid-flicker.</p>
           <p className="story-text">The air caught.</p>
           <p className="story-text">Her shape—distant, fraying—paused.</p>
-          <p className="story-text">And then—</p>
-          <p className="story-text">She reversed.</p>
-          <p className="story-text">Not as a ghost.</p>
-          <p className="story-text">Not as a storm.</p>
-          <p className="story-text">But as a woman.</p>
           <p className="story-text">
             She stepped toward him, every footfall sewing memory back into her
             skin.
@@ -3564,7 +3394,7 @@ export default function Archive() {
           <p className="story-text">
             But <em>homeward.</em>
           </p>
-          <p className="story-text">Archive held its breath.</p>
+          <p className="story-text">The Archive held its breath.</p>
           <p className="story-text">Waiting.</p>
           <p className="story-text">And then she stopped.</p>
           <p className="story-text">Mid-step.</p>
@@ -3587,7 +3417,9 @@ export default function Archive() {
             to be spoken.
           </p>
           <p className="story-text">And she remembered.</p>
+          <br />
           <hr />
+          <br />
           <p className="story-text">First the sand.</p>
           <p className="story-text">Always the sand.</p>
           <p className="story-text">
@@ -3633,7 +3465,9 @@ export default function Archive() {
             The room around her adjusted, like it had been waiting to remember
             her too.
           </p>
+          <br />
           <hr />
+          <br />
           <p className="story-text">She turned—slowly—toward Sam.</p>
           <p className="story-text">Her shape flickered once more.</p>
           <p className="story-text">
@@ -3683,7 +3517,9 @@ export default function Archive() {
             Somewhere, a book quietly reshelved itself with a sound like a sigh.
           </p>
           <p className="story-text">Sam exhaled, too.</p>
+          <br />
           <hr />
+          <br />
           <p className="story-text">
             Vel stood still for a moment longer, letting the space recalibrate
             around her.
@@ -3730,9 +3566,6 @@ export default function Archive() {
             <br />
             Taller than before.{" "}
           </p>
-          <p className="story-text">Then said it again.</p>
-          <p className="story-text">“Velesstra.”</p>
-          <p className="story-text">The air didn’t ripple.</p>
           <p className="story-text">
             The Archive didn’t roar or weep or shimmer.
           </p>
@@ -3757,7 +3590,9 @@ export default function Archive() {
             <br />
             But it held the rest, too.”
           </p>
+          <br />
           <hr />
+          <br />
           <p className="story-text">
             The path ahead revealed itself without drama.
           </p>
@@ -3786,9 +3621,14 @@ export default function Archive() {
             Not as a guardian.
           </p>
           <p className="story-text">As someone walking home.</p>
-          <h1 className="chapter-title">
-            Chapter 15: <em>Things Made New</em>
-          </h1>
+          <ChapterTitle
+            id="chapter-14"
+            name="Chapter Fourteen: Things Made New"
+          />
+          <audio controls className="w-full mb-4">
+            <source src="/audio/archive/archive-13-14.mp3" type="audio/mpeg" />
+            Your browser does not support the audio element.
+          </audio>
           <p className="story-text">
             The door opened just as Gable was shelving a new title:
           </p>
@@ -3805,6 +3645,7 @@ export default function Archive() {
             The Archive was quieter than usual—like it was listening ahead of
             time.
           </p>
+          <p className="story-text">Then—</p>
           <p className="story-text">Footsteps.</p>
           <p className="story-text">
             Not heavy. Not hurried. Just <em>sure.</em>
@@ -3844,9 +3685,7 @@ export default function Archive() {
             He didn’t have to.
           </p>
           <p className="story-text">She was already reaching for him.</p>
-          <p className="story-text">
-            And for once, <strong>he let himself be held.</strong>
-          </p>
+          <p className="story-text">And for once, he let himself be held.</p>
           <p className="story-text">Not long.</p>
           <p className="story-text">Just enough.</p>
           <p className="story-text">The Archive sighed.</p>
@@ -3871,9 +3710,8 @@ export default function Archive() {
             “You just have to let it <em>happen.</em>”
           </p>
           <p className="story-text">
-            He laughed, or something like it.
-            <br />
-            Wiped his face with the back of his sleeve.
+            He laughed—or something like it—and wiped his face with the back of
+            his sleeve.
           </p>
           <p className="story-text">
             “You’re taller than I remember,” he muttered.
@@ -3906,9 +3744,10 @@ export default function Archive() {
             And the Archive, for the first time in a long time, felt{" "}
             <strong>awake.</strong>
           </p>
-          <h1 className="chapter-title">
-            Chapter 16: <em>Things Planted</em>
-          </h1>
+          <ChapterTitle
+            id="chapter-15"
+            name="Chapter Fifteen: Things Planted"
+          />
           <p className="story-text">The front yard was still mostly wild.</p>
           <p className="story-text">
             Uneven grass. One bent fence post. A wind chime that hadn’t quite
@@ -3997,9 +3836,14 @@ export default function Archive() {
               <em>Things Made Room For.</em>
             </p>
           </blockquote>
-          <h1 className="chapter-title">
-            Chapter 17: <em>Things Carried Forward</em>
-          </h1>
+          <ChapterTitle
+            id="chapter-16"
+            name="Chapter Sixteen: Things Carried Forward"
+          />
+          <audio controls className="w-full mb-4">
+            <source src="/audio/archive/archive-16.mp3" type="audio/mpeg" />
+            Your browser does not support the audio element.
+          </audio>
           <p className="story-text">
             If you found your way here,
             <br />
@@ -4032,7 +3876,9 @@ export default function Archive() {
             Like a book that leans a little closer when you stop pretending
             you’re fine.
           </p>
+          <br />
           <hr />
+          <br />
           <p className="story-text">
             Maybe you’ve forgotten something.
             <br />
@@ -4048,7 +3894,9 @@ export default function Archive() {
             And some seeds don’t sprout until someone else is ready to tend
             them.
           </p>
+          <br />
           <hr />
+          <br />
           <p className="story-text">
             So if you ever feel quiet—
             <br />
