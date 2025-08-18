@@ -1,3 +1,8 @@
-import { convertMarkdownToHTML, splitIntoChapters, kidBookCSS } from "./lib.js";
+import { convertMarkdownToHTML, rewritePronouns } from "./lib.js";
+import fs from "fs";
 
-convertMarkdownToHTML("book.md", "book.html");
+const original = fs.readFileSync("book.md", "utf8");
+// const personalized = rewritePronouns(original, "Sam", "Sam", "he");
+const result = convertMarkdownToHTML(original);
+
+fs.writeFileSync("book.html", result);

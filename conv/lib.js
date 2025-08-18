@@ -11,6 +11,104 @@ marked.setOptions({
   pedantic: false,
 });
 
+export function rewritePronouns(
+  text,
+  originalName,
+  targetName,
+  pronounKey = "they"
+) {
+  const PRONOUNS = {
+    she: {
+      subject: "she",
+      object: "her",
+      possessiveAdj: "her",
+      possessive: "hers",
+      reflexive: "herself",
+    },
+    he: {
+      subject: "he",
+      object: "him",
+      possessiveAdj: "his",
+      possessive: "his",
+      reflexive: "himself",
+    },
+    they: {
+      subject: "they",
+      object: "them",
+      possessiveAdj: "their",
+      possessive: "theirs",
+      reflexive: "themselves",
+    },
+  };
+
+  const originalPronouns = PRONOUNS["he"]; // assume Sam uses she/her originally
+  const newPronouns = PRONOUNS[pronounKey] || PRONOUNS["they"];
+
+  // Case-sensitive + case-insensitive replacements
+  const replacements = [
+    [new RegExp(`\\b${originalName}\\b`, "g"), targetName],
+    [
+      new RegExp(`\\b${originalName.toLowerCase()}\\b`, "g"),
+      targetName.toLowerCase(),
+    ],
+    [
+      new RegExp(`\\b${originalPronouns.subject}\\b`, "gi"),
+      (match) =>
+        match[0] === match[0].toUpperCase()
+          ? capitalize(newPronouns.subject)
+          : newPronouns.subject,
+    ],
+    [
+      new RegExp(`\\b${originalPronouns.object}\\b`, "gi"),
+      (match) =>
+        match[0] === match[0].toUpperCase()
+          ? capitalize(newPronouns.object)
+          : newPronouns.object,
+    ],
+    [
+      new RegExp(`\\b${originalPronouns.possessiveAdj}\\b`, "gi"),
+      (match) =>
+        match[0] === match[0].toUpperCase()
+          ? capitalize(newPronouns.possessiveAdj)
+          : newPronouns.possessiveAdj,
+    ],
+    [
+      new RegExp(`\\b${originalPronouns.possessive}\\b`, "gi"),
+      (match) =>
+        match[0] === match[0].toUpperCase()
+          ? capitalize(newPronouns.possessive)
+          : newPronouns.possessive,
+    ],
+    [
+      new RegExp(`\\b${originalPronouns.reflexive}\\b`, "gi"),
+      (match) =>
+        match[0] === match[0].toUpperCase()
+          ? capitalize(newPronouns.reflexive)
+          : newPronouns.reflexive,
+    ],
+  ];
+
+  let result = text;
+  for (const [pattern, replacement] of replacements) {
+    result = result.replace(pattern, replacement);
+  }
+
+  return result;
+}
+
+function capitalize(str) {
+  return str.charAt(0).toUpperCase() + str.slice(1);
+}
+
+function personalizeMarkdown(markdown, data) {
+  let result = markdown;
+  for (const [key, value] of Object.entries(data)) {
+    const regex = new RegExp(`{{${key}}}`, "g");
+    result = result.replace(regex, value);
+  }
+  return result;
+}
+
 // Let marked handle the conversion first, then we'll post-process to add classes
 function addKidsBookClasses(html) {
   return html
@@ -129,15 +227,9 @@ const kidBookCSS = `
   }
 </style>`;
 
-function convertMarkdownToHTML(markdownFilePath, outputFilePath) {
+export function convertMarkdownToHTML(markdownContent) {
   try {
-    // Read the markdown file
-    const markdownContent = fs.readFileSync(markdownFilePath, "utf8");
-
-    // Convert to HTML
     const rawHTML = marked.parse(markdownContent);
-
-    // Add our custom classes
     const htmlContent = addKidsBookClasses(rawHTML);
 
     // Create complete HTML document
@@ -154,12 +246,6 @@ function convertMarkdownToHTML(markdownFilePath, outputFilePath) {
 </body>
 </html>`;
 
-    // Write to output file
-    fs.writeFileSync(outputFilePath, fullHTML, "utf8");
-
-    console.log(
-      `✅ Successfully converted ${markdownFilePath} to ${outputFilePath}`
-    );
     return fullHTML;
   } catch (error) {
     console.error("❌ Error converting markdown:", error.message);
@@ -194,6 +280,3 @@ function splitIntoChapters(htmlContent) {
 
   return chapterArray;
 }
-
-// Export functions for use
-export { convertMarkdownToHTML, splitIntoChapters, kidBookCSS };

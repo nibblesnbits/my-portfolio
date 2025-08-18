@@ -8,7 +8,7 @@ by Juno Threadborne
 
 _“Some things don’t want to be forgotten.  
 Others wait until you’re quiet enough to hear them.”_  
-	— Graham
+	– Graham
 
 ---
 # Prologue: *Things Begun*
@@ -85,18 +85,7 @@ not all at once, and not by trade.
 But by the weight of things unspoken—
 the cracks that form when hearts are broken.
 
-The Elsebeneath is not a lie.
-It’s just a place where truths still try.
-
 # Chapter 1: *Things Lost*
-
-A short, slender black cat stepped over a crooked windowsill and onto the street, tail flicking as she landed. Her fur shimmered with dust motes that hadn’t figured out they weren’t part of the night. Around her neck, a charm swung gently from a fraying thread: a tiny brass telescope, rusted at the hinge.
-
-She’d walked these streets before they had names. In that age, she had a purpose. Or maybe just a title. She couldn’t remember which.
-
-Now, she moved like someone who had lived everywhere and nowhere, and neither had asked her to stay.
-
-She moved anyway.
 
 The wind had stopped singing.
 
@@ -105,6 +94,14 @@ But it no longer carried songs, or laughter, or the soft spill of memories.
 Just hush.
 
 But that was always the way of the Elsebeneath. It was never a place that made up its mind.
+
+In a single beam of moonlight, a short, slender black cat slipped from the crooked windowsill, tail flicking as she landed. Her fur shimmered with dust motes that hadn’t figured out they weren’t part of the night. Around her neck, a charm swung gently from a fraying thread: a tiny brass telescope, rusted at the hinge.
+
+She’d walked these streets before they had names. In that age, she had a purpose. Or maybe just a title. She couldn’t remember which.
+
+Now, she moved like someone who had lived everywhere and nowhere, and neither had asked her to stay.
+
+She moved anyway.
 
 She padded past a chimepost and paused. One of the threads had snapped. A shard of porcelain—teacup, maybe—still swayed slightly, making a sound that wasn’t quite a note.
 
@@ -116,7 +113,7 @@ She didn’t remember what.
 That was fine.
 
 If she’d forgotten, it must not have been hers to carry.  
-And if it had been beautiful, someone else would remember it.  
+If it had been beautiful, someone else would remember it.  
 That was how beauty worked, wasn’t it?
 
 The wind curled past her whiskers, carrying a thread of old warmth—rosemary bread, thunder before it rains, a blanket being tucked too tightly.  
@@ -160,13 +157,10 @@ Didn’t need to count how many people turned away too quickly.
 She padded up near Gable, and sat.
 
 A young boy stepped to the front, cradling a small stone with a name carved into its surface and a ribbon wrapped tightly around it.  With silent tears, he sat it carefully in a marked spot in the garden, and stepped back into the crowd.
-Whatever he thought, it clung to him instead of reaching his mouth.  
-Or maybe he’d already started to forget.
+Whatever he thought, it clung to him instead of reaching his mouth.
 
 Vel tilted her head, watching the boy for a moment. She knew his face.
-Or rather, the _shape_ of it.
-Something tugged at her memory—soft, then sharp.  
-The longer she looked, the more it felt like something was missing. Some part of her she had forgotten.
+The shape of his face tugged hard at something in her—then slipped. She sat still. Some forgettings were harmless. Others were the first signs of being unmade.
 
 “Loss isn’t often what we wish it was.”
 
@@ -184,6 +178,8 @@ Vel swished her tail.
 
 Gable rolled his eyes, the corner of his mouth twitching toward something that wasn’t a smile.
 
+His voice was low.
+
 “We’re mourning, Vel.”
 
 ---
@@ -198,8 +194,7 @@ Some silences preferred to be left alone. Even she knew that.
 The last of the wind passed them by—something that used to be a lullaby.
 
 Gable reached into his coat pocket and pulled out a small index card.  
-He didn’t read it.  Just held it the same way he’d held his silence earlier.
-Just held it, like it had already said everything it needed to.
+It bent in his hand like it wanted to stay there. He didn’t read it. Vel thought she saw the ink shift—just slightly—before he closed his fingers.
 
 Vel watched him for a long moment.
 
@@ -212,6 +207,8 @@ Gable closed his hand around the card.
 “I don’t know yet.”
 
 The wind, it seemed, had forgotten how to carry certain things.
+
+The hush wasn’t empty—it was listening. The ribbons didn’t sway; they leaned. And somewhere beyond the garden, something had begun to ring without sound.
 
 # Chapter 2: *Things Kept*
 
@@ -250,10 +247,9 @@ Gable sighed, but not at her. “Suit yourself.”
 
 He nodded once and put a hand on the door.
 
-The door didn’t resist.  
-But it didn’t quite *welcome* him either.
+The door resisted, and let out a quiet *hmph*.
 
-Its hinges moved in silence—not the comfortable kind, but the kind that sounded like something remembering how to move.
+Vel took a step back, and the door creaked open.
 
 The light was the same as always—dusk-colored and indirect, leaving dust motes and memories hanging in the air.
 
@@ -266,29 +262,28 @@ He stepped inside, boots whispering against worn wooden floors. A stack of blank
 
 > **“For What You Almost Said”**
 
-Same as always.  
-Almost.
+Same as always.
 
 To the left: the stacks.
 
 Not drawers yet. Not down here. This was the _surface Archive_. The polite face it showed newcomers.
 
 The bookshelves were tall, uneven. Some leaned just slightly; time did that when enough thoughts are carried.
-Others had steps built into them, not ladders—little carved platforms where you might pause halfway to a thought.
+Others had steps built into them—not stairs—little carved platforms where you might pause halfway to a thought.
 
 He passed a familiar spine: _**Things I Didn’t Know Were Good Until They Were Gone.**_
 
-He ran a finger along the edge.
+He ran a finger along the edge. The smell of sea salt rose up, clear and distinct.
 
-The smell of smoke and salt rose up, sharp enough to sting. Gable pulled his hand back, heart quickening. The Archive didn’t forget smells—it chose them.
-
-The book shivered faintly.  
-Didn’t open.  
+The book shivered faintly.
+Didn’t open.
 Didn’t need to.
 
 But it didn’t feel quite like it used to.
 
----
+Gable scanned the Archive with a strange, renewed reverence.  He didn't count the years he had spent here.  Protecting.  Guiding anything almost said.
+
+He let his eyes fall on the far wall.
 
 Every book, unfinished.
 
@@ -302,35 +297,8 @@ He passed a volume bound in cracked red leather, its title stamped faintly in go
 
 He didn’t open that one either.
 
-Some stories didn’t need reading.  
+Some stories didn’t need reading.
 Some just needed a place to wait.
-
-He rounded the shelf and stopped.
-
-The light bent strangely here—like it didn’t know what to land on.
-
-A small table had appeared where no table should’ve been.  
-Not unusual, in theory. The Archive did that sometimes. The table’s surface bore a faint scratch—a jagged line, like a word half-written. Gable’s fingers froze above it. He’d seen that mark before, in a memory the Archive wasn’t supposed to keep.
-
-He crossed to the next shelf and paused. A stack of three books lay on a table that hadn’t been there yesterday. No candle, no chair. Just the books. Their titles were handwritten, as always:
-
-- _**You Laughed, So I Didn’t Say It Again**_
-- _**The Walk Home I Forgot to Describe**_
-- _**She Would’ve Understood, Probably**_
-
-Some of the books had not been placed there, but they had arrived all the same
-
-He touched the top one, and felt something like warmth move through his fingertips.
-
-“You’re here again,” he murmured to the shelf.
-
-It didn’t answer, but the chime above it stirred.  
-Low and soft, like a memory waking.
-
-He didn’t look up.  
-He didn’t need to.
-
-The chimes always knew when someone had come home.
 
 ---
 
@@ -385,20 +353,17 @@ To the quiet.
 To the memory of a place that still knew her name,
 even if she couldn’t carry it.
 
-A chime above the fountain rang once, sharp and wrong, like a voice out of tune. Vel’s ears twitched. She didn’t move—not yet—but her claws flexed against the stone.
+A chime above the fountain rang once, sharp and wrong, like a voice out of tune. Vel’s ears twitched. It was the kind of sound she’d heard before—
 
-Tomorrow, she’d find that sound.
+but only in places she’d promised herself never to return to.
+
 # Chapter 3: *Things Unsaid*
 
-Morning arrived softer than usual.
+Morning arrived softly—like a page someone loved too much to leave unread again.
 
-Not that Elsebeneath mornings ever came with certainty—but this one turned like a page someone loved too much to leave closed.
+Sam walked alone, the cobblestones gently leaning with his step.
 
-Sam walked alone.
-
-He had a scarf made of stitched together neckties wrapped around his neck, flowing back in a gentle breeze that told him exactly where the best bread in town was today.
-
-He hummed as he walked. Something tuneless but content. A little melody that had followed him from a dream and hadn’t quite let go.
+He had a scarf made of stitched together neckties wrapped around his neck, flowing back in a gentle breeze that told him exactly where the best bread in town was today. He hummed as he walked. Something tuneless but content.
 
 Chimes whispered above him, strung from corners and doorways like polite ghosts. Some rang clear and bright, others sighed low and slow—half-memories of lullabies. A few didn’t sound at all, but shimmered like they wanted to.
 
@@ -408,13 +373,13 @@ Sam tilted his head as he passed one that let out a quick, high “plink,” lik
 
 Then he saw the sign.
 
-It was mounted above a wide wooden door, the lettering that had taken its time to deepen in color.
+It was mounted above a wide wooden door, with lettering that had taken its time to deepen in color.
 
 > **The Archive of Unsaid Things**
 
 Sam stopped. Squinted.
 
-“…Well that’s ominous. And inviting.”
+“Well that’s... ominous. And inviting.”
 
 The door didn’t creak. Didn’t sigh.  
 It just waited.
@@ -431,7 +396,7 @@ And stepped inside.
 
 The room smelled like old pages and older pauses.
 
-Dust motes danced through indirect light that might’ve been sunlight, or candlelight, or something in between.
+Dust danced through indirect light that might’ve been sunlight, or candlelight, or something in between.
 There were books everywhere. Not lined up neatly, but leaning—like they’d grown tired of standing at attention and preferred soft angles and casual conversations.
 
 At first, the Archive made no sound at all.
@@ -477,7 +442,7 @@ The book lifted itself slightly off the ground as he neared, then thudded back d
 
 Sam’s eyes widened. “Did it just—?”
 
-“They get dramatic,” Gable muttered, crouching to gently nudge the book upright. “Ignore the performance. It’s mostly for the new ones.”
+“They get dramatic,” Gable muttered, crouching to gently nudge the book upright. “Ignore the performance. It’s mostly just the new ones.”
 
 Sam looked around slowly.  
 “So… what _is_ this place?”
@@ -495,7 +460,7 @@ Gable rested his hand on the edge of the box, fingers brushing lightly over the 
 
 Sam looked back at the rows of books—some humming faintly, some gently pulsing like they held breath.
 
-“…Ok, that's kinda cool.”
+“Ok, that's kinda cool.”
 
 “It’s also wildly inconvenient,” Gable said. “They’re organized by resonance, not topic. And the autobiographies file themselves.”
 
@@ -508,57 +473,9 @@ He gestured to a narrow hallway deeper in, where a placard hung crookedly from t
 
 > _“Quiet, Please. Some Feelings Are Sleeping.”_
 
-Gable sighed.
+"Long story," he mumbled.
 
-“Come on. I’ll show you how it works before something shelves _you._”
-
-----
-
-Gable led him down a corridor of leaning shelves and tilted light.  
-No two lamps matched.  
-Some flickered.  
-One buzzed faintly in Morse code, but Sam didn’t know the alphabet well enough to tell what it was feeling.
-
-They turned a corner, and Gable stopped in front of a modest table with two chairs. One had a cushion flattened by use; the other looked like it had only recently decided to exist.
-
-A blank card sat in the center of the table.  
-Waiting.
-
-Gable didn’t sit. He just gestured.
-
-“Most people think this place is about memory,” he said.
-
-“It’s not.”
-
-He picked up the card, holding it loosely.
-
-“It’s about _almost._”
-
-Sam tilted his head and smiled. 
-“That tracks.”
-
-Gable picked up the card, held it between thumb and forefinger.
-
-“The Archive doesn’t store facts. It stores _emotional potential._ What someone nearly said. Almost admitted. Thought about shouting and whispered instead.”
-
-He held the card out. Sam took it.
-
-It felt… normal. A little thicker than usual. Edges soft from being held once or twice too often.  
-But nothing written. Not yet.
-
-“If you’re holding back something important,” Gable said quietly, “it writes itself.”
-
-Sam looked at it.  
-Then at him.
-
-“That’s not creepy at all.”
-
-“It’s better than honesty,” Gable said with a shrug. “Honesty is what you choose to share. This place remembers what you _meant._”
-
----
-
-Sam wandered again—this time slower.  
-The Archive didn’t look bigger, but it _felt_ deeper now.
+Sam jumped up and brushed an avalanche of crumbs from his shirt.  His face was still speckled with sugar.  He gave a slight bow to Gable and gestured down a row of shelves.
 
 He passed a shelf labeled:
 
@@ -574,29 +491,12 @@ Farther on: a thinner volume lay open on a pedestal.
 He touched the edge.  
 A quiet heat moved through his palm—recognition without shame.
 
-He passed a weathered wall with a fading poster half-curling off at the edges.  
-Someone had tried to smooth it out, but only half-successfully. The image was a snail with racing stripes painted, badly, down it's shell.
-
-The caption read:
-
-> “SHELL ON, HEAD HIGH!”
-
-Sam gave the snail a nod.
-
-“Thanks, Zoomie”
-
-Sam grinned. “You guys have the weirdest motivational posters.”
-
-Gable didn’t look up from where he was sorting cards by resonance—most of them fluttering indignantly under his fingers.
-
-“Not ours. They show up on their own. Probably because someone once meant to say that and never did.”
-
-Sam kept moving.
+He kept moving.
 
 A card stuck out of a stack, just slightly.  
 He tugged it free.
 
-> _“I don’t want to be alone.”_
+_“I don’t want to be alone.”_
 
 His breath caught.
 
@@ -604,36 +504,29 @@ No fancy script.
 No ink bleed.  
 Just a sentence—raw, plain.
 
-And then—
-**Fen.**
-Sitting alone against a frost-ribbed wall, shoulders tight, jaw set against the tremble he wouldn’t let show.
-The Mountain of Mastery.
-The moment Sam left.
+And then—  
+a boy with frost in his hair, shoulders drawn tight against the cold.  
+Not someone the Archive could keep—  
+just someone Sam had once left behind.
 
 It came all at once.  
 Not like a memory.  
-Like a truth arriving late.
+Like guilt wearing a familiar face.
 
-“Fen,” Sam whispered.
-
-And the image vanished.
-
-He clutched the card a little too tightly, like it might keep the flicker in place.
+He held the card longer than he meant to.
 
 Behind him, Gable’s voice was softer than before.
 
-“That’s the kind the Archive keeps best.”
+“That’s the kind the Archive keeps best.  
+Not the loud grief. The quiet, guilty kind.”
 
-Sam turned slowly.  
-Gable was looking at him—really _looking_—and there was something familiar in the pain behind his eyes.
+Sam nodded faintly.  
+He slid the card back between the others, fingers reluctant.
 
-Recognition.  
-A silhouette.
-Of someone he'd just mourned.
-
-Sam tucked the card back between two others, a little awkwardly—as if afraid the shelves might judge his filing method.
-They did.
 A book to his left let out a faint _scoff,_ fluttered its pages in offense, then shuffled two inches away like it didn’t want to be associated with him.
+
+The Archive could keep it now.  
+He didn’t have to.
 
 He stepped back with his hands up.
 
@@ -758,7 +651,7 @@ Inside one of the seams was a small, white piece of cloth with a message in long
 
 Sam smiled.
 
-> “Someone I haven’t stopped listening to.”
+“Someone I haven’t stopped listening to.”
 
 Gable wrapped the scarf once around his wrist, eyed it like a wristwatch, then motioned Sam back towards the door.
 
@@ -766,10 +659,12 @@ Gable wrapped the scarf once around his wrist, eyed it like a wristwatch, then m
 
 "Samuel, actually. Sam for short.  And yeah.  I think I do."
 
+He bounded out.
+
 ---
 
 The village had begun to settle.  
-Not quiet, exactly—Elsebeneath was never truly silent—but still.  
+Not quiet, exactly—the Elsebeneath was never truly silent—but... still.  
 Like someone holding their breath between memories.
 
 Gable walked slowly.
@@ -778,46 +673,8 @@ The scarf was now tied loosely around his wrist, trailing like a forgotten sente
 
 He passed shuttered windows, doorways with listening threads, ribbons that didn’t rustle anymore.
 
-And there—on a crooked windowsill, half-tucked in shadow—Vel blinked at him.
-
-“You gave him a card,” she said.
-
-Her voice was lazy, half-purr.
-
-“He gave me a scarf,” Gable replied.
-
-She tilted her head, whiskers twitching.
-
-“Fair trade?”
-
-He paused.
-
-“We’ll see.”
-
-Vel flicked her tail once, then tucked it around her paws like a question mark.
-
-And, after a long silence—
-“You didn’t know the kid.”
-
-Gable looked out past her—toward the part of the sky that had forgotten its color again.
-
-“No,” he said. “Not well. But he used to come in. Told stories. About stars, mostly. One time he swore the moon had feelings.”
-
-He smiled faintly.
-
-“Made the books laugh.”
-
-Vel didn’t answer right away.  
-She watched a breeze pass by and didn’t chase it.
-
-Then, softly:
-
-“Some people are harder to forget, even if you don’t remember why.”
-
-Gable nodded once.
-
-And didn’t say anything more.  
-But the wind, somewhere behind them, tried to.
+The wind shifted against the walls, thin but persistent—  
+like it was practicing a sentence it hadn’t said in years.
 
 # Chapter 4: *Things Hidden*
 
@@ -842,7 +699,7 @@ A small shrug. A tilt of the head like maybe the memory didn’t quite fit the s
 
 Vel felt something in her chest she couldn't place.
 
-“I used to have more to give. I think.”
+“I used to have more to give. I think," she said with a slight, somber purr.
 
 Gable leaned forward slightly, elbows on knees, eyes fixed on the unmoving water like it owed him a reflection he hadn’t earned yet.
 
@@ -873,11 +730,9 @@ Gable glanced at her, uncertain. Still folded inward.
 
 “No,” she said. “But evening winds are best for remembering.”
 
-He didn’t ask what she meant.
-Didn’t argue either.
-He stood.
-And they walked.
-Like two ghosts humoring gravity.
+Her tailed flicked again.
+
+"Or something like that."
 
 ---
 
@@ -885,9 +740,9 @@ The village was between selves again.
 
 Some streets leaned east, some pretended they never had. Shadows curved in directions that didn’t match the light. A ribbon caught on a lantern post trembled as they passed.
 
-Gable spoke quietly as they walked.
+Gable spoke quietly as they walked, gently thumbing the index card in his pocket.
 
-“I keep thinking if I write it down now, it won’t mean the same thing.  
+“I keep thinking if I read it, it won’t mean the same thing.  
 It won’t be remembering. Just pretending I always knew.”
 
 Vel said nothing. Her ears twitched, but not at him.
@@ -907,7 +762,7 @@ And they continued.
 
 ---
 
-They reached a fork where the cobblestones stopped pretending to agree. One path curved past the Listening Post, threadbare and humming. The other sloped down into something softer—less a street, more a suggestion.
+They reached a fork where the cobblestones stopped pretending to agree. One path curved past the Listening Post, threadbare and humming. The other sloped down into something softer.
 
 Gable paused.
 
@@ -917,30 +772,27 @@ Vel nodded.
 
 “I’ll loop around.”
 
-They didn’t say goodbye.  
+They didn’t say goodbye.
 Elsebeneath goodbyes weren’t about leaving.  
 
-Gable gave a half-wave, already distracted. The wind tugged at his coat as he turned.  
+Gable gave a half-wave, already distracted. The wind tugged at his coat as he turned.
 Vel stood still until he disappeared around the curve.
 
 ---
 
-The air changed.
-
+The air changed.  
 Not colder. Not warmer. Just… more aware of her.
 
 Vel exhaled. Her tail twitched once, then stilled.
 
-A ribbon above her rustled. The threads it was tied to were taut. They remembered something.
+A ribbon above her rustled.
 
 So did she.
 
-Only halfway.
-
-She took a single step forward, and the stones beneath her paw rang slightly off-key.  
+She took a single step forward, and the stones beneath her paw rang slightly off-key—something from a place she forgot.  
 Another step. The sound sharpened.
 
-Somewhere ahead, just past the bend of the not-quite-street, the Archive waited.
+Somewhere ahead, just past the bend of the not-quite-street, the Archive exhaled.
 
 She didn’t look.  
 Didn’t have to.
@@ -949,7 +801,9 @@ She paused in the middle of the street.
 
 Even her breath didn’t sound like it belonged to her anymore.
 
-The Archive wasn’t in view yet, not really. But the air had started to taste like old parchment and words never said. She could feel its memory of her brushing the edges of thought—not gently.
+The Archive wasn’t in view yet, not really. But the air had started to taste like old parchment and words never said. And beneath it, faint but insistent, was a shape—
+the weight of someone she had left behind.
+The kind of forgetting that hurt more when you didn’t look at it.
 
 Another step.
 
@@ -957,23 +811,23 @@ A chime shivered, faint and discordant. A door behind her unlocked itself and di
 
 Vel swallowed. Her paws ached, though she hadn’t walked far. Her fur was too warm.
 
-*“No…”*
+_“No…”_
 
-She felt it:  
-Sand. A hallway lined in gold and grief. Hands pressed into mud.  
+She felt it:
+Sand. A hallway lined in gold and grief. Hands pressed into mud.
 A chant she didn’t remember learning, sung in a voice that wasn’t hers—  
 but carried her name anyway.
 
 _“I’m not ready,”_ she said aloud. To the street. To the wind.  
 To herself.
 
-No one answered.  
+No one answered.
 That felt like an answer.
 
-A whisper from the Archive curled under the doorways around her.
+A whisper from the Archive curled under the doorways around her, the wrong chime still ringing in her bones.
 
-“The Elsebeneath echoes what it’s given,” she muttered.  
-“And I've already given you everything.  All at once.”
+“I've already given you everything,” she muttered.  
+“All at once.”
 
 A pause.
 
@@ -984,7 +838,9 @@ That was good.
 
 This wasn’t his story.
 
-_"And I will again."_
+"I gave you everything," she repeated.
+
+_"And for Gable, I will again."_
 
 A breeze pushed against her—not strong. Deliberate.
 
@@ -1029,7 +885,7 @@ Thoughts gathered in strands. Words curled mid-breath, half-formed, half-forgott
 It knew her.  
 It had always known.
 
-Books tipped slightly as she passed. A few opened just enough to breathe out suggestion. One slipped free from its shelf entirely, dangling by its spine like it was hoping she’d reach out and finish what it started. A strip of parchment floated down and brushed her cheek, whispering a name she hadn’t heard in ages.
+Books tipped slightly as she passed. A few opened just enough to breathe out suggestion. One slipped free from its shelf entirely, dangling by its spine like it was hoping she’d reach out and finish what it started. A strip of parchment floated down and brushed her cheek, whispering a half name she hadn’t heard in ages.
 
 Her breath caught.
 
@@ -1069,7 +925,7 @@ or the one she was becoming.
 
 They called her a Muu.
 A mourner-dancer.
-She was not just echo.
+She was not just sound and movement.
 She was _invitation._
 
 Where others wept, she moved.
@@ -1077,7 +933,7 @@ Where others keened, she spiraled.
 And beneath the funerary chants and lotus offerings, she carried a different kind of sound—
 
 A frequency not spoken,  
-but **felt**.
+but felt.
 
 > _“We did not invent grief,”_ she said, to the space around her.  
 > _“But we learned to translate it.”_
@@ -1089,7 +945,7 @@ The ceremony was not for someone she had known.
 But she carried them anyway.
 That was the work.
 
-The grieving family stood still beneath the sun, their shadows trembling slightly in the heat. Vel—though they called her something else then, something longer, heavier—began to move.
+The grieving family stood still beneath the sun, their shadows trembling slightly in the heat. Vel—though they called her something else then—began to move.
 
 Each step was deliberate.
 Each gesture held memory like it could spill.
@@ -1141,7 +997,7 @@ But _remembered._
 
 ---
 
-The village thought she had been chosen.
+The elders thought she had been chosen.
 They whispered that she had seen through death.
 
 But Vel knew better.
@@ -1194,9 +1050,10 @@ The chimes had gone still.
 Even the ones that usually rang just to be contrary.
 
 He walked the long hallway slowly, eyes brushing titles out of habit:  
-_Things I Wanted to Ask but Didn’t_
-_The Way She Held the Mug That Day_
-_If I Hadn’t Looked Away_
+
+> _Things I Wanted to Ask but Didn’t_
+> _The Way She Held the Mug That Day_
+> _If I Hadn’t Looked Away_
 
 And then—just around the bend where the shelves began to slouch with age—he saw her.
 
@@ -1206,13 +1063,12 @@ Vel was curled beside a shelf labeled:
 
 Her breathing was shallow.
 
-Gable crouched nearby.  
-Didn’t touch her.  
-Didn’t speak yet.
-
-She stirred before he could.
+Gable leapt to her.  
+She stirred before he could speak.
 
 Eyes opened slowly—first one, then the other, blinking with the careful rhythm of someone checking if the world had changed in her absence.
+
+Gable's heart slowed.  The shaking he hadn't noticed felt like it was just now fading.  He took a long breath.
 
 “You done making a mess?” he asked softly.
 
@@ -1226,17 +1082,21 @@ Her tail twitched once—tight, uncertain.
 
 Gable didn’t move.
 
-“I'm fine, by the way,” she added.
+Her voice was raspy, but her words were deliberate. "I saw it.  My old life.  My— well, not that."  She shook her head, ears lightly slapping her head.
 
-Gable stayed quiet.
+"That's why you came here?"  Gable sat back on his heels.
+
+"I want to help." Her tail swiped his leg.
+
+“I'm fine, by the way,” she added with a flashed fang.
+
+Gable stayed quiet, his face straightening into something more somber than afraid. 
 
 Vel flicked one ear toward him, then turned her gaze to the shelf behind her. The shelves were still bent over her, but they didn't breathe.
 
-“I want to help,” she said.
+Gable finally spoke, chin to his chest.
 
-Gable didn’t look at her.
-
-“You keep offering that like it’s simple.”
+“You keep offering help like it’s simple.”
 
 “It is.”
 
@@ -1286,7 +1146,7 @@ Gable's face dropped.  He turned and leaned on the doorframe, door still open wi
 
 "I was fifteen, Vel."  His head fell back.
 
-“He was always too tall for our kitchen chairs. Ate like every meal might be his last but never said so. Once broke the washing machine and convinced Mom it had always made that sound.”
+“He was always too tall for our kitchen chairs. Ate like every meal might be his last but never said so. Once cracked Ma’s butter churn and insisted it had come that way.”
 
 Gable started to pace.
 
@@ -1309,10 +1169,9 @@ He let the words come now. One hand still on the doorframe, the other cupping th
 
 > _‘Mom made stew again. Still burns the onions.’_
 > _‘The dog waited at the window for hours. I think she forgot why.’_
-> _‘I hate the silence after the mail truck drives away.’_
-> _‘I dreamt your boots were muddy, but your hands were clean.’_
+> _‘I hate the silence after the mail truck drives away.’
 
-“Nothing big. Nothing that mattered. I didn’t think anyone would read them. But I sent them anyway. Every week.”
+“Nothing big. Nothing that mattered. I didn’t think he would even read them. But I sent them anyway. Every week.”
 
 “He never wrote back.”
 
@@ -1357,117 +1216,125 @@ It waited.
 The door was open again.  
 But this time, it was on purpose.
 
-Sam stepped through with both hands full—a paper box tilted carefully against his chest, still warm, still dusted with sugar. A chime just above the threshold gave a lazy jingle, like it had been napping and didn’t mind being woken.
-
 Inside, the Archive was calm.
 
-He walked to the long table near the front, cleared a corner with the sweep of a sleeve, and set the box down with exaggerated ceremony.
+Sam walked to the long table near the front, cleared a corner with the sweep of a sleeve, and set the basket down with exaggerated ceremony.
 
 Gable emerged from the back, coat draped over one shoulder, eyes rimmed with tired.
 
 He stopped a few feet from the table and raised an eyebrow.
 
-“What do we have here?”
+"What do we have here?"
 
-Sam opened the box, revealing three flaky pastries, slightly smashed from the journey.
+Sam lifted the basket to Gable, revealing three flaky pastries, possibly more flake than anything else.
 
-“Trade secret,” he said. “One riddle, one story, and a promise to return the basket. That gets you three.”
+Gable raised an eyebrow. "Her deal is for two."
 
-Gable gave a slow nod. “Brynn’s still got the touch.”
+"Call it a trade secret," he said. "One riddle, one story, and a promise to return the basket. That gets you three."
 
-“Don’t let her hear you say that. She made me swear I’d tell no one about the part where she smiled.”
+Gable gave a slow nod. "Brynn's still got the touch."
+
+"Don't let her hear you say that. She made me swear I'd tell no one about the part where she smiled."
 
 They sat.
 
-No ritual. No plates. Just a mutual understanding of what pastries are _for._
+No ritual. No plates. Just a mutual understanding of what pastries are for.
 
 Gable took a bite, chewed, and frowned slightly.
 
-“Too much nutmeg.”
+"Too much nutmeg."
 
-Sam looked offended. “That’s the point.”
+Sam looked offended. "That's the point."
 
-“It’s a distraction.”
+"It's a distraction."
 
-“It’s a personality.”
+"It's a personality."
 
 Gable said nothing, but his second bite was bigger.
 
-They ate in easy silence for a few minutes. Crumbs collected like confessions along the table’s edge. The Archive didn’t seem to mind.
+They ate in easy silence for a few minutes. Crumbs collected like confessions along the table's edge. The Archive didn't seem to mind.
 
 Sam glanced around between bites.
 
-“So... Which one is yours?”
+"So... Which one is yours?"
 
-Gable blinked. “What?”
+Gable blinked. "What?"
 
-“Where your stuff ends up. What does the Archive file you under?”
+"Where your stuff ends up. What does the Archive file you under?"
 
-Gable leaned back in his chair and exhaled through his nose. “I'd tell you, but the books might hear.”
+Gable leaned back in his chair and exhaled through his nose. "I'd tell you, but the books might hear."
 
-“Sounds mysterious.”
+"Sounds mysterious."
 
-“Sounds accurate.”
+"Sounds accurate."
 
 Sam grinned and leaned in.
 
-“I bet it’s something like ‘Things Left in Coat Pockets.’ Or ‘Words With Splinters.’”
+"I bet it's something like 'Things Left in Coat Pockets.' Or 'Words With Splinters.'"
 
-Gable raised an eyebrow. “Splinters?”
+Gable raised an eyebrow. "Splinters?"
 
-“Yeah, like… words that stuck. The kind you don’t notice until later, when you touch something else and it hurts.”
+"Yeah, like… words that stuck. The kind you don't notice until later, when you touch something else and it hurts."
 
 Gable looked at him for a long moment, then—quietly—smiled.
 
-Sam brightened. “Ha! I’m right, aren’t I?”
+Sam brightened. "Ha! I'm right, aren't I?"
 
-“You’re something.”
+"You're something."
 
 They returned to their pastries. Gable pulled a card from his pocket, set it on the table.
 
-Gable didn’t say anything. Just watched him.
+Gable didn't say anything. Just watched him.
 
-Sam looked up. “Is this mine?”
+Sam looked up. "Is this mine?"
 
-“Keep it safe,” Gable said with a wink.
+"Keep it safe," Gable said with a wink.
 
-The card sat between them like a fourth pastry—less sweet, maybe, but more filling.  Sam picked up the card and gave it a look.
+The card sat between them like a fourth pastry—less sweet, maybe, but more filling. He held the card out. Sam took it.
 
-"It's blank."
+It felt… normal. A little thicker than usual. Edges soft from being held once or twice too often.  
+But nothing written. Not yet.
 
-"For now."
+"If you're holding back something important," Gable said quietly, "it writes itself."
 
-They didn’t talk much after that.
+Sam looked at it.  
+Then at him.
 
-Gable started sorting a pile of cards near the table’s edge. Sam began building a very deliberate tower out of sugar flakes and folded napkins.
+"That's not creepy at all."
 
-Sam brushed the last of the crumbs off his shirt, and stood.
+"It's better than honesty," Gable said with a shrug. "Honesty is what you choose to share. This place remembers what you _meant._"
 
-"Welp.  Off to another adventure," he said as the strode to the door.
+They didn't talk much after that.
 
-A book tilted slightly as he passed.
+Gable started sorting a pile of cards near the table's edge. Sam began building a very deliberate tower out of sugar flakes and folded napkins.
 
-Its spine read:
+Sam brushed the last of the crumbs off his shirt and tucked the card carefully into his notebook.
 
-> _The Sound the Moon Made When It Realized It Was Being Watched_
+"I should get this basket back to Brynn," he said, standing and stretching. "But I'll be around."
+
+_As he moved toward the door, something caught his eye—a familiar title on a nearby shelf._
+
+A book tilted slightly as he moved toward the door."
+
+Or even simpler—just have the book's movement be what stops him:
+
+"Sam brushed the last of the crumbs off his shirt and tucked the card carefully into his notebook.
+
+"I should get this basket back to Brynn," he said, standing and stretching. "But I'll be around."
+
+A book tilted slightly as he moved toward the door, and he paused.
+
+Its spine read: _How It Didn't Happen_
 
 Sam paused.
 
 Smiled.
 
-As the door clicked softly behind Sam, the room stilled again.
+"See you soon, Gable."
 
-For half a breath.
+As he reached for the door handle, a thin metal pencil cup toppled from a high shelf and hit the floor with an unapologetic clatter.
 
-Then—
-
-> _scrrrape—thump._
-
-A thin metal pencil cup toppled from a high shelf and hit the floor with an unapologetic clatter.
-
-Gable didn’t flinch.
-
-“I told you that shelf was unstable,” he muttered, not looking up.
+Sam looked up.
 
 From the top ledge—tail flicking in an entirely unrepentant rhythm—Vel peered down with feline indifference.
 
@@ -1476,363 +1343,114 @@ She licked one paw, slow and performative, then hopped gracefully down to the ta
 One of the remaining pastries had been left unattended.  
 It was no longer.
 
-Gable raised an eyebrow. “You’re not even hungry.”
+Gable raised an eyebrow. "You can't even digest that."
 
 Vel sniffed it delicately, then took a bite far too large for her face.  
 Flakes exploded like small, buttery fireworks.
 
 She chewed with dignity.
 
-Then—without ceremony—plopped herself into the chair Sam had vacated.
+Sam let go of the door handle and stepped back into the room.
 
-Gable turned back to his stack of cards. “You going to say something or just haunt the furniture?”
+"Oh, hello there." He stuck out a hand, then turned it to pet her, then pulled back uncertainly.
 
-Vel swallowed. Licked a crumb from her whiskers.
+Vel nodded.
 
-“He’s getting better at this,” she said.
+"Hello, Sam." Her voice was silky. She turned her nose up to meet Sam's eyes, winked, and twirled.
 
-“You helped.”
+Then—without ceremony—plopped herself into the chair Sam had vacated. She swallowed and licked a crumb from her whiskers.
 
-She shrugged. “He helped himself. I just gave him somewhere to do it.”
-
-A soft breeze rustled the chimes above the table, though no door had moved.
-
-Then Vel tilted her head slightly and asked, “He’s going to ask eventually, you know.”
-
-Gable didn’t need to ask who.  
-Or what.
-
-But before he could reply, there was a knock from under the table.
-
-Vel froze mid-lick, one paw suspended in the air like a comma.
+"She's good at introductions," Gable muttered with a small smile. "Her name's Vel."
 
 Sam tilted his head, squinting.
 
 Then asked, perfectly casual:
 
-“Hey, Vel? How long have you been here?”
+"Hey, Vel? How long have you been here?"
 
-The paw didn’t move.
+Vel didn't move.
 
-Neither did she.
-
-Not for a long breath.
-
-Not for two.
-
-Vel’s ears had twitched just slightly—like a radio catching a signal it didn’t want.  
-Her eyes didn’t blink.  
-And behind them: something ancient bristled.  
+Her ears twitched just slightly—like a radio catching a signal it didn't want.
+Her eyes didn't blink.
+And behind them: something ancient bristled.
 A tension like string pulled too tight for too long.
 
-Gable turned to look at her.  
-He’d seen that kind of stillness before.  
+Gable turned to look at her.
+He'd seen that kind of stillness before.
 Usually right before a shelf gave out.
 
-Vel finally moved. Just a breath.  
+Vel finally moved. Just a breath.
 Then:
 
-> _“Not everyone who stays… means to.”_
+> _"Not everyone who stays… means to."_
 
 # Chapter 8: *Things Rooted*
 
-Vel didn’t answer Sam’s question at first.
+Sam stared at Vel for a long moment, processing what she'd just said.
 
-She sat still in the chair he’d left, tail curled neatly, but too tightly. Her ears had stopped moving.
+"Not everyone who stays… means to."
 
-Sam blinked, unsure if she’d heard him.  
-“Hey, it’s okay if you don’t want to—”
+The words hung in the air like dust motes that hadn't decided where to settle.
 
-“I remember the first Flicker,” Vel said.
+Sam sat forward. "What do you mean?"
 
-Sam stayed quiet.
+Vel was quiet for a moment, tail curled tight around her paws.
 
-“She was a teacher,” Vel continued, eyes somewhere far beyond the Archive’s walls. “Used to wear bracelets with bells. Said it helped her students remember she was human.”
+"You ever lose something so completely you forget what shape it used to have?"
 
-A faint breeze lifted the edge of a card on the table.
+Sam nodded slowly.
 
-“She came here once, by accident. During a migraine. Said the pain made the world go quiet enough to hear herself think—and what she thought scared her.”
+"I came here carrying more grief than I knew what to do with. Other people's grief. My own. Grief I'd been paid to hold and translate and dance into something bearable."
 
-Vel shifted. Not dramatically. Just enough that it made Sam feel like the chair had gotten colder.
+She looked toward the nearest shelf.
 
-“She didn’t stay. Flickers never do. They slip in when something breaks open, then slip out before they notice it’s happened.”
-
-Sam frowned. “You said _first._ How long—”
-
-Vel didn’t answer.
-
-Gable, still sorting cards, didn’t look up. But he said,  
-“Flickers are the breeze that stirs the door but never walks through. You never know if they’ll come back. Most don’t.”
-
-Vel exhaled through her nose. “Some do. Some become Echoes.”
-
-She glanced at Sam then, and her voice changed just slightly—like someone trying to hand over something delicate without dropping it.
-
-“Echoes feel too much to forget. Even if they leave, they leave... weight. Threads. Sound that keeps ringing even when the bell is gone.”
-
-Sam sat forward. “What are you?”
-
-Vel was quiet for a moment.
-
-Then:
-
-“You ever say a word so often it loses meaning?”
-
-Sam nodded.
-
-“Now imagine being said _so many times_—felt so deeply—that the word becomes something else. Not noise. Not meaning. Just… presence.”
-
-She tapped the table.
-
-“That’s a Root.”
-
-Sam’s eyes widened. “So you’re a Root?”
-
-Vel looked down.
-
-"I don't know how the Elsebeneath found me. But when it did, it never let go."
-
-Vel reached up onto the table and hopped up with a practiced grace.
-
-“I didn’t even look like this when it did.”
-
-She sat, tail curling around her paws. The light caught the brass telescope at her neck—it gleamed briefly, then dulled.
-
-“At first, I thought I was dead. Or dreaming. But the Elsebeneath didn’t _feel_ like either.”
-
-Sam tilted his head. “What did it feel like?”
-
-Vel thought for a long time.  
-Then: “Like someone had finally asked me the right question. And was willing to wait for the answer.”
-
-She looked toward the nearest shelf. Not reading the titles. Just… listening.
-
-“I stayed. Not because I meant to. But because people started finding me.  
-People who’d lost something they couldn’t name.  
-People who’d been carrying things too long.  
-People like Gable.”
+"At first, I thought I was just visiting. But people started finding me. People who'd lost something they couldn't name. People who'd been carrying things too long."
 
 Her voice was soft, but Sam felt the weight of it anyway.
 
-“I helped them. I don’t know why. Maybe because I knew what it was to ache without language.  
-And once you help one person let go, it’s hard to stop.  
-Harder, still, to remember what you were before.”
+"I helped them. Because I knew what it was to ache without language. And once you help one person let go, it's hard to stop."
 
-Sam watched her. He didn’t fidget. Didn’t interrupt.  
-He just… stared.
+Sam watched her. He didn't fidget. Didn't interrupt.
 
-Vel continued.
-
-“After a while, I couldn’t carry it anymore.  
-So I gave up the part of me that kept asking.  
-The part that remembered what it was like to be called by name.”
+"But the more I held for others, the less I could hold for myself. So I gave up pieces. Small ones, at first. A memory here. A dream there."
 
 A long pause.
 
-Then Gable’s voice, from the corner:
+Then Gable's voice, from the corner:
 
-“She gave me her name.”
+"She gave me her name."
 
-He wasn’t looking at them—just flipping through a stack of old cards. 
+He wasn't looking at them—just flipping through a stack of old cards.
 
-“Wrapped it in a riddle and asked me to forget the answer. I didn’t. But the Archive took it anyway.”
+"Wrapped it up like a gift and handed it over. Said she didn't need the weight of being called."
 
-Vel’s gaze didn’t leave the table. “That’s how you Root. Not with a shout. With a whisper too heavy to lift.”
+Vel's gaze didn't leave the table. "I thought it would make things easier. Lighter."
 
-Sam swallowed. “So this… this cat thing…”
+Sam swallowed. "Did it?"
 
-Vel raised one paw delicately. “I softened. The Archive won’t let you vanish—but it’ll let you fade.  
-And fading into a shape no one expects?  
-It makes it easier.  
-To listen.  
-To leave.  
-To stay.”
+Vel raised one paw, studied it like she was seeing it for the first time.
 
-Gable snorted gently. “She’s being poetic. What she means is, she turned into an unpaid grief counselor and eventually burned herself into the floorboards.”
+"The Archive doesn't let you disappear completely. But it'll let you... soften. Become something smaller. Something that can slip between the cracks and listen."
 
-Vel blinked once. Slowly. “It’s called _emotional labor_, Gable.”
+Gable set down his cards. "What she's not telling you is that when she gave up her name, she gave up her history."
 
-“And you’ve got a union rep now, apparently,” he said, nodding toward Sam.
+"I remember.  Sort of," Vel said quietly. "I just... can't reach it anymore."
 
-Sam raised a hand, unsure if it was a wave or a solemn vow.
+She looked up at Sam then, and her eyes were older than her cat-face should have allowed.
 
-“Careful,” Vel said, not looking at him. “You’ll be sorting cards by morning.”
+"That's why we're going down. To get back what I gave away."
 
-Outside, one chime stirred. Then stilled again.  
-Like it had remembered something worth waiting for.
+Sam nodded slowly. "And you think it's still there? After all this time?"
 
-# Chapter 9: *Things Carried* 
+"The Archive doesn't lose things," Gable said. "It just files them very, very carefully."
 
-The Archive had returned to a quiet rhythm.
+Vel's tail twitched—not annoyed, but something like hope.
 
-Soft footsteps. Shuffling paper. A faint breeze where there shouldn’t be one.
+"Besides," she added, "some gifts are too heavy to keep forever. Even for a place like this."
 
-Vel was reorganizing a shelf that hadn’t asked for it.  
-Gable sat cross-legged on the floor, elbows resting on his knees, fingers gently pressing the sides of his temple like he was holding something still.  
-Sam perched on a stool by the window, trying to balance a card on its edge and humming a tune no one else recognized.
+Outside, one chime stirred. Then stilled again. Like it had remembered something worth waiting for.
 
-The card toppled again.
-
-Sam sighed dramatically, tried once more, and muttered something about center of gravity and emotional sabotage.
-
-Vel paused mid-reach with a stack of books, ears flicking backward.
-
-“I heard that,” she said without turning.
-
-Sam grinned. “You’re a cat. You hear _everything._”
-
-He glanced toward Gable, who hadn’t moved.
-
-Still cross-legged. Still holding his temples like he was trying to keep something from spilling out.
-
-The room had settled, but not comfortably.
-
-Sam slid off his stool, footsteps soft as he crossed the space toward Vel.
-
-“Has he been like that all morning?”
-
-Vel shifted one book to a different shelf. Then moved it back again.
-
-“On and off,” she said. “Mostly off.”
-
-Gable exhaled through his nose, slow and uneven.
-
-Vel’s eyes flicked to him.
-
-She opened her mouth. Closed it.
-
-Sam watched her.
-
-“You want to help,” he said quietly.
-
-She didn’t answer.
-
-But her tail swayed—not annoyed. Just unsure.
-
-Sam looked back at Gable, then down at the floor like it might offer instructions.
-
-After a moment, he crouched beside Gable.
-
-“You okay?”
-
-Gable didn’t answer. Not with words.
-
-His shoulders twitched, just slightly. Like the question had been heavier than he expected.
-
-Sam glanced back. “Vel?”
-
-Vel hesitated. Then padded over, slow.
-
-She didn’t say anything either.
-
-Just sat beside them.
-
-Gable let out a breath—not a sigh, but close.
-
-“I saw his face,” he said suddenly. Voice rough.  
-“In the stacks. Just for a second. I turned, and he was—”
-
-His hand moved to his coat pocket.  
-To the card.
-
-“I didn’t remember his name. But I remembered the shape of his mouth when he laughed.”
-
-Vel blinked slowly. Then said, almost gently:
-
-“That’s enough.”
-
-Gable looked at her. Not startled. Just tired.
-
-“No. It’s not.”
-
-“Then why—”
-
-“Because I’ve already given up enough, Vel.”  
-He looked at her.  
-“I can’t end up like you.”
-
-Then, without fanfare, she spoke:
-
-“I want to help.”
-
-A pause.
-
-Then—
-“That’s what you are, isn’t it?” Sam grinned, swinging his legs gently from the stool. “You’re a helper.”
-
-Vel didn’t answer.
-
-Gable did.  
-“She can’t.”
-
-He turned to Vel with soft eyes.
-
-“But she used to.”
-
-Vel hissed.
-“These books just stopped slapping me at random, and you want me to go _there?_”
-
-Gable nodded once, slow, then turned to Sam.
-
-“I’ve been keeping it. Quietly. Not touching it unless she asked.”
-
-Vel’s voice was almost a whisper.
-
-“I never did.”
-
-Sam tilted his head.
-
-"Keeping her what?"
-
-"Her name," Gable said with a wink.
-
-Vel sighed through her nose. “Names are heavier than people think.”
-
-Sam blinked. “But you still have one, right?”
-
-“Not in a way I can wear,” she said. “Not in a way that lets me… do what I used to do.”
-
-Gable picked at a loose thread on his sleeve.
-
-“She gave it up. All of it. The syllables, the memories, the weight. It was the only way she could stop feeling _everything._”
-
-Sam's face twisted.
-
-“Wait. You’re a _cat._ How does that even—”  
-He gestured vaguely at her.
-
-Vel hopped up onto the table. Her paws were quiet. Her voice wasn’t.
-
-“The Elsebeneath doesn’t let go," she said with a light purr. "It just… lets you soften.”
-
-"Into this?" Sam brushed at Vel's whiskers.
-
-Gable smiled, just briefly.
-
-Then Sam straightened like a kid who’d just been told it was his turn to pull the sword from the stone.
-
-"Then let's go get it."
-
-Vel froze.
-
-"It's not that easy," Gable grumbled.
-
-Vel padded back to Sam and sat.  Sam stood and started stretching like he was seconds from a starting pistol.
-
-"It was enough trouble just to get this room to resist her. Names stick. And so does forgetting."
-
-Sam stopped stretching.
-
-"*Resist?*"
-
-Gable reclaimed his chair at the table.
-
-“She’s forgotten so much that a place like this?”
-He took a bite of the last pastry. A few crumbs tumbled daintily down his coat.
-
-“It tends to get… opportunistic.”
-
-# Chapter 10: *Things Gathered*
+# Chapter 9: *Things Gathered*
 
 The Archive had quieted again.
 
@@ -1852,7 +1470,7 @@ Until—
 
 Gable didn’t look up.
 
-“We don’t really know what’s in there, kid.”
+“We don’t really know what’s in there, kid.  The Archive shifts constantly.”
 
 “So then…” Sam hesitated. “What do people do when they don’t know what’s waiting?”
 
@@ -1872,9 +1490,7 @@ Instead, he reached for the scattered blank ones.
 Chose three.
 
 One he pressed flat against his chest, over the notebook tucked into his coat.  
-One he slid between the notebook’s pages, somewhere near the beginning.  
-The last, he tucked at random into a side pocket.
-
+One he slid between his notebook’s pages, somewhere near the beginning.  
 “That’s not how they work,” Gable said.
 
 Sam shrugged. “Maybe not for you.”
@@ -1948,17 +1564,20 @@ He reached for the door.
 
 And somewhere, tucked on a forgotten shelf, a book titled _Things I Wish I Had Known_ turned a page.
 
-# Chapter 11: *Things Broken*
+# Chapter 10: *Things Broken*
 
-The descent wasn’t steep.  
-It was slow. Wandering. Uneasy.  
-Like a thought trying to finish itself.
+The descent wasn't steep.
+It was slow. Wandering. Uneasy.
 
-Sam followed Vel through a narrowing corridor that refused to stay still.  
-The air shimmered. The shelves thinned.  
-Books began to appear at strange angles—some half-open, some mid-sentence, some breathing.
+Sam followed Vel through a narrowing corridor, their footsteps echoing differently here - softer, more uncertain.
 
-He blinked. A page inhaled.
+"It feels different," he whispered. Vel's ears swiveled. "The deeper Archive remembers more. Holds tighter."
+
+"Is that good or bad?"
+
+"Both," she said simply. And then the air shimmered.
+
+ Sam blinked. A page inhaled.
 
 Another book, wedged into the crook of the wall, exhaled dust and an ellipsis.
 
@@ -1991,8 +1610,7 @@ He was standing in a version of his old bedroom.
 Too clean. Too still.  
 Frozen in that uncanny way memory sometimes is—only the things that hurt rendered in perfect clarity.
 
-The window was closed, but the air inside was cold.  
-Like someone had left too long ago.
+The window was closed, but the air inside was cold.
 
 Across the room, a figure sat on the bed.
 
@@ -2037,8 +1655,6 @@ Sam shook his head.
 
 > “It’s not about fair. It’s about what got written.”
 
----
-
 The other Sam stepped forward.
 
 Sam stumbled back—into something soft.
@@ -2048,8 +1664,6 @@ Vel.
 But not quite.
 
 Her form flickered at the edges.
-
-Her breath caught.
 
 Sam turned to her—and saw it:
 
@@ -2081,8 +1695,6 @@ Sam looked back at the other version of himself.
 > “That’s not an excuse. That’s a story.  
 > And if you say it often enough, it becomes the ending.”
 
----
-
 Echoes of Vel's cries carried out softly.  But she hadn't made a sound.
 
 The Archive around them **twisted**—shelves bending inward like ribs around a heart that couldn’t decide whether to beat or break.
@@ -2112,8 +1724,6 @@ Sam’s hands trembled.
 
 “Because I was afraid I couldn’t fix it.  
 And because part of me believed you.”
-
----
 
 The book hovered between them, pages rippling like wind caught in a decision.
 
@@ -2155,20 +1765,16 @@ It still twitched—petulant. Persistent.
 But no longer in charge.
 
 He stepped over it.
-
 Didn’t look back.
 
----
+The silence that followed felt deliberate. Expectant.
 
-The Archive shifted again.
+Sam walked forward, but each step seemed to echo longer than it should—as if the Archive was tasting the sound, deciding what it meant.
 
-More books floated now.
+More books floated now. The air thickened with stories trying to be born.
+And then everything blurred.
 
-The air was filled with possibility too loud to breathe.
-
-And the next trial was just beginning.
-
----
+# Chapter 11: *Things Refused*
 
 The books opened all at once.
 
@@ -2187,9 +1793,9 @@ Sam turned in place, dizzy.
 Everywhere he looked:  
 **Versions of himself.**
 
-- One stood silent at a hospital bed, refusing to speak.
-- One was shouting at no one in particular, eyes wild, soaked in rain.
-- One just looked tired. So tired.
+One stood silent at a hospital bed, refusing to speak.
+One was shouting at no one in particular, eyes wild, soaked in rain.
+One just looked tired. So tired.
 
 They weren’t ghosts.  
 They were auditions.
@@ -2204,35 +1810,30 @@ To find a costume that would fit.
 > _“What if I am one of them?”_  
 > _“What if I already failed that way?”_
 
----
-
-The notebook on his chest flared warm.
-
-Sam staggered backward.  
-Pages fluttered.  
+A single, small, open notebook rose into Sam's view.
+He staggered backward.
+Pages fluttered.
 Blank.
 
 Waiting.
 
-> “Write something true,” Vel called.
+“Write something true,” Vel called.
 
 He didn’t know what truth to write.  
 Not about these.
 
 He just looked at the nearest story—titled _The Quiet Disappointment_—and said aloud:
 
-> “That’s not mine.”
+“That’s not mine.”
 
-The book paused.  
+The notebook paused.  
 Wavered.
 
 Then closed itself.
 
 Softly.
 
----
-
-Sam turned to another.
+Sam turned to another book.
 
 > _The One Who Gave Up._
 
@@ -2255,11 +1856,9 @@ Almost pleaded.
 
 But Sam placed his hand gently on the cover.
 
-> “I’m still writing.”
+“I’m still writing.”
 
 And it stilled.
-
----
 
 The wind moved.
 
@@ -2274,17 +1873,8 @@ Then folded themselves shut.
 Dust rose.  
 And settled.
 
-The Archive took a breath.
-
-And this time, it wasn’t holding anyone else’s story hostage.
-
----
-
 The Archive let go like someone unclenching a fist after forgetting they were holding on.
-
-Sam stood in the middle of the corridor-turned-stage, still holding his notebook.  
-Still breathing.  
-Still himself.
+But still breathing.  
 So far.
 
 Vel stepped up beside him.  
@@ -2297,10 +1887,8 @@ She just looked out over the dozens—maybe hundreds—of stories that had tried
 
 Vel nodded.
 
-“That’s what makes them dangerous.”  
-“And what makes it brave to say no.”
-
----
+“That’s what makes them dangerous.
+And what makes it brave to say no.”
 
 The room responded.
 
@@ -2323,15 +1911,17 @@ Vel stretched.
 
 Sam smiled.
 
-“I like the quiet ones better.”
+"I like the quiet ones better."
 
-“They’re next,” she said.
+"They're next," she said.
 
-And together, they walked on—
+And together, they walked on.
 
 # Chapter 12: *Things Mended*
 
-The Archive changed again.
+Sam felt it before he saw it—a tension in the air, like the moment before lightning strikes. Vel's steps had grown uneven, unstable, then... gone.
+
+"Vel?" he started to say, but the word caught in his throat as the corridor opened into a wider space, and he saw what was waiting for them.
 
 The air that had been sharp before was now unstable, like it had become a liquid on the verge of boiling. Every shelf trembled. Every book twitched.
 
@@ -2466,7 +2056,7 @@ Just something to carry.
 
 And the Archive, quiet now, let them go on.
 
-# Chapter 14: *Things Remembered*
+# Chapter 13: *Things Remembered*
 
 The hallway ended with something that wasn’t quite a door.
 
@@ -2479,12 +2069,10 @@ There were no symbols. No plaque. No glowing runes. Just a feeling:
 
 Vel stopped first.
 
-Not suddenly. Not dramatically.
+Not dramatically. Just the way someone pauses before opening a letter they wrote to themselves a very long time ago.
 
-Just… the way someone pauses before opening a letter they wrote to themselves a very long time ago.
-
-In the center of the room, a pedestal.  
-On the pedestal, a card.  
+In the center of the room, a pedestal.
+On the pedestal, a card.
 On the card, a name.
 
 No tricks. No riddles. No shimmering metaphors disguised as filing cabinets.
@@ -2535,7 +2123,7 @@ Like a heartbeat that had been _waiting._
 And then—  
 she was gone.
 
-Like her presence had been stretched into memory-light, carried backward through centuries.  
+Like her presence had been stretched into thought-light, carried backward through centuries.  
 Her body shimmered once—then pulled away.
 
 Sam chased her.
@@ -2558,7 +2146,7 @@ Her shape stuttering through versions of herself—wolf, woman, girl, storm, ech
 The space between them became unbearable.  
 She writhed through it—shifting, unraveling, reforming.
 
-He could barely hear her voice over the ache of it.
+He could barely hear her words over the ache of it.
 
 But then—
 
@@ -2567,21 +2155,7 @@ Her voice.
 > “I don’t want to be alone.”
 
 Sam's breath stopped.
-
-**Fen.**
-
-He'd left him.
-
-Told himself it was necessary.
-
-And now—
-
-Vel was saying the thing Fen never had the chance to.
-
-> “I don’t *want* to be alone.”
-
-Sam’s legs slowed.
-
+His legs slowed.
 Then stopped.
 
 He stood in the middle of the too-long hallway, breath caught in his throat like a decision half decided.
@@ -2596,16 +2170,6 @@ The air caught.
 
 Her shape—distant, fraying—paused.
 
-And then—
-
-She reversed.
-
-Not as a ghost.
-
-Not as a storm.
-
-But as a woman.
-
 She stepped toward him, every footfall sewing memory back into her skin.
 
 Not healed.  
@@ -2613,9 +2177,7 @@ Not finished.
 
 But _homeward._
 
-The Archive didn’t breathe.
-
-It _held its breath._
+The Archive held its breath.
 
 Waiting.
 
@@ -2760,12 +2322,6 @@ There was nothing to say.
 She stood slowly.  
 Taller than before.  
 
-Then said it again.
-
-“Velesstra.”
-
-The air didn’t ripple.
-
 The Archive didn’t roar or weep or shimmer.
 
 It just… made space.
@@ -2802,8 +2358,6 @@ Not to say anything.
 
 Just to make sure Sam was still there.
 
-He was.
-
 He tucked the notebook under his arm, like someone closing a journal with love instead of finality.
 
 “Let’s go,” he said.
@@ -2817,201 +2371,223 @@ Not as a guardian.
 
 As someone walking home.
 
-# Chapter 15: *Things Given*
+# Chapter 14: *Things Made New*
 
-The Archive didn’t announce their return.
+The door opened just as Gable was shelving a new title:
 
-No fanfare. No chimes.  
-Just a door that opened quietly.  
-And a hallway that remembered how to lead them back.
+> _Things I Waited Too Long For._
 
-Gable was waiting.
+He paused, fingers brushing the edge of the spine a moment longer than necessary.
 
-Still by the desk.  
-Still holding posture like it was a defense.
+The Archive was quieter than usual—like it was listening ahead of time.
 
-Then he looked up.
+Then—
 
-Really looked.
+Footsteps.
 
-And something inside him **broke open.**
+Not heavy. Not hurried. Just _sure._
 
-Not the jagged kind.  
-The soft kind.
+Sam stepped in first, his hair untamed by wind or effort, his grin three seconds ahead of his breath.
 
-The kind that lets light in.
+“I have someone to show you,” he said, like it was a secret the air already knew.
 
-He stepped forward.
+Gable raised an eyebrow.
 
-“You came back,” he said, voice barely above breath.
+Then she stepped inside.
 
-Vel nodded.  
-She smiled.
+Not paws.  
+Linen.  
+Bells at her ankles.  
+And a single ribbon tied just above her foot—familiar, but new in how gently it clung.
 
-“You stayed.”
+Gable’s mouth opened. Then closed again.
 
-That undid him.
+“Vel?”
 
-He laughed once—sharp, breathless, startled by how close it sounded to a sob.
+Her eyes sparkled.
 
-“I didn’t know how to leave.”
+“Did you expect someone else?”
 
-Vel reached out. Touched his shoulder.
+His breath hitched. It wasn’t a sob. But it **knew** one.
 
-Light. Steady. Real.
+She stepped forward, quiet as ever.
 
-“Maybe now you don’t have to carry it alone.”
+He didn’t reach for her.  
+He didn’t have to.
 
-Gable didn’t answer.
+She was already reaching for him.
 
-But he cried.
+And for once, he let himself be held.
 
-Not facing a drawer.  
-Not a book.  
-Not the wind.
+Not long.
 
-He cried with **someone beside him.**
+Just enough.
+
+The Archive sighed.
+
+Somewhere nearby, a book reshuffled itself into a different shelf, as if making room.
+
+Vel stepped back. Smoothed a wrinkle in Gable’s coat that hadn’t been there a moment ago.
+
+“You haven’t been sleeping,” she said gently.
+
+Gable sniffed once. Pulled it together. Failed.
+
+“I didn’t know how to hope anymore.”
+
+“You don’t have to hope,” she said.  
+“You just have to let it _happen._”
+
+He laughed—or something like it—and wiped his face with the back of his sleeve.
+
+“You’re taller than I remember,” he muttered.
+
+“You always say that when I’m right.”
+
+Behind them, Sam was already halfway back out the door.
+
+“You’re not staying?” Gable called, voice a little steadier now.
+
+Sam looked back, eyes full of something between mischief and peace.
+
+“I’ve got people waiting,” he said. “Besides, you two have shelves to sort.”
+
+Vel looked at Gable.
+
+“I’m not sorting,” she said. “I’m reorganizing.”
+
+Gable rolled his eyes. But this time, it felt lighter.
+
+The door closed behind Sam with a gentle click.
+
+And the Archive, for the first time in a long time, felt **awake.**
+
+# Chapter 15: *Things Planted*
+
+The front yard was still mostly wild.
+
+Uneven grass. One bent fence post. A wind chime that hadn’t quite found its song yet.
+
+But it was theirs.
+
+Their first full month in the new house, and everything still smelled like cardboard and possibility.
+
+Sarah stood barefoot in the doorway, holding a mug she wasn’t drinking from.
+
+Stephen was already out by the edge of the yard, staring at the garden patch that hadn’t existed a week ago.
+
+It wasn’t big. Just a circle of turned earth surrounded by the faint outline of stones Sam had gathered without being asked.
+
+He ran past them both, notebook under one arm.
+
+“Be right back!”
+
+Stephen blinked.
+
+“...He was already here, right?”
+
+Sarah nodded. “Twice. He dropped off a spoon and asked if we had any string.”
+
+Stephen smiled.
+
+They waited.
+
+Then—
+
+Sam burst back outside, panting, holding something wrapped in linen.
+
+He knelt in the patch of earth. No ceremony. No big declarations.  
+Just a quiet moment.
+
+He unwrapped the cloth.
+
+Inside: a single, pale blue seed.
+
+It pulsed faintly. Not light. Not heat. Just... presence.
+
+Sarah stepped closer.
+
+“What is that?”
+
+Sam didn’t look up.
+
+“A promise.”
+
+He pressed it gently into the soil. Covered it with care.
+
+Then—without asking—Stephen crouched beside him and placed a hand over the dirt.
+
+Sarah followed, knees in the grass, fingers just brushing theirs.
+
+For a moment, no one spoke.
+
+Then Sam said, barely above breath:
+
+“Some things grow slower because they’re learning what to become.”
+
+And beneath their hands, the soil remembered.
+
+The wind, overhead, shifted just slightly.
+
+Not stronger.
+
+Just... more attentive.
+
+As if something had started listening again.
+
+And somewhere—far from the yard but never really apart from it—a book turned to a page that hadn’t been written yet.
+
+Its title?
+
+> _Things Made Room For._
+
+# Chapter 16: *Things Carried Forward*
+
+If you found your way here,  
+then something in you is still listening.
+
+That’s all this place ever asks.
+
+Not for answers.  
+Not even for stories.
+
+Just attention.
+
+Because there are truths too soft for shouting.  
+Names too heavy for introductions.  
+And promises so old, they don’t remember being made—only kept.
+
+The Elsebeneath holds them all.
+
+Not like treasure.  
+Not like burden.
+
+Just gently.
+
+Like a hand held out.  
+Like a book that leans a little closer when you stop pretending you’re fine.
 
 ---
 
-Later—minutes? moments?—Sam pulled something from his coat.
+Maybe you’ve forgotten something.  
+Maybe you’re carrying more than you meant to.
 
-A card.
+That’s okay.
 
-The one from the beginning.
+Some stories take time.  
+Some griefs grow new leaves.
 
-The one that had waited, patient as a memory that knew it would be needed eventually.
-
-He handed it to Gable.
-
-“Was it the kind you meant to say?”
-
-Gable looked at it for a long time.
-
-Then—quietly, deliberately—slid it into the Archive.
-
-“It is now.”
+And some seeds don’t sprout until someone else is ready to tend them.
 
 ---
 
-Vel stood nearby, eyes soft, voice softer.
+So if you ever feel quiet—  
+the kind of quiet that hums, not hushes—
 
-“You didn’t need to speak it.  
-The wind carried it anyway.”
+step gently.
 
-And this time, the Archive didn’t catalog.  
-Didn’t process.  
-Didn’t sort.
+You might be nearer than you think.
 
-It simply… welcomed it home.
+The Archive is still here.
 
-# Chapter 16: _Things Made New_
-
-The Elsebeneath exhaled.
-
-Not loudly.  
-Not all at once.  
-Just enough for the air to remember how to move again.
-
-A breeze slipped between shutters, shy and curious—  
-stirring the loose corners of notes never finished,  
-nudging ribbons that had forgotten they were supposed to dance.
-
-The wind was back.  
-Not singing yet.  
-But humming.
-
-Soft. Off-key.  
-Learning the tune again.
-
-The chimes followed.
-
-A few rang clearly.
-One let out a joyful clang like it had been waiting for this moment specifically to make a scene.
-Another jingled like it had lost a bet.
-
-Vel stood near the door of the Archive.
-Human again. Stillness curling around her shoulders like a familiar shawl.
-She tucked a lock of hair behind her ear for the first time in longer than she could name.
-
-Sam watched her do it.
-
-“…You look different in the light,” he said.
-
-She raised an eyebrow. “Better?”
-
-“Whole.”
-
-That earned a small smile.
-
-He took a slow step forward.
-
-“So... this is the end?”
-
-Vel turned toward the open door.
-
-Outside, the ribbons fluttered.  
-Some even lifted—just slightly—like they were remembering how to leap.
-
-“No,” she said.
-
-“This is a beginning.  
-But you have to speak it for yourself.”
-
----
-
-That’s when the door banged open like it had never learned manners.
-
-Fen barrelled through with the full energy of someone who believed every room was just a stage waiting to be caught mid-monologue.
-
-“WHAT did I MISS?”
-
-Sam blinked.  
-“...Fen?”
-
-Fen pointed at Vel. “You’re taller.”  
-Then at Sam. “You look like you’ve been emotionally excavated.”
-
-Then he flopped dramatically against the table, limbs splayed, like a question mark that had decided punctuation was a group project.
-
-“Seriously. What did I miss?”
-
-Sam stared.
-
-Then laughed.
-
-Then rubbed the back of his neck, sheepish.
-
-“I’m sorry,” he said.  
-“For leaving you behind. Back at the Mountain.”
-
-Fen looked up.
-
-The grin faded—just a little.  
-“Eh. You’re here now.”
-
-A beat.
-
-“Besides,” Fen added, hopping to his feet again, “if I were needed earlier, I would’ve been. That’s how Elsebeneath works. It doesn’t forget. It just... waits for resonance.”
-
-He pointed both thumbs at himself. “And I resonate _loudly._”
-
-Vel groaned. “Like a kazoo in a cathedral.”
-
-“Exactly!” Fen beamed.
-
----
-
-They stepped outside together.
-
-The wind greeted them.
-
-This time, it carried more than hush.
-
-It carried a hum.  
-A question.  
-The shape of a word not spoken yet—
-
-—but already beginning to echo.
-
-Sam looked up at the sky, its color still forgetting itself.
+And it remembers you.
