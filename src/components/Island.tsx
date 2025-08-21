@@ -99,10 +99,10 @@ export default function Island() {
             Download the PDF here.
           </a>
         </div>
-        <hr />
+        {/* <hr />
         <div>
           <PersonalizationForm />
-        </div>
+        </div> */}
         <hr />
         <div>
           <h1 className="chapter-title">The Island of Almosts</h1>
