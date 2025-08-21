@@ -9,7 +9,7 @@ export default function Mountain() {
     {
       id: "chapter-1",
       threshold: 0.1,
-      name: "Chapter One: The Puzzle and the Stuck Sides",
+      name: "Chapter 1: The Puzzle and the Stuck Sides",
     },
     {
       id: "chapter-2",
@@ -155,7 +155,7 @@ export default function Mountain() {
           </audio>
           <ChapterTitle
             id="chapter-1"
-            name="Chapter One: The Puzzle and the Stuck Sides"
+            name="Chapter 1: The Puzzle and the Stuck Sides"
           />
           <p className="story-text">
             Sam sat on the back steps, turning the cube over in his hands like
@@ -562,97 +562,71 @@ export default function Mountain() {
             was quieter. Less dramatic. Less eager to prove itself.
           </p>
           <p className="story-text">
-            Sam slowed down without meaning to. Not because he was tired. But
-            because something here was… strange.
+            Sam slowed without meaning to. Something here was… strange.
           </p>
           <p className="story-text">
-            It wasn&#39;t the view—though that had shifted. Clouds hung lower
-            now, like sleepy thoughts.
+            It wasn’t the view—though the clouds hung lower now, like sleepy
+            thoughts.
             <br />
-            It wasn&#39;t the air—though it smelled like warm dust and old glue.
+            It wasn’t the air—though it smelled like warm dust and old glue.
           </p>
           <p className="story-text">
             It was the <em>sound.</em>
+            <br />
+            Soft clicks. The occasional clatter. The kind of noise that happens
+            when someone is trying something new and hasn’t yet decided whether
+            they’ve ruined it.
           </p>
           <p className="story-text">
-            Soft clicks. The occasional <em>clatter</em>. The kind of noise that
-            happens when someone is trying something new and hasn&#39;t yet
-            decided whether they&#39;ve messed it up.
+            “Careful,” Practicio murmured, gesturing ahead with a stubby hand.
+            “This part of the mountain’s still figuring itself out.”
           </p>
           <p className="story-text">
-            &quot;Careful,&quot; Practicio said, gesturing ahead with a stubby
-            hand. &quot;This part of the mountain&#39;s still figuring itself
-            out.&quot;
+            Sam blinked. “The <em>mountain</em> is?”
+          </p>
+          <p className="story-text">Practicio shrugged. “Aren’t we all.”</p>
+          <p className="story-text">And then they saw it.</p>
+          <p className="story-text">
+            At first it looked like a junk pile—towers of toy blocks, dolls with
+            half-embroidered faces, bent paperclips, mismatched socks bundled
+            into cushions. A violin string looped around a broken watch. A rug
+            stitched from felt squares.
           </p>
           <p className="story-text">
-            Sam blinked. &quot;The <em>mountain</em> is?&quot;
+            But the longer Sam stared, the less it looked like trash and the
+            more it looked like a <strong>museum</strong>—a place where
+            unfinished things had been carefully kept, not thrown away.
           </p>
+          <p className="story-text">And in the middle of it all sat a woman.</p>
           <p className="story-text">
-            Practicio shrugged. &quot;Aren&#39;t we all.&quot;
-          </p>
-          <p className="story-text">And then—</p>
-          <p className="story-text">They saw her.</p>
-          <p className="story-text">
-            Or maybe they saw her <em>shrine</em> first.
-          </p>
-          <p className="story-text">
-            It was impossible to tell where the stacks ended and the structure
-            began. Wobbly towers of toy blocks. Dolls with half-embroidered
-            faces. Bent paperclips. Mismatched socks bundled into tiny cushions.
-            A violin string wrapped gently around a broken watch.
-          </p>
-          <p className="story-text">
-            And in the middle of it all: <strong>Tilda.</strong>
-          </p>
-          <p className="story-text">
-            Sitting cross-legged on a stool that may have once been a lamp,
-            wearing seven layers of pouches and a pair of goggles strapped too
-            tightly over her eyes.
-          </p>
-          <p className="story-text">She didn&#39;t look up.</p>
-          <p className="story-text">
-            She was sewing a piece of fabric that kept unfolding—longer than
+            Cross-legged on a stool that may once have been a lamp, seven layers
+            of pouches strapped to her, goggles pressed too tightly over her
+            eyes. She was sewing a piece of fabric that unspooled longer than
             seemed possible, with no end in sight.
           </p>
-          <p className="story-text">&quot;Hello?&quot; Sam tried.</p>
-          <p className="story-text">She didn&#39;t answer.</p>
           <p className="story-text">
-            He stepped closer. One foot crunched something.
-          </p>
-          <p className="story-text">The noise made her freeze.</p>
-          <p className="story-text">
-            &quot;Oh <em>dear</em>,&quot; she said softly, &quot;you didn&#39;t
-            step on the <em>almost</em>. Did you?&quot;
-          </p>
-          <p className="story-text">Sam looked down. &quot;The what?&quot;</p>
-          <p className="story-text">She lifted her goggles.</p>
-          <p className="story-text">
-            &quot;The green one. Sort of… twisty? Like someone tried to braid a
-            scarf and gave up halfway?&quot;
+            Sam stepped forward. Something crunched under his foot.
           </p>
           <p className="story-text">
-            Sam moved his foot. Beneath it was a tangle of yarn and pipe
-            cleaners shaped like a lopsided helix.
+            She froze. “Oh <em>dear.</em> You didn’t step on the almost, did
+            you?”
           </p>
-          <p className="story-text">&quot;Sorry,&quot; he said.</p>
+          <p className="story-text">“The… what?” Sam asked.</p>
           <p className="story-text">
-            She waved it off. &quot;Oh no, don&#39;t be. That one&#39;s very
-            forgiving. Was made during a thunderstorm. Full of static and good
-            intentions.&quot;
+            She pushed her goggles up. Her eyes were bright. One of them
+            might’ve been glass.
+            <br />
+            “The green one. Twist of yarn and pipe cleaners? Someone started it
+            during a thunderstorm. Full of static and good intentions.”
           </p>
           <p className="story-text">
-            Sam looked around. The longer he stared, the more he saw.
-          </p>
-          <p className="story-text">The shrine wasn&#39;t a junk pile.</p>
-          <p className="story-text">
-            It was a <strong>history museum</strong>.<br />
-            Just one no one had ever finished curating.
+            Sam looked down at the tangle beneath his boot.
           </p>
           <p className="story-text">
             &quot;What is this place?&quot; he asked.
           </p>
           <p className="story-text">
-            Tilda finally looked at him. Her eyes were bright. One of them
+            She finally looked at him. Her eyes were bright. One of them
             might&#39;ve been glass.
           </p>
           <p className="story-text">
@@ -672,8 +646,8 @@ export default function Mountain() {
             of mismatched felt squares.
           </p>
           <p className="story-text">
-            &quot;She&#39;s been here a long time,&quot; he said. &quot;Longer
-            than anyone knows. She remembers the pieces most people
+            &quot;This is Tilda. She&#39;s been here a long time,&quot; he said.
+            &quot;Longer than anyone knows. She remembers the pieces most people
             forget.&quot;
           </p>
           <p className="story-text">
@@ -684,184 +658,190 @@ export default function Mountain() {
           <p className="story-text">
             &quot;Is <em>that</em> yours?&quot;
           </p>
-          <p className="story-text">Sam looked down at the cube.</p>
-          <p className="story-text">&quot;Yeah.&quot;</p>
-          <p className="story-text">&quot;Would you like to leave it?&quot;</p>
-          <p className="story-text">The question wasn&#39;t sharp.</p>
           <p className="story-text">
-            It was like someone asking if you needed to take your coat off. Not
-            because it was hot—just because you&#39;d looked a little tired from
-            carrying it.
+            Sam looked down at the cube in his hands.
           </p>
-          <p className="story-text">Sam hesitated.</p>
-          <p className="story-text">&quot;I&#39;m not… done with it.&quot;</p>
+          <p className="story-text">“Yeah,” he said quietly. “It’s mine.”</p>
           <p className="story-text">
-            Tilda nodded. &quot;Then it&#39;s not done with you.&quot;
+            “Would you like to leave it?” Tilda asked.
           </p>
           <p className="story-text">
-            She dug into one of her pouches, pulled out a pencil shaved nearly
-            to nothing.
+            Her question wasn’t sharp. It felt more like when someone asks if
+            you want to take your coat off—not because you <em>should,</em> but
+            because they noticed you looked tired from carrying it.
           </p>
           <p className="story-text">
-            &quot;This belonged to someone who couldn&#39;t finish a poem,&quot;
-            she said. &quot;He came back years later. Said he finally understood
-            the second stanza. Left behind his lunchbox instead.&quot;
-          </p>
-          <p className="story-text">She offered the pencil to Sam.</p>
-          <p className="story-text">&quot;Trade?&quot;</p>
-          <p className="story-text">
-            Sam shook his head. &quot;I don&#39;t want to give up.&quot;
-          </p>
-          <p className="story-text">
-            &quot;Oh, darling.&quot; Her voice didn&#39;t mock him.
+            Sam hesitated.
             <br />
-            &quot;Neither did anyone else here. That&#39;s the point.&quot;
-          </p>
-          <p className="story-text">She leaned in slightly.</p>
-          <p className="story-text">
-            &quot;Sometimes we put things down not because they don&#39;t
-            matter, but because we need our hands free for the next part.&quot;
-          </p>
-          <p className="story-text">Sam looked at the cube.</p>
-          <p className="story-text">
-            He thought of the move he always did when he got stuck.
+            “I’m not… done with it.”
           </p>
           <p className="story-text">
-            Twist, flip, reverse. Over and over again. It didn&#39;t fix
-            anything. Just comforted him in a loop.
+            Tilda nodded, goggles catching the light.
+            <br />
+            “Then it’s not done with you.”
           </p>
-          <p className="story-text">He turned the cube slowly.</p>
-          <p className="story-text">Paused.</p>
           <p className="story-text">
-            And <em>undid</em> that move.
+            She leaned in, voice gentle.
+            <br />
+            “Sometimes we don’t have to give up what matters. We only need to
+            let go of the way we’ve been holding it.”
           </p>
-          <p className="story-text">It left the cube messier than before.</p>
           <p className="story-text">
-            But he <em>felt</em> lighter.
+            Sam thought of the move he always did when he got stuck.
+            <br />
+            Twist, flip, reverse. Over and over again.
+            <br />
+            It didn’t solve anything. It just comforted him in a loop.
           </p>
-          <p className="story-text">He didn&#39;t leave the cube.</p>
-          <p className="story-text">But he left the move.</p>
-          <p className="story-text">Tilda clapped gently.</p>
           <p className="story-text">
-            &quot;Ah! A <em>shed pattern</em>! Beautiful. That one&#39;s going
-            to hum when the light hits it just right.&quot;
+            He breathed. Turned the cube.
+            <br />
+            And this time, instead of repeating the move—
+            <br />
+            he <em>undid</em> it.
           </p>
-          <p className="story-text">Practicio chuckled.</p>
           <p className="story-text">
-            Sam smiled, even though he didn&#39;t understand.
+            The cube looked messier than before.
+            <br />
+            But inside, he felt lighter.
           </p>
-          <p className="story-text">They walked on.</p>
           <p className="story-text">
-            And the wind behind them sounded like applause made of scissors and
-            glue.
+            He hadn’t left the cube.
+            <br />
+            He’d left the <em>pattern.</em>
+          </p>
+          <p className="story-text">
+            Tilda clapped softly, delighted.
+            <br />
+            “Ah! A shed pattern. Beautiful. Those are the ones that hum when the
+            light hits them.”
+          </p>
+          <p className="story-text">
+            Practicio chuckled.
+            <br />
+            Sam smiled, even if he didn’t fully understand.
+          </p>
+          <p className="story-text">
+            And as they walked on, the wind behind them rustled like applause
+            made of scissors and glue.
           </p>
           <ChapterTitle
             id="chapter-5"
             name="Chapter 5: The Shortcut of False Progress"
           />
           <p className="story-text">
-            The path curved around a steep rock wall, climbing up in slow
+            The path curved around a steep rock wall, climbing in slow
             switchbacks.
           </p>
           <p className="story-text">
-            Sam&#39;s legs were tired. Not <em>hurting</em>, really—just that
-            kind of tired where you stop looking at the view and start looking
-            at how far there still is to go.
+            Sam’s legs were tired. Not <em>hurting</em>, really—just that kind
+            of tired where you stop looking at the view and start noticing how
+            far there still is to go.
           </p>
-          <p className="story-text">He didn&#39;t complain.</p>
-          <p className="story-text">But he didn&#39;t talk much either.</p>
           <p className="story-text">
-            Ahead, the main trail wrapped around another bend, disappearing
-            behind a chunk of stone.
+            He didn’t complain.
+            <br />
+            But he didn’t talk much either.
+          </p>
+          <p className="story-text">
+            Ahead, the main trail wrapped behind a chunk of stone.
           </p>
           <p className="story-text">And off to the side—</p>
           <p className="story-text">A second path.</p>
           <p className="story-text">
-            It wasn&#39;t even marked. Just kind of… <em>there.</em>
+            It wasn’t marked. Just kind of… <em>there.</em>
           </p>
           <p className="story-text">
             It cut straight through the rocks. Smoother. Wider. Not as steep.
           </p>
-          <p className="story-text">Sam stopped walking.</p>
+          <p className="story-text">Sam stopped.</p>
           <p className="story-text">
-            &quot;Hey,&quot; he said, pointing. &quot;That one looks
-            faster.&quot;
+            “Hey,” he said, pointing. “That one looks faster.”
           </p>
           <p className="story-text">
-            Practicio caught up, blinking behind his glasses. He looked at the
-            shortcut, then at Sam.
+            Practicio caught up, blinking behind his glasses. He studied the
+            shortcut, then Sam.
           </p>
-          <p className="story-text">&quot;It is,&quot; he said simply.</p>
+          <p className="story-text">“It is,” he said simply.</p>
           <p className="story-text">
-            Sam squinted up the slope. &quot;Have you taken it before?&quot;
+            Sam squinted. “Have you taken it before?”
           </p>
+          <p className="story-text">“I have,” said Practicio. “Long ago.”</p>
+          <p className="story-text">He looked down.</p>
           <p className="story-text">
-            &quot;I have,&quot; said Practicio. &quot;Long ago.&quot;
+            &quot;The mountain remembers where you&#39;ve paused before.&quot;
           </p>
-          <p className="story-text">He didn&#39;t say anything else.</p>
+          <p className="story-text">He didn’t say anything else.</p>
           <p className="story-text">
-            Sam stepped toward it. The ground here wasn&#39;t as rocky. It
-            didn&#39;t twist or wobble under his feet. It just <em>went.</em>{" "}
-            Straight up. Like it wanted him to keep going.
+            Sam stepped toward it. The ground wasn’t as rocky. It didn’t twist
+            or wobble underfoot.
+            <br />
+            It just <em>went</em>. Straight up. Like it wanted him to keep
+            moving.
           </p>
           <p className="story-text">He took a few more steps.</p>
           <p className="story-text">
             And for a second—it felt <em>great</em>.
           </p>
           <p className="story-text">
-            Like getting a question right on the first try. Like jumping two
-            stairs at a time. Like maybe he was actually <em>good</em> at
-            climbing.
+            Like getting a question right on the first try.
+            <br />
+            Like jumping two stairs at a time.
+            <br />
+            Like maybe he was actually <em>good</em> at climbing.
           </p>
           <p className="story-text">He smiled.</p>
+          <p className="story-text">Then glanced at the cube in his hand.</p>
           <p className="story-text">
-            But then he glanced at the cube in his hand.
+            He couldn’t remember what he’d just done with it.
           </p>
           <p className="story-text">
-            He couldn&#39;t remember what he&#39;d just done with it.
-          </p>
-          <p className="story-text">
-            Like—he knew he&#39;d turned it recently. He always turned it while
-            walking. But now?
+            He <em>always</em> turned it while walking. But now?
           </p>
           <p className="story-text">It looked the same.</p>
           <p className="story-text">He turned it again.</p>
-          <p className="story-text">But it didn&#39;t change.</p>
+          <p className="story-text">No change.</p>
+          <p className="story-text">No new pattern. No new color. Nothing.</p>
           <p className="story-text">
-            No new pattern. No new color where there wasn&#39;t one before.
+            It was like the move hadn’t <em>mattered</em>.
           </p>
-          <p className="story-text">It was like the move hadn&#39;t counted.</p>
           <p className="story-text">
-            He furrowed his brow and tried again. Same turn. Same cube.
+            He frowned and tried again. Same turn. Same cube.
           </p>
           <p className="story-text">Still nothing.</p>
           <p className="story-text">Sam stopped walking.</p>
           <p className="story-text">
-            The shortcut kept going—but suddenly, it didn&#39;t feel like a path
-            anymore. It felt like one of those moving walkways at the airport,
-            the kind that makes you think you&#39;re making progress even when
-            you&#39;re not.
+            The shortcut kept going—but now, it didn’t feel like a trail.
+            <br />
+            It felt like one of those moving walkways at the airport—the kind
+            that makes you <em>feel</em> like you’re going somewhere, even when
+            you’re not.
           </p>
           <p className="story-text">He tried another turn.</p>
           <p className="story-text">Still nothing.</p>
           <p className="story-text">His chest tightened a little.</p>
-          <p className="story-text">Not in a panicky way.</p>
+          <p className="story-text">Not panicked.</p>
           <p className="story-text">
-            Just that sinking feeling you get when you realize you&#39;ve been
+            Just that slow, sinking feeling you get when you realize you’ve been
             working on something without <em>actually</em> working on it.
           </p>
           <p className="story-text">He turned around.</p>
           <p className="story-text">
-            Practicio was still back at the fork, sitting now, poking gently at
-            a rock with a stick.
+            Practicio was still at the fork, sitting now, gently poking at a
+            rock with a stick.
           </p>
           <p className="story-text">
-            Sam walked back down the shortcut. It didn&#39;t resist. It
-            didn&#39;t help either. Just… stayed smooth.
+            Sam walked back down the shortcut.
+            <br />
+            It didn’t resist.
+            <br />
+            It didn’t help either.
+            <br />
+            Just… stayed smooth.
           </p>
           <p className="story-text">
-            When he stepped off, back onto the main trail, the cube suddenly
-            felt different.
+            When he stepped back onto the main trail, the cube shifted in his
+            hands.
           </p>
           <p className="story-text">He turned it once.</p>
           <p className="story-text">
@@ -878,44 +858,45 @@ export default function Mountain() {
             Practicio looked up as Sam sat beside him.
           </p>
           <p className="story-text">
-            &quot;That path was weird,&quot; Sam said. &quot;It felt like I was
-            moving, but the cube didn&#39;t care.&quot;
+            “That path was weird,” Sam said. “It felt like I was moving, but the
+            cube didn’t care.”
           </p>
           <p className="story-text">Practicio nodded.</p>
           <p className="story-text">
-            &quot;It doesn&#39;t. That shortcut skips the parts that help you
-            grow. The parts that teach you where the pieces go.&quot;
+            “It doesn’t. That shortcut skips the parts that show you how things
+            fit. The parts that help you grow.”
           </p>
           <p className="story-text">
-            Sam turned the cube again, slowly this time.
+            Sam turned the cube again, slower this time.
           </p>
-          <p className="story-text">
-            &quot;Have you really been on it before?&quot;
-          </p>
+          <p className="story-text">“Did you really take it?”</p>
           <p className="story-text">Practicio smiled faintly.</p>
           <p className="story-text">
-            &quot;I have. I took it once when I was younger. Got farther up than
-            anyone I knew. Felt proud for a while.&quot;
+            “I did. Got farther up than anyone I knew. Felt proud for a while.”
           </p>
           <p className="story-text">
-            He leaned back a little, watching a bird flap past like it had
-            forgotten where it was going.
+            He leaned back, watching a bird flap past like it had forgotten
+            where it was going.
           </p>
           <p className="story-text">
-            &quot;But the next time I tried to help someone else? I didn&#39;t
-            know how. Couldn&#39;t explain anything. I&#39;d missed the hard
-            parts. Missed the turns.&quot;
+            “But the next time I tried to help someone else? I couldn’t. I
+            didn’t know <em>how.</em> I’d skipped the hard parts. Missed the
+            turns.”
           </p>
           <p className="story-text">He looked at Sam.</p>
           <p className="story-text">
-            &quot;It turns out, the slow parts aren&#39;t just slow. They&#39;re
-            where you <em>learn.</em>&quot;
+            “The slow parts aren’t just slow. They’re where you <em>learn.</em>”
           </p>
-          <p className="story-text">Sam didn&#39;t say anything right away.</p>
-          <p className="story-text">He just nodded.</p>
-          <p className="story-text">Turned the cube again.</p>
+          <p className="story-text">Sam didn’t answer right away.</p>
           <p className="story-text">
-            And for the first time in a while—he could feel it changing.
+            He just nodded.
+            <br />
+            Turned the cube again.
+          </p>
+          <p className="story-text">
+            And for the first time in a while—
+            <br />
+            he could feel it changing.
           </p>
           <ChapterTitle
             id="chapter-6"
