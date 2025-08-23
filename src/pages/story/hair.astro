@@ -1,0 +1,13 @@
+---
+// src/pages/404.astro
+import Layout from "../../layouts/StoryLayout.astro";
+import StoryComponent from "../../components/Hair";
+---
+
+<Layout title="A Hair Out of Place" image="/hair-cover.webp">
+  <main
+    class="min-h-screen flex flex-col items-center justify-center text-center px-4"
+  >
+    <StoryComponent client:load />
+  </main>
+</Layout>
