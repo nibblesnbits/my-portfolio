@@ -467,7 +467,7 @@ export default function Elsewhere() {
           </p>
           <p className="story-text">Sam nodded, resigned.</p>
           <p className="story-text">
-            &quot;Maybe your sister isn&#39;t into an octogenarian Peter
+            &quot;Maybe Ms. Thomas isn&#39;t into an octogenarian Peter
             Pan.&quot;
           </p>
           <p className="story-text">Sam stopped sipping.</p>
