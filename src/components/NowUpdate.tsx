@@ -16,12 +16,11 @@ export default function NowPage() {
       </h1>
 
       <p className="text-xl md:text-2xl text-muted-foreground mb-6">
-        Updated <strong>June 4, 2025</strong>. This page changes with me.
+        Updated <strong>August 23, 2025</strong>. This page changes with me.
       </p>
 
       <p className="mt-4">
-        I’m still in Jacksonville, carving out a focused stretch. Still working
-        on{" "}
+        For now, I’ve stepped away from{" "}
         <em>
           <a
             className="underline"
@@ -32,58 +31,53 @@ export default function NowPage() {
             The Elsebeneath
           </a>
         </em>
-        —a series of stories about memory, choice, and the echoes we carry. It’s
-        a world where hallways fold, rooms remember differently, and objects
-        demand to be heard.
+        . It still lives online—ten books deep, tangled with memory and magic—
+        but my hands are quiet, and my heart’s pointed elsewhere.
       </p>
 
       <p className="mt-4">
-        Outside of writing, I’ve been rebuilding. Paying attention to what my
-        body needs. What quiet feels like. What it means to be a person again
-        after a long stretch of noise. That’s part of the work, too.
+        I don't know if I’ll return to it. I might. But if I don’t, I’ve made
+        peace with that. It’s no longer mine to hold constantly—it belongs to
+        anyone who’s ever wandered inside it, even briefly. It belongs to you,
+        if you’ve ever felt seen by its echoes.
       </p>
 
       <p className="mt-4">
-        My life will be changing for the better soon. That's what I'm holing on
-        to.
+        Right now, I’m working on rebuilding real things: my home, my focus, my
+        future. I’m trying to find structure again—not in narrative, but in
+        breath and body and rhythm. That’s its own kind of story.
       </p>
 
-      <p className="mt-6">
-        If you’re reading this, you’re part of the moment I’m in. Thanks for
-        walking alongside me.
+      <p className="mt-4">
+        If you’re reading this, thank you. For showing up. For walking part of
+        the way with me. The doors are still there, even if I’m not on the other
+        side of them right now.
       </p>
 
       {/* ELSEWHERE, BRIEFLY Highlight */}
       <div className="mt-12 bg-gradient-to-r from-[color:var(--accent)]/10 to-[color:var(--primary)]/10 backdrop-blur-sm backdrop-filter p-6 rounded-lg border border-[color:var(--primary)]/20 shadow-sm prose prose-invert">
         <h2 className="text-2xl font-semibold text-[color:var(--primary)] mb-3">
-          🪞 Most Recent Work: <strong>Elsewhere, Briefly</strong>
+          🪞 A World Still Whispering: <strong>Elsewhere, Briefly</strong>
         </h2>
         <p className="text-[color:var(--muted-foreground)] text-base mb-4 italic">
-          For the echoes we carry and the unfinished stories we’re still
-          telling.
+          Not a conclusion. Just a comma. A pause between echoes.
         </p>
         <p className="mb-4">
-          Step into the Elsebeneath—a shifting realm woven from memories that
-          never quite settled, regrets that whisper, and metaphors that bend and
-          stretch like living things.
+          The Elsebeneath is still yours to visit. You can start with{" "}
+          <strong>Elsewhere, Briefly</strong>—a quiet, surreal story about
+          missteps, memory, and moments that almost made sense.
         </p>
         <p className="mb-4">
-          Follow Sam and Fen as they navigate hallways that fold, rooms that
-          remember differently, and a committee of objects that demand to be
-          heard.
+          Sam and Fen remain there, walking hallways that fold, laughing at
+          sentient benches, making meaning out of metaphors. They’re in no rush.
+          They’ll wait.
         </p>
         <p className="mb-4">
-          A journey through meaning, missteps, and the quiet courage it takes to
-          finish the sentences left hanging in the spaces between us.
-        </p>
-        <p className="mb-4">
-          Filled with gentle absurdity, warm riddles, and poetic puzzles,{" "}
-          <strong>Elsewhere, Briefly</strong> invites readers 12 to 112 to
-          wander the curious corridors of memory, choice, and what it means to
-          be truly heard.
+          If you feel like wandering, the stories will meet you where you are.
+          They always have.
         </p>
         <a
-          href="https://docs.google.com/document/d/1ydvMlIUtjOPYtHFFZw6L8aLkadHNhl7vW8E4pi0J0Xg/edit?usp=sharing"
+          href="https://thrd.me/elsewhere"
           target="_blank"
           rel="noopener noreferrer"
           className="inline-flex items-center gap-2 text-sm text-[color:var(--accent)] hover:text-[color:var(--foreground)] transition-colors font-medium"
