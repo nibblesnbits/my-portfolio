@@ -120,6 +120,7 @@ const {
       <!-- Floating Action Button -->
       <button
         id="share-fab"
+        aria-label="Share this story"
         class="bg-blue-600 hover:bg-blue-700 text-white w-12 h-12 rounded-full shadow-lg flex items-center justify-center transition-transform duration-300"
       >
         <svg
@@ -151,6 +152,7 @@ const {
               .filter(Boolean)
               .pop()}`}
             target="_blank"
+            aria-label="Share on Bluesky"
             class="bg-white hover:bg-blue-200 w-10 h-10 rounded-full flex items-center justify-center"
           >
             <img src="/bsky.png" alt="Bluesky" class="w-5 h-5" />
@@ -163,6 +165,7 @@ const {
               .filter(Boolean)
               .pop()}`}
             target="_blank"
+            aria-label="Share on Twitter"
             class="bg-black hover:bg-gray-800 w-10 h-10 rounded-full flex items-center justify-center text-white"
           >
             <svg viewBox="0 0 24 24" fill="currentColor" class="w-5 h-5">
@@ -183,6 +186,7 @@ const {
               .filter(Boolean)
               .pop()}`}
             target="_blank"
+            aria-label="Share on Facebook"
             class="bg-blue-700 hover:bg-blue-800 w-10 h-10 rounded-full flex items-center justify-center text-white"
           >
             <svg viewBox="0 0 24 24" fill="currentColor" class="w-5 h-5">
