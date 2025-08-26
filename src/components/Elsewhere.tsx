@@ -66,6 +66,16 @@ export default function Elsewhere() {
     }
   };
 
+  const handleAudioPlay = () => {
+    if (typeof window !== "undefined" && window.dataLayer) {
+      window.dataLayer.push({
+        event: "audio_play",
+        story_title: "How It Didn't Happen",
+        media_type: "audiobook",
+      });
+    }
+  };
+
   return (
     <>
       <TranslateInvite />
@@ -105,6 +115,17 @@ export default function Elsewhere() {
             <em>An Unscheduled Misadventure Between Echoes</em>
           </p>
           <p className="story-text">by Juno Threadborne</p>
+          <hr />
+          <p className="story-text">
+            <em>Listen to the audio book</em>
+          </p>
+          <audio controls className="w-full mb-4" onPlay={handleAudioPlay}>
+            <source
+              src="https://audio.thrd.me/elsewhere.mp3"
+              type="audio/mpeg"
+            />
+            Your browser does not support the audio element.
+          </audio>
           <hr />
           <h3 className="subsection-title">UNNECESSARY INTRODUCTION.</h3>
           <p className="story-text">
