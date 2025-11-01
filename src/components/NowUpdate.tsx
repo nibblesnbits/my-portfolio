@@ -16,68 +16,88 @@ export default function NowPage() {
       </h1>
 
       <p className="text-xl md:text-2xl text-muted-foreground mb-6">
-        Updated <strong>August 23, 2025</strong>. This page changes with me.
+        Updated <strong>November 1, 2025</strong>. This page changes with me.
       </p>
 
       <p className="mt-4">
-        For now, I’ve stepped away from{" "}
-        <em>
+        I’m working on building a life where everything I make—code, fiction,
+        systems, storyworlds—feels like me.
+      </p>
+
+      <p className="mt-4">
+        I finally{" "}
+        <strong>
           <a
-            className="underline"
-            rel="noreferrer"
-            target="_blank"
-            href="https://thrd.me/else"
+            className="underline pink"
+            href="https://www.google.com/search?client=firefox-b-1-d&q=juno+threadborne"
           >
-            The Elsebeneath
+            own my name
           </a>
-        </em>
-        . It still lives online—ten books deep, tangled with memory and magic—
-        but my hands are quiet, and my heart’s pointed elsewhere.
+        </strong>{" "}
+        online.{" "}
+        <a className="underline pink" href="https://thrd.me/else">
+          The Elsebeneath
+        </a>{" "}
+        universe is now properly indexed and discoverable. I’ve started
+        experimenting with intentional SEO—not for fame, but so the joy is
+        accessible.
       </p>
 
       <p className="mt-4">
-        I don't know if I’ll return to it. I might. But if I don’t, I’ve made
-        peace with that. It’s no longer mine to hold constantly—it belongs to
-        anyone who’s ever wandered inside it, even briefly. It belongs to you,
-        if you’ve ever felt seen by its echoes.
+        I’m{" "}
+        <a
+          className="underline pink"
+          href="https://linkedin.com/in/code-weaver"
+        >
+          consulting
+        </a>{" "}
+        again—on my terms. A CEO from my past tried to rehire me. I declined.
+        Then I turned it into a diagnosis-and-clarity call. I’m defining my
+        value and holding the line.
       </p>
 
       <p className="mt-4">
-        Right now, I’m working on rebuilding real things: my home, my focus, my
-        future. I’m trying to find structure again—not in narrative, but in
-        breath and body and rhythm. That’s its own kind of story.
+        I’ve begun shaping what I hope to be a new public identity: the{" "}
+        <strong>
+          <a
+            className="underline pink"
+            href="https://www.youtube.com/channel/UCSZXFhRIx6b0dFX3xS8L1yQ"
+          >
+            <em>Kevin MacLeod</em>
+          </a>{" "}
+          of weird, tender internet stories
+        </strong>
+        . Free to read. Free to share. Free to feel something. I’m experimenting
+        with open-access storytelling—no barriers, just breadcrumbs.
       </p>
 
       <p className="mt-4">
-        If you’re reading this, thank you. For showing up. For walking part of
-        the way with me. The doors are still there, even if I’m not on the other
-        side of them right now.
+        I’m learning that being seen doesn’t have to mean being overwhelmed.
+        That soft is not the opposite of strong. That usefulness doesn’t always
+        look like hustle. It looks like alignment.
       </p>
 
-      {/* ELSEWHERE, BRIEFLY Highlight */}
+      <p className="mt-4">
+        If you’re reading this, thank you for showing up. The door’s open. The
+        stories are waiting. And I’m still walking.
+      </p>
+
       <div className="mt-12 bg-gradient-to-r from-[color:var(--accent)]/10 to-[color:var(--primary)]/10 backdrop-blur-sm backdrop-filter p-6 rounded-lg border border-[color:var(--primary)]/20 shadow-sm prose prose-invert">
         <h2 className="text-2xl font-semibold text-[color:var(--primary)] mb-3">
-          🪞 A World Still Whispering: <strong>Elsewhere, Briefly</strong>
+          🪞 A Thought from the Void:{" "}
+          <strong>I was Vibe Coding Before It Was Cool</strong>
         </h2>
         <p className="text-[color:var(--muted-foreground)] text-base mb-4 italic">
-          Not a conclusion. Just a comma. A pause between echoes.
+          <a href="https://x.com/forem/status/1984337211475869793">
+            Featured by Forem on X
+          </a>
         </p>
         <p className="mb-4">
-          The Elsebeneath is still yours to visit. You can start with{" "}
-          <strong>Elsewhere, Briefly</strong>—a quiet, surreal story about
-          missteps, memory, and moments that almost made sense.
-        </p>
-        <p className="mb-4">
-          Sam and Fen remain there, walking hallways that fold, laughing at
-          sentient benches, making meaning out of metaphors. They’re in no rush.
-          They’ll wait.
-        </p>
-        <p className="mb-4">
-          If you feel like wandering, the stories will meet you where you are.
-          They always have.
+          A brief exploration of the history of coding with others, and how
+          those others no longer need be human. <em>(but the best ones are)</em>
         </p>
         <a
-          href="https://thrd.me/elsewhere"
+          href="https://thrd.me/vibe"
           target="_blank"
           rel="noopener noreferrer"
           className="inline-flex items-center gap-2 text-sm text-[color:var(--accent)] hover:text-[color:var(--foreground)] transition-colors font-medium"
