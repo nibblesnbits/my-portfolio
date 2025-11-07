@@ -44,19 +44,6 @@ export default function NowPage() {
       </p>
 
       <p className="mt-4">
-        I’m{" "}
-        <a
-          className="underline pink"
-          href="https://linkedin.com/in/code-weaver"
-        >
-          consulting
-        </a>{" "}
-        again—on my terms. A CEO from my past tried to rehire me. I declined.
-        Then I turned it into a diagnosis-and-clarity call. I’m defining my
-        value and holding the line.
-      </p>
-
-      <p className="mt-4">
         I’ve begun shaping what I hope to be a new public identity: the{" "}
         <strong>
           <a
