@@ -40,13 +40,7 @@ export default function HeroSection() {
               className="text-4xl font-bold mb-2 text-[color:var(--primary)]"
               variants={childVariants}
             >
-              {personalInfo.name}{" "}
-              <a
-                href="/lumina"
-                className="inline-block animate-pulse text-[color:var(--accent)]"
-              >
-                ✨
-              </a>
+              {personalInfo.name}
             </motion.h1>
 
             <motion.p
