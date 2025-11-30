@@ -85,6 +85,17 @@ export default function HeroSection() {
               >
                 📝 Substack
               </motion.a>
+
+              <motion.a
+                href={personalInfo.devto}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center text-sm text-[color:var(--muted-foreground)] hover:text-[color:var(--foreground)] transition-colors"
+                variants={childVariants}
+                whileHover={{ scale: 1.05 }}
+              >
+                🧑‍💻 dev.to
+              </motion.a>
             </motion.div>
           </div>
 
@@ -127,7 +138,7 @@ export default function HeroSection() {
         <MotionWrapper>
           <div className="mt-10 bg-gradient-to-r from-[color:var(--accent)]/10 to-[color:var(--primary)]/10 backdrop-blur-sm backdrop-filter p-4 rounded-lg border border-[color:var(--primary)]/20 shadow-sm">
             <h2 className="text-xl font-semibold text-[color:var(--primary)] mb-2">
-              🧵 <strong>Featured work: </strong> The Elsebeneath – A Growing
+              🧵 <strong>Featured Work: </strong> The Elsebeneath – A Growing
               Collection
             </h2>
             <p className="text-[color:var(--muted-foreground)] text-sm mb-2">

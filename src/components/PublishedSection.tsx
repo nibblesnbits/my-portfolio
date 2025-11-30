@@ -1,13 +1,13 @@
 import React from "react";
-import { mediumPosts } from "@/lib/data";
+import { publishedPosts } from "@/lib/data";
 import { motion } from "framer-motion";
 import MotionWrapper from "./MotionWrapper";
 import { GlassCard } from "./ui/glass-card";
 
-export default function MediumSection() {
+export default function PublishedSection() {
   return (
     <section
-      id="medium"
+      id="published"
       className="py-12 bg-gradient-to-b from-muted/10 to-background"
     >
       <div className="container max-w-4xl mx-auto px-6 md:px-4">
@@ -18,7 +18,7 @@ export default function MediumSection() {
         </MotionWrapper>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
-          {mediumPosts.map((post, index) => (
+          {publishedPosts.map((post, index) => (
             <MotionWrapper key={post.title} delay={index * 0.1}>
               <GlassCard className="p-4 dark:border-purple-500/10 hover:border-purple-500/30 transition-all duration-300 flex flex-col justify-between h-full">
                 <div className="mb-4">

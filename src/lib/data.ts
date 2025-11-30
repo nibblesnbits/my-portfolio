@@ -3,6 +3,7 @@ export const personalInfo = {
   email: "juno@elsebeneath.online",
   medium: "https://medium.junothreadborne.me/",
   substack: "https://junothreadborne.substack.com/",
+  devto: "https://dev.to/junothreadborne",
 };
 
 export const works = [
@@ -61,7 +62,7 @@ export const works = [
 export const liveWorks = [
   {
     title: "⛽ GO",
-    url: "https://newplayexchange.org/script/3206333/go",
+    url: "https://thrd.me/go",
     description: [
       "An absurdist full-length stage play about sentient gas pumps grappling with personhood, love, and the existential dread of refueling.",
       "Premiered on New Play Exchange. Structured like a 4-player game of dramatic tension, fueled by poetic rhythm and philosophical gasoline.",
@@ -70,16 +71,16 @@ export const liveWorks = [
   },
   {
     title: "🧬 Cycles",
-    url: "https://nibblesnbits.github.io/slack-interface/",
+    url: "https://thrd.me/cycles",
     description: [
       "A music-timed digital operetta told entirely through Slack UI simulation.",
       'Part software ritual, part speculative drama, "Cycles" explores burnout, memory, and resistance through timed interactions, ambient rhythm, and poetic thread choreography.',
     ],
-    viewButtonText: "View Live",
+    viewButtonText: "Play Now",
   },
 ];
 
-export const mediumPosts = [
+export const publishedPosts = [
   {
     title: "Grounded",
     subtitle: "A scene from the absurdist stage play GO",
