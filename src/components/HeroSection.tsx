@@ -132,7 +132,7 @@ export default function HeroSection() {
             </h2>
             <p className="text-[color:var(--muted-foreground)] text-sm mb-2">
               <em>
-                Six books. One layered world. Countless quiet moments that
+                Ten books. One layered world. Countless quiet moments that
                 matter.
               </em>
               <br />
@@ -145,10 +145,19 @@ export default function HeroSection() {
               <br />
               The stories follow Sam—and others—as they wander through fables
               wrapped in memory, whimsy, and the hush between thoughts. Whether
-              you're joining him in the <em>Valley of Yet-Stills</em>, returning
-              a ribbon in
-              <em>Elsewhere, Briefly</em>, or simply sitting quietly in the
-              <em>Village of Voicekeepers</em>... there’s space for you here.
+              you're joining him in the{" "}
+              <em>
+                <a href="https://thrd.me/island">Island of Almosts</a>
+              </em>
+              , returning a ribbon in{" "}
+              <em>
+                <a href="https://thrd.me/elsewhere">Elsewhere, Briefly</a>
+              </em>
+              , or simply sitting quietly in the{" "}
+              <em>
+                <a href="https://thrd.me/village">Village of Voicekeepers</a>
+              </em>
+              ... there’s space for you here.
               <br />
               <br />
               Every book is its own key. And now, the whole shelf has a home.

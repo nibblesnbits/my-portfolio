@@ -13,7 +13,7 @@ export default function MediumSection() {
       <div className="container max-w-4xl mx-auto px-6 md:px-4">
         <MotionWrapper>
           <h2 className="text-2xl font-bold mb-8 text-center md:text-left">
-            📢 Published on Medium
+            📢 Published Online
           </h2>
         </MotionWrapper>
 
@@ -36,7 +36,7 @@ export default function MediumSection() {
                   rel="noopener noreferrer"
                   className="text-sm font-medium text-blue-400 hover:underline mt-auto"
                 >
-                  Read on Medium →
+                  Read the full piece →
                 </a>
               </GlassCard>
             </MotionWrapper>

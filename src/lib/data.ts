@@ -87,15 +87,15 @@ export const mediumPosts = [
     icon: "🎭",
   },
   {
-    title: "Sir Kiwano and the Souring Storm",
-    subtitle: "A children's story written for Sam (8)",
-    link: "https://medium.junothreadborne.me/sir-kiwano-and-the-souring-storm-c0d84f6f38c7",
-    icon: "🐉",
+    title: "Any% Kindness",
+    subtitle: "A reflection on the speedrunning community and radical empathy",
+    link: "https://junothreadborne.substack.com/p/any-kindness",
+    icon: "🎮",
   },
   {
-    title: "Why 'I asked ChatGPT to do a thing' is missing the point",
-    subtitle: "A short piece about AI, art, and authorship",
-    link: "https://medium.junothreadborne.me/why-i-asked-chatgpt-to-do-a-thing-is-missing-the-point-d01ac70f25dd",
+    title: "Exocogence is Here Now",
+    subtitle: "A short piece about AI and the merging of minds",
+    link: "https://dev.to/junothreadborne/were-already-there-exocogence-is-here-now-ahe",
     icon: "🧠",
   },
 ];
