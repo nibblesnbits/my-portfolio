@@ -100,3 +100,18 @@ export const publishedPosts = [
     icon: "🧠",
   },
 ];
+
+export const softwareProjects = [
+  {
+    title: "SteadyVoice",
+    featured: true,
+    url: "https://junothreadborne.github.io/steadyvoice/",
+    repoUrl: "https://github.com/junothreadborne/steadyvoice",
+    description: [
+      "A Windows system tray app that reads highlighted text aloud using local TTS.",
+      "Press Ctrl + Shift + R to stream audio while a reader window highlights each word.",
+      "Runs fully local against Kokoro TTS so text stays on your machine.",
+    ],
+    linkLabel: "Open SteadyVoice",
+  },
+];

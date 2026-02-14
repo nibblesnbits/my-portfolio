@@ -3,6 +3,7 @@ import Layout from "@/layouts/Layout.astro";
 import GlassHeader from "@/components/GlassHeader";
 import HeroSection from "@/components/HeroSection";
 import WorksSection from "@/components/WorksSection";
+import SoftwareSection from "@/components/SoftwareSection";
 import PublishedSection from "@/components/PublishedSection";
 import ProjectsSection from "@/components/ProjectsSection";
 import Footer from "@/components/Footer";
@@ -13,6 +14,7 @@ import Footer from "@/components/Footer";
   <main class="min-h-screen">
     <HeroSection client:only="react" />
     <WorksSection client:only="react" />
+    <SoftwareSection client:only="react" />
     <ProjectsSection client:only="react" />
     <PublishedSection client:only="react" />
   </main>
