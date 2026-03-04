@@ -101,6 +101,104 @@ export const publishedPosts = [
   },
 ];
 
+export const articles = [
+  {
+    title: "Grounded",
+    summary: "A scene from the absurdist stage play GO",
+    url: "https://medium.junothreadborne.me/grounded-0a7578d05045",
+    platform: "Medium",
+    icon: "✍️",
+  },
+  {
+    title: "Exocogence is Here Now",
+    summary: "A short piece about AI and the merging of minds",
+    url: "https://dev.to/junothreadborne/were-already-there-exocogence-is-here-now-ahe",
+    platform: "DEV",
+    icon: "🧠",
+  },
+  {
+    title: "Code Coherence: The Performance Metric No One Measures",
+    summary:
+      'Argues that software performance includes cognitive latency, using "hops to source-of-truth" as a practical metric for maintainability and delivery speed.',
+    url: "https://thrd.me/coherence",
+    platform: "DEV",
+    icon: "🧭",
+  },
+  {
+    title: "The Conceptual Bullshit Threshold: A Manifesto",
+    summary:
+      "Defines the point where systems become so overloaded with structural absurdity that participation requires navigating ritualized nonsense.",
+    url: "https://thrd.me/bs",
+    platform: "Substack",
+    icon: "🪞",
+  },
+  {
+    title: "The Vibe Coding Paradox",
+    summary:
+      "Explores how AI can amplify either clarity or dysfunction depending on whether you own system constraints and architecture.",
+    url: "https://thrd.me/paradox",
+    platform: "DEV",
+    icon: "⚖️",
+  },
+  {
+    title: "Your Codebase Needs OSHA",
+    summary:
+      "Reframes code quality as a safety issue, arguing that predictable systems protect teams from burnout, incidents, and hidden delivery costs.",
+    url: "https://thrd.me/osha",
+    platform: "DEV",
+    icon: "🦺",
+  },
+  {
+    title: "Why ‘I Asked ChatGPT to Do a Thing’ Is Missing the Point",
+    summary:
+      "Argues that the real value of AI work is not the prompt itself but the judgment, constraints, and decisions that shape useful outcomes.",
+    url: "https://thrd.me/gpt",
+    platform: "Medium",
+    icon: "🤖",
+  },
+  {
+    title:
+      "How Talking to an LLM Is Akin to a Conversation with the Whole of Humanity",
+    summary:
+      "Frames LLM interaction as dialogue with distilled human knowledge, emphasizing reflection, context, and responsibility in how we interpret responses.",
+    url: "https://thrd.me/humanity",
+    platform: "Medium",
+    icon: "🌍",
+  },
+  {
+    title: "The Island of Almosts",
+    summary:
+      "A lyrical story about growth through imperfection, where a struggling kid meets mentors who reframe failure as part of becoming.",
+    url: "https://thrd.me/island",
+    platform: "Medium",
+    icon: "🏝️",
+  },
+  {
+    title: "Thinking With Machines",
+    summary:
+      "Explores AI as a reflective thinking partner, balancing creative rhythm with the discipline of verification and discernment.",
+    url: "https://junothreadborne.substack.com/p/thinking-with-machines",
+    platform: "Substack",
+    icon: "🧵",
+  },
+  {
+    title: "Who’s Allowed to Use the Calculator?",
+    summary:
+      "Examines the AI double standard in education and argues for transparent, ethical classroom use over blanket bans.",
+    url: "https://junothreadborne.substack.com/p/whos-allowed-to-use-the-calculator",
+    platform: "Substack",
+    icon: "🧮",
+  },
+  {
+    title: "The Machine Persuaded No One",
+    summary:
+      "Reframes LLM persuasion panic by arguing the core issue is human fluency bias and the need for better discernment literacy.",
+    url: "https://junothreadborne.substack.com/p/the-machine-persuaded-no-one",
+    platform: "Substack",
+    icon: "🪞",
+  },
+];
+
 export const softwareProjects = [
   {
     title: "SteadyVoice",

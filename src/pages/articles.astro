@@ -1,0 +1,88 @@
+---
+import Layout from "@/layouts/Layout.astro";
+import GlassHeader from "@/components/GlassHeader";
+import Footer from "@/components/Footer";
+import { articles, personalInfo } from "@/lib/data";
+
+const platformOrder = ["Medium", "DEV", "Substack"];
+const groupedArticles = Object.groupBy(articles, ({ platform }) => platform);
+const sortedPlatforms = Object.keys(groupedArticles).sort((a, b) => {
+  const aIndex = platformOrder.indexOf(a);
+  const bIndex = platformOrder.indexOf(b);
+  if (aIndex === -1 && bIndex === -1) return a.localeCompare(b);
+  if (aIndex === -1) return 1;
+  if (bIndex === -1) return -1;
+  return aIndex - bIndex;
+});
+---
+
+<Layout title="Articles" description="Writing collected from Medium, DEV, and Substack.">
+  <GlassHeader client:only="react" />
+
+  <main class="min-h-screen py-12">
+    <section class="container max-w-4xl mx-auto px-6 md:px-4">
+      <h1 class="text-3xl font-bold mb-3">📝 Articles</h1>
+      <p class="text-muted-foreground mb-8">
+        Writing collected in one place.
+      </p>
+
+      <div class="flex flex-wrap gap-3 mb-10">
+        <a
+          href={personalInfo.medium}
+          target="_blank"
+          rel="noopener noreferrer"
+          class="inline-flex items-center rounded-md border border-border px-4 py-2 text-sm font-medium hover:bg-muted/40 transition-colors"
+        >
+          Follow on Medium
+        </a>
+        <a
+          href={personalInfo.devto}
+          target="_blank"
+          rel="noopener noreferrer"
+          class="inline-flex items-center rounded-md border border-border px-4 py-2 text-sm font-medium hover:bg-muted/40 transition-colors"
+        >
+          Follow on DEV
+        </a>
+        <a
+          href={personalInfo.substack}
+          target="_blank"
+          rel="noopener noreferrer"
+          class="inline-flex items-center rounded-md border border-border px-4 py-2 text-sm font-medium hover:bg-muted/40 transition-colors"
+        >
+          Follow on Substack
+        </a>
+      </div>
+
+      <div class="space-y-10">
+        {sortedPlatforms.map((platform) => (
+          <section>
+            <h2 class="text-2xl font-semibold mb-4">{platform}</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+              {(groupedArticles[platform] ?? []).map((article) => (
+                <article class="rounded-xl border border-border bg-background/50 backdrop-blur-sm p-5">
+                  <div class="flex items-start gap-3">
+                    <span class="text-xl" aria-hidden="true">{article.icon}</span>
+                    <div>
+                      <h3 class="text-lg font-medium">{article.title}</h3>
+                      <p class="text-sm text-muted-foreground mt-1">{article.summary}</p>
+                    </div>
+                  </div>
+                  <a
+                    href={article.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="inline-block mt-4 text-sm font-medium text-blue-400 hover:underline"
+                  >
+                    Read on {platform} →
+                  </a>
+                </article>
+              ))}
+            </div>
+          </section>
+        ))}
+      </div>
+    </section>
+  </main>
+
+  <Footer client:only="react" />
+</Layout>
