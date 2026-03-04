@@ -5,7 +5,11 @@ import Footer from "@/components/Footer";
 import { articles, personalInfo } from "@/lib/data";
 
 const platformOrder = ["Medium", "DEV", "Substack"];
-const groupedArticles = Object.groupBy(articles, ({ platform }) => platform);
+const groupedArticles = articles.reduce((acc, article) => {
+  if (!acc[article.platform]) acc[article.platform] = [];
+  acc[article.platform].push(article);
+  return acc;
+}, {} as Record<string, typeof articles>);
 const sortedPlatforms = Object.keys(groupedArticles).sort((a, b) => {
   const aIndex = platformOrder.indexOf(a);
   const bIndex = platformOrder.indexOf(b);
