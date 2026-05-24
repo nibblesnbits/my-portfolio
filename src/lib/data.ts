@@ -4,6 +4,9 @@ export const personalInfo = {
   medium: "https://medium.junothreadborne.me/",
   substack: "https://junothreadborne.substack.com/",
   devto: "https://dev.to/junothreadborne",
+  bsky: "https://bsky.app/profile/junothreadborne.me",
+  x: "https://x.com/junothreadborne",
+  mastadon: "https://mastodon.social/@junothreadborne",
 };
 
 export const works = [

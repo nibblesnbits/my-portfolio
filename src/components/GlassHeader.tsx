@@ -9,9 +9,9 @@ export default function GlassHeader() {
 
   const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
   const navItems = [
-    { label: "Works", href: "/#works", icon: "✨" },
-    { label: "Projects", href: "/#projects", icon: "🌐" },
-    { label: "Published", href: "/#published", icon: "📖" },
+    { label: "Works", href: "#works", icon: "✨" },
+    { label: "Projects", href: "#projects", icon: "🌐" },
+    { label: "Published", href: "#published", icon: "📖" },
     { label: "Articles", href: "/articles", icon: "📝" },
   ];
 
