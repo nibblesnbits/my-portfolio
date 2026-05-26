@@ -161,7 +161,8 @@ const {
           "https://bsky.app/profile/junothreadborne.me",
           "https://dev.to/junothreadborne",
           "https://forem.com/junothreadborne",
-          "https://blcklst.com/profile/junothreadborne"
+          "https://blcklst.com/profile/junothreadborne",
+          "https://mastodon.social/@junothreadborne"
         ],
         "knowsAbout": [
           "speculative fiction",
@@ -172,7 +173,10 @@ const {
         ]
       }
     </script>
-  </head><a rel="me" href="https://mastodon.social/@junothreadborne">Mastodon</a
+  </head><a
+    class="hidden"
+    rel="me"
+    href="https://mastodon.social/@junothreadborne">Mastodon</a
   >
   <body
     class="min-h-screen bg-background font-sans antialiased selection:bg-purple-500/20 selection:text-purple-500"
@@ -192,7 +196,6 @@ const {
     </div>
     <slot />
   </body>
-
 
   <script is:inline>
     const getThemePreference = () => {
@@ -241,4 +244,5 @@ const {
         color var(--transition-standard);
     }
   </style>
+
 </html>
